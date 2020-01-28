@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="nose.failure.Failure" name="runTest" time="0.000"><error type="exceptions.ImportError" message="cannot import name newcodecovNewtest"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/usr/local/lib/python2.7/dist-packages/nose/loader.py", line 418, in loadTestsFromName
+    addr.filename, addr.module)
+  File "/usr/local/lib/python2.7/dist-packages/nose/importer.py", line 47, in importFromPath
+    return self.importFromDir(dir_path, fqname)
+  File "/usr/local/lib/python2.7/dist-packages/nose/importer.py", line 94, in importFromDir
+    mod = load_module(part_fqname, fh, filename, desc)
+  File "/home/alex/Projects/pythoncoverage/test/tests.py", line 2, in <module>
+    from src.main import getarguments, conditional, newcodecovNewtest, Newtest, Mynewtest, Mytest2
+ImportError: cannot import name newcodecovNewtest
+]]></error></testcase></testsuite>

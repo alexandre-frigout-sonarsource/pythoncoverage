@@ -1,0 +1,33 @@
+import unittest
+from src import main, second
+
+
+class TestArgumentsList(unittest.TestCase):
+    def setUp(self):
+        self.myargs = main.getarguments('coco', 'toto')
+        self.mycond = main.conditional(5)
+        self.myarglist = second.myargs()
+        self.mynewcover = main.newcodecovtest(5)
+        self.mynewcoverzero = main.newcodecovtest(0)
+        self.mytrue = second.brfc("no", "ok", "ko")
+
+    def test_type(self):
+        self.assertEqual(isinstance(self.myargs, list), True)
+
+#    def test_conditional(self):
+#        self.assertEqual(self.mycond, 'Less than 10')
+#
+#    def test_second(self):
+#        self.assertEqual(isinstance(self.myarglist, str), True)
+#
+#    def test_newcover(self):
+#        self.assertEqual(self.mynewcover, "ko")
+#
+#    def test_newcoverz(self):
+#        self.assertEqual(self.mynewcoverzero, "ok")
+#
+#    def test_mytrue(self):
+#        self.assertEqual(self.mytrue, True)
+
+if __name__ == '__main__':
+        unittest.main()
