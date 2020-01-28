@@ -55,3 +55,7 @@ def tocoverinnewcode(t):
         print(">4:")
     else:
         print("<4")
+
+
+def mytest():
+    print("1")
