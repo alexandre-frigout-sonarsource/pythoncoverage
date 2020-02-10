@@ -55,3 +55,6 @@ def tocoverinnewcode(t):
         print(">4:")
     else:
         print("<4")
+
+def Open1Issue():
+    return 1
