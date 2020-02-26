@@ -58,3 +58,6 @@ def tocoverinnewcode(t):
 
 def Open1Issue():
     return 1
+
+def Open2Issue():
+    return 1
