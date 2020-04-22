@@ -1,5 +1,8 @@
 import os, sys
 
+def getchanges():
+    return true
+
 def getarguments(*args):
     lists = [item for item in args]
     return lists
