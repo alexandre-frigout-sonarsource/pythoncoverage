@@ -1,7 +1,13 @@
-import os, sys
+import os, sys, subprocess
+
+
+PASSWORD = '123456'
 
 def getarguments(*args):
     lists = [item for item in args]
+    params = ["ls", "-l"]
+    subprocess.run(params)
+    subprocess.Popen(params)
     return lists
 
 def conditional(testvalue):

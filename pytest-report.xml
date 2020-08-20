@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="debian" name="pytest" skipped="0" tests="8" time="0.047" timestamp="2020-04-27T14:49:13.660092"><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="19" name="test_conditional" time="0.001"><system-out>Not freezing
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="debian" name="pytest" skipped="0" tests="8" time="0.045" timestamp="2020-08-19T11:44:52.429769"><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="19" name="test_conditional" time="0.001"><system-out>Not freezing
 &lt;4
 </system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="25" name="test_mc" time="0.001"><system-out>Not freezing
 &lt;4
