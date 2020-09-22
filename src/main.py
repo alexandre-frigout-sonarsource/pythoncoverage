@@ -67,3 +67,6 @@ def Open1Issue():
 
 def Open2Issue():
     return 1
+
+def funcPR():
+    return 4;
