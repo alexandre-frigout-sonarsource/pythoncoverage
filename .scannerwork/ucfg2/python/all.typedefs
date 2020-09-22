@@ -1,0 +1,101 @@
+?
+mysql.MySQLConnection&
+cursormysql.MySQLConnection.cursorQ
+pymysql.connections.Connection/
+cursor%pymysql.connections.Connection.cursor;
+psycopg2.Connection$
+cursorpsycopg2.Connection.cursor¬
+sqlite3.Connection#
+cursorsqlite3.Connection.cursor1
+executescript sqlite3.Connection.executescript%
+executesqlite3.Connection.execute-
+executemanysqlite3.Connection.executemany3
+pgdb.Connection 
+cursorpgdb.Connection.cursora
+psycopg2.Cursor"
+executepsycopg2.Cursor.execute*
+executemanypsycopg2.Cursor.executemanyv
+pymysql.cursors.Cursor)
+executepymysql.cursors.Cursor.execute1
+executemany"pymysql.cursors.Cursor.executemanyÌ
+&django.db.backends.utils.CursorWrapperE
+executescript4django.db.backends.utils.CursorWrapper.executescript9
+execute.django.db.backends.utils.CursorWrapper.executeA
+executemany2django.db.backends.utils.CursorWrapper.executemanyU
+pgdb.Cursor
+executepgdb.Cursor.execute&
+executemanypgdb.Cursor.executemanyg
+mysql.MySQLCursor$
+executemysql.MySQLCursor.execute,
+executemanymysql.MySQLCursor.executemanyç
+sqlite3.Cursor-
+executescriptsqlite3.Cursor.executescript!
+executesqlite3.Cursor.execute)
+executemanysqlite3.Cursor.executemanyΩ
+str
+encode
+str.encode
+isalphastr.isalpha
+
+startswithstr.startswith
+	isdecimalstr.isdecimal
+
+format_mapstr.format_map
+upper	str.upper
+replacestr.replace
+swapcasestr.swapcase
+endswithstr.endswith
+title	str.title
+	partitionstr.partition
+split	str.split
+strip	str.strip
+
+splitlinesstr.splitlines
+
+rpartitionstr.rpartition
+findstr.find
+zfill	str.zfill
+joinstr.join
+isdigitstr.isdigit
+rfind	str.rfind
+isasciistr.isascii
+	isnumericstr.isnumeric
+
+expandtabsstr.expandtabs
+rindex
+str.rindex
+isalnumstr.isalnum
+rjust	str.rjust
+center
+str.center
+lower	str.lower
+count	str.count
+isspacestr.isspace
+format
+str.format
+index	str.index
+__eq__
+str.__eq__
+
+capitalizestr.capitalize 
+isidentifierstr.isidentifier
+rstrip
+str.rstrip
+rsplit
+str.rsplit
+lstrip
+str.lstrip
+ljust	str.ljust
+casefoldstr.casefoldK
+django.http.request.HttpRequest"META"headers"COOKIES"POST"GET"FILESÉ
+django.http.request.QueryDict(
+get!django.http.request.QueryDict.get8
+__getitem__)django.http.request.QueryDict.__getitem__'
+list
+__getitem__list.__getitem__'
+dict
+__getitem__dict.__getitem__G
+src.Connector.Connector,
+__init__ src.Connector.Connector.__init__C
+src.testTicket.Ticket*
+__init__src.testTicket.Ticket.__init__
