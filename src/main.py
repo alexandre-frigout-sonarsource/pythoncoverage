@@ -82,3 +82,6 @@ def PRret():
 
 def develop():
     return "t"
+
+def shortttttt():
+    return 2
