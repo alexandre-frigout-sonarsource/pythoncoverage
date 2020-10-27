@@ -70,3 +70,9 @@ def Open2Issue():
 
 def funcPR():
     return 4;
+
+def newfunc():
+    return "new"
+
+def brfunc():
+    return "b"
