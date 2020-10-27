@@ -79,3 +79,6 @@ def brfunc():
 
 def PRret():
     retunr "PR"
+
+def develop():
+    return "t"
