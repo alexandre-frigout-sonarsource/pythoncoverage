@@ -87,4 +87,7 @@ def shortttttt():
     return 2
 
 def MMMMMMYYYYFUUUNNNC():
+    PASSWORD = 12345
     return 3
+
+
