@@ -76,3 +76,6 @@ def newfunc():
 
 def brfunc():
     return "b"
+
+def PRret():
+    retunr "PR"
