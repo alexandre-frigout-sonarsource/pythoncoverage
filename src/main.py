@@ -85,3 +85,6 @@ def develop():
 
 def shortttttt():
     return 2
+
+def MMMMMMYYYYFUUUNNNC():
+    return 3
