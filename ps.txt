@@ -1,0 +1,150 @@
+10.3 23141 23141 alex     /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alex/sonarqube/sonarqube-7.9.2/temp --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Xmx1G -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alex/sonarqube/sonarqube-7.9.2/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.server.app.WebServer /home/alex/sonarqube/sonarqube-7.9.2/temp/sq-process7234100548678393972properties
+ 5.9 23200 23200 alex     /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/home/alex/sonarqube/sonarqube-7.9.2/temp --add-opens=java.base/java.util=ALL-UNNAMED -Xmx2G -Xms128m -XX:+HeapDumpOnOutOfMemoryError -Dhttp.nonProxyHosts=localhost|127.*|[::1] -cp ./lib/common/*:/home/alex/sonarqube/sonarqube-7.9.2/lib/jdbc/postgresql/postgresql-42.2.5.jar org.sonar.ce.app.CeServer /home/alex/sonarqube/sonarqube-7.9.2/temp/sq-process1837100571157051002properties
+ 5.7 23060 23060 alex     /usr/lib/jvm/java-11-openjdk-amd64/bin/java -XX:+UseConcMarkSweepGC -XX:CMSInitiatingOccupancyFraction=75 -XX:+UseCMSInitiatingOccupancyOnly -Des.networkaddress.cache.ttl=60 -Des.networkaddress.cache.negative.ttl=10 -XX:+AlwaysPreTouch -Xss1m -Djava.awt.headless=true -Dfile.encoding=UTF-8 -Djna.nosys=true -XX:-OmitStackTraceInFastThrow -Dio.netty.noUnsafe=true -Dio.netty.noKeySetOptimization=true -Dio.netty.recycler.maxCapacityPerThread=0 -Dlog4j.shutdownHookEnabled=false -Dlog4j2.disable.jmx=true -Djava.io.tmpdir=/home/alex/sonarqube/sonarqube-7.9.2/temp -XX:ErrorFile=../logs/es_hs_err_pid%p.log -Des.enforce.bootstrap.checks=true -Xms1G -Xmx1G -XX:+HeapDumpOnOutOfMemoryError -Des.path.home=/home/alex/sonarqube/sonarqube-7.9.2/elasticsearch -Des.path.conf=/home/alex/sonarqube/sonarqube-7.9.2/temp/conf/es -Des.distribution.flavor=default -Des.distribution.type=tar -cp /home/alex/sonarqube/sonarqube-7.9.2/elasticsearch/lib/* org.elasticsearch.bootstrap.Elasticsearch
+ 1.4 23037 23037 alex     java -Dsonar.wrapped=true -Djava.awt.headless=true -Xms8m -Xmx32m -Djava.library.path=./lib -classpath ../../lib/jsw/wrapper-3.2.3.jar:../../lib/common/staxmate-2.0.1.jar:../../lib/common/netty-transport-4.1.32.Final.jar:../../lib/common/stax2-api-3.1.4.jar:../../lib/common/activation-1.1.jar:../../lib/common/alm-gallery-client-1.0.2.jar:../../lib/common/lucene-analyzers-common-7.7.0.jar:../../lib/common/log4j-api-2.8.2.jar:../../lib/common/commons-lang-2.6.jar:../../lib/common/sonar-main-7.9.2.jar:../../lib/common/jbcrypt-0.4.jar:../../lib/common/java-jwt-3.3.0.jar:../../lib/common/hazelcast-client-3.12.1.jar:../../lib/common/jjwt-jackson-0.10.5.jar:../../lib/common/sonar-classloader-1.0.jar:../../lib/common/jackson-databind-2.9.8.jar:../../lib/common/netty-codec-http-4.1.32.Final.jar:../../lib/common/bcpkix-jdk15on-1.59.jar:../../lib/common/commons-logging-1.2.jar:../../lib/common/sonar-check-api-7.9.2.jar:../../lib/common/jackson-jaxrs-base-2.4.1.jar:../../lib/common/pdfbox-2.0.14.jar:../../lib/common/jersey-client-2.26.jar:../../lib/common/lucene-join-7.7.0.jar:../../lib/common/sonar-ce-task-projectanalysis-7.9.2.jar:../../lib/common/logback-core-1.2.3.jar:../../lib/common/diffutils-1.2.jar:../../lib/common/transport-netty4-client-6.8.0.jar:../../lib/common/fontbox-2.0.14.jar:../../lib/common/elasticsearch-x-content-6.8.0.jar:../../lib/common/javax.mail-1.5.6.jar:../../lib/common/sonar-server-7.9.2.jar:../../lib/common/jul-to-slf4j-1.7.25.jar:../../lib/common/alm-tfs-client-1.0.2.jar:../../lib/common/jackson-dataformat-smile-2.8.11.jar:../../lib/common/snakeyaml-1.17.jar:../../lib/common/sonar-markdown-7.9.2.jar:../../lib/common/jersey-common-2.26.jar:../../lib/common/netty-handler-4.1.32.Final.jar:../../lib/common/jjwt-impl-0.10.5.jar:../../lib/common/hppc-0.7.1.jar:../../lib/common/commons-io-2.6.jar:../../lib/common/lucene-queryparser-7.7.0.jar:../../lib/common/jackson-core-2.9.8.jar:../../lib/common/lucene-suggest-7.7.0.jar:../../lib/common/lz4-1.3.0.jar:../../lib/common/elasticsearch-core-6.8.0.jar:../../lib/common/lucene-backward-codecs-7.7.0.jar:../../lib/common/osgi-resource-locator-1.0.1.jar:../../lib/common/jackson-annotations-2.9.8.jar:../../lib/common/okio-1.17.2.jar:../../lib/common/netty-resolver-4.1.32.Final.jar:../../lib/common/hk2-api-2.5.0-b42.jar:../../lib/common/t-digest-3.2.jar:../../lib/common/alm-vss-client-1.0.2.jar:../../lib/common/okhttp-3.14.2.jar:../../lib/common/transport-6.8.0.jar:../../lib/common/guava-18.0.jar:../../lib/common/bcprov-jdk15on-1.59.jar:../../lib/common/sonar-ce-task-7.9.2.jar:../../lib/common/HdrHistogram-2.1.9.jar:../../lib/common/sonar-ce-7.9.2.jar:../../lib/common/commons-dbcp2-2.5.0.jar:../../lib/common/commons-pool2-2.6.0.jar:../../lib/common/javassist-3.22.0-CR2.jar:../../lib/common/lucene-grouping-7.7.0.jar:../../lib/common/javax.ws.rs-api-2.1.jar:../../lib/common/protobuf-java-3.7.0.jar:../../lib/common/commons-email-1.5.jar:../../lib/common/commons-codec-1.12.jar:../../lib/common/hk2-locator-2.5.0-b42.jar:../../lib/common/commons-csv-1.4.jar:../../lib/common/netty-codec-4.1.32.Final.jar:../../lib/common/alm-extensionmanagement-client-1.0.2.jar:../../lib/common/sonar-server-common-7.9.2.jar:../../lib/common/sonar-db-migration-7.9.2.jar:../../lib/common/jackson-module-jaxb-annotations-2.4.1.jar:../../lib/common/hazelcast-3.12.1.jar:../../lib/common/commons-dbutils-1.5.jar:../../lib/common/logback-classic-1.2.3.jar:../../lib/common/github-api-1.93.0.71.jar:../../lib/common/sonar-process-7.9.2.jar:../../lib/common/slf4j-api-1.7.25.jar:../../lib/common/jjwt-api-0.10.5.jar:../../lib/common/jna-4.5.1.jar:../../lib/common/alm-distributedtask-client-1.0.2.jar:../../lib/common/elasticsearch-6.8.0.jar:../../lib/common/sonar-db-dao-7.9.2.jar:../../lib/common/parent-join-client-6.8.0.jar:../../lib/common/jackson-dataformat-cbor-2.8.11.jar:../../lib/common/jackson-jaxrs-json-provider-2.4.1.jar:../../lib/common/alm-releasemanagement-client-1.0.2.jar:../../lib/common/httpclient-4.5.2.jar:../../lib/common/lucene-spatial-extras-7.7.0.jar:../../lib/common/gson-2.8.4.jar:../../lib/common/sonar-scanner-protocol-7.9.2.jar:../../lib/common/percolator-client-6.8.0.jar:../../lib/common/sonar-channel-4.1.jar:../../lib/common/lucene-highlighter-7.7.0.jar:../../lib/common/jaxb-api-2.3.0.jar:../../lib/common/aopalliance-repackaged-2.5.0-b42.jar:../../lib/common/joda-time-2.10.1.jar:../../lib/common/javax.annotation-api-1.3.1.jar:../../lib/common/netty-buffer-4.1.32.Final.jar:../../lib/common/logback-access-1.2.3.jar:../../lib/common/sonar-ce-common-7.9.2.jar:../../lib/common/lucene-queries-7.7.0.jar:../../lib/common/lucene-core-7.7.0.jar:../../lib/common/mybatis-3.5.1.jar:../../lib/common/jopt-simple-5.0.2.jar:../../lib/common/netty-common-4.1.32.Final.jar:../../lib/common/sonar-ws-7.9.2.jar:../../lib/common/jackson-dataformat-yaml-2.8.11.jar:../../lib/common/javax.inject-1.jar:../../lib/common/jersey-apache-connector-2.26.jar:../../lib/common/lucene-memory-7.7.0.jar:../../lib/common/sonar-plugin-api-7.9.2-all.jar:../../lib/common/picocontainer-2.15.jar:../../lib/common/elasticsearch-secure-sm-6.8.0.jar:../../lib/common/nanohttpd-2.3.0.jar:../../lib/common/edition-enterprise-7.9.2.jar:../../lib/common/httpcore-4.4.4.jar:../../lib/common/sonar-plugin-api-7.9.2.jar:../../lib/common/tomcat-embed-core-8.5.38.jar:../../lib/common/elasticsearch-cli-6.8.0.jar:../../lib/common/sonar-db-core-7.9.2.jar:../../lib/common/sonar-core-7.9.2.jar:../../lib/common/sonar-duplications-7.9.2.jar:../../lib/common/lucene-sandbox-7.7.0.jar:../../lib/common/jfreechart-1.5.0.jar:../../lib/common/lucene-spatial-7.7.0.jar:../../lib/common/jersey-hk2-2.26.jar:../../lib/common/woodstox-core-lgpl-4.4.0.jar:../../lib/common/lucene-spatial3d-7.7.0.jar:../../lib/common/hk2-utils-2.5.0-b42.jar:../../lib/common/tomcat-annotations-api-8.5.38.jar:../../lib/common/log4j-to-slf4j-2.8.2.jar:../../lib/common/sonar-update-center-common-1.18.0.487.jar:../../lib/common/javax.inject-2.5.0-b42.jar:../../lib/common/lucene-misc-7.7.0.jar:../../lib/sonar-application-7.9.2.jar:../../lib/sonar-shutdowner-7.9.2.jar -Dwrapper.key=smBo9XaFDiuRofgX -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=23035 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.service=TRUE -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1 org.tanukisoftware.wrapper.WrapperSimpleApp org.sonar.application.App
+ 0.9 23174 23174 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48260) idle
+ 0.3 23173 23173 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48256) idle
+ 0.2 23231 23231 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48322) idle
+ 0.1   661   661 root     /usr/bin/containerd
+ 0.0 23035 23035 alex     /home/alex/sonarqube/sonarqube-7.9.2/bin/linux-x86-64/./wrapper /home/alex/sonarqube/sonarqube-7.9.2/bin/linux-x86-64/../../conf/wrapper.conf wrapper.syslog.ident=SonarQube wrapper.pidfile=/home/alex/sonarqube/sonarqube-7.9.2/bin/linux-x86-64/./SonarQube.pid wrapper.daemonize=TRUE
+%CPU   PID   LWP USER     COMMAND
+ 0.0 23458 23458 alex     sort -t. -nk1,2 -k4,4 -r
+ 0.0 23457 23457 alex     ps -eo pcpu,pid,lwp,user,args
+ 0.0 23435 23435 root     [kworker/0:0-ata_sff]
+ 0.0 23430 23430 root     [kworker/u2:2-flush-254:3]
+ 0.0 23404 23404 alex     tail -f ce.log
+ 0.0 23344 23344 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48516) idle
+ 0.0 23340 23340 alex     -bash
+ 0.0 23339 23339 alex     sshd: alex@pts/0
+ 0.0 23333 23333 root     sshd: alex [priv]
+ 0.0 23256 23256 root     [kworker/0:2-events_power_efficient]
+ 0.0 23250 23250 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48338) idle
+ 0.0 23234 23234 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48328) idle
+ 0.0 23197 23197 postgres postgres: 12/main: sonarqube sonar792 127.0.0.1(48282) idle
+ 0.0 23161 23161 root     [kworker/u2:1-flush-254:3]
+ 0.0 22824 22824 root     [kworker/0:1-ata_sff]
+ 0.0 22806 22806 root     [kworker/u2:0-events_unbound]
+ 0.0 18695 18695 root     /usr/sbin/cups-browsed
+ 0.0 18694 18694 root     /usr/sbin/cupsd -l
+ 0.0 12389 12389 alex     -bash
+ 0.0 12388 12388 alex     sshd: alex@pts/1
+ 0.0 12382 12382 root     sshd: alex [priv]
+ 0.0  1205  1205 alex     (sd-pam)
+ 0.0  1204  1204 alex     /lib/systemd/systemd --user
+ 0.0  1104  1104 colord   /usr/lib/colord/colord
+ 0.0  1063  1063 Debian-+ /usr/lib/gnome-settings-daemon/gsd-wacom
+ 0.0  1060  1060 Debian-+ /usr/lib/gnome-settings-daemon/gsd-sound
+ 0.0  1059  1059 Debian-+ /usr/lib/gnome-settings-daemon/gsd-smartcard
+ 0.0  1057  1057 Debian-+ /usr/lib/gnome-settings-daemon/gsd-sharing
+ 0.0  1054  1054 Debian-+ /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+ 0.0  1053  1053 Debian-+ /usr/lib/gnome-settings-daemon/gsd-rfkill
+ 0.0  1052  1052 Debian-+ /usr/lib/gnome-settings-daemon/gsd-print-notifications
+ 0.0  1049  1049 Debian-+ /usr/lib/gnome-settings-daemon/gsd-power
+ 0.0  1048  1048 Debian-+ /usr/lib/gnome-settings-daemon/gsd-mouse
+ 0.0  1047  1047 Debian-+ /usr/lib/gnome-settings-daemon/gsd-media-keys
+ 0.0  1045  1045 Debian-+ /usr/lib/gnome-settings-daemon/gsd-keyboard
+ 0.0  1043  1043 Debian-+ /usr/lib/gnome-settings-daemon/gsd-housekeeping
+ 0.0  1042  1042 Debian-+ /usr/lib/gnome-settings-daemon/gsd-datetime
+ 0.0  1041  1041 Debian-+ /usr/lib/gnome-settings-daemon/gsd-color
+ 0.0  1039  1039 Debian-+ /usr/lib/gnome-settings-daemon/gsd-clipboard
+ 0.0  1036  1036 Debian-+ /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+ 0.0  1034  1034 Debian-+ /usr/lib/gnome-settings-daemon/gsd-xsettings
+ 0.0  1018  1018 root     /usr/lib/upower/upowerd
+ 0.0   996   996 rtkit    /usr/lib/rtkit/rtkit-daemon
+ 0.0   994   994 Debian-+ /usr/bin/pulseaudio --daemonize=no
+ 0.0   991   991 Debian-+ /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+ 0.0   986   986 Debian-+ /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+ 0.0   976   976 Debian-+ /usr/lib/at-spi2-core/at-spi-bus-launcher
+ 0.0   973   973 Debian-+ /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+ 0.0   748   748 Debian-+ /usr/bin/gnome-shell
+ 0.0   739   739 postgres postgres: 12/main: logical replication launcher   
+ 0.0   738   738 postgres postgres: 12/main: stats collector   
+ 0.0   737   737 postgres postgres: 12/main: autovacuum launcher   
+ 0.0   736   736 postgres postgres: 12/main: walwriter   
+ 0.0   735   735 postgres postgres: 12/main: background writer   
+ 0.0   734   734 postgres postgres: 12/main: checkpointer   
+ 0.0   726   726 Debian-+ /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+ 0.0   721   721 Debian-+ /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0   719   719 Debian-+ /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+ 0.0   709   709 Debian-+ (sd-pam)
+ 0.0   708   708 Debian-+ /lib/systemd/systemd --user
+ 0.0   706   706 postgres /usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf
+ 0.0   685   685 www-data nginx: worker process
+ 0.0   683   683 root     nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+ 0.0   673   673 root     gdm-session-worker [pam/gdm-launch-environment]
+ 0.0   664   664 root     /usr/sbin/sshd -D
+ 0.0   663   663 root     /usr/sbin/gdm3
+ 0.0   662   662 root     /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+ 0.0   646   646 root     /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+ 0.0   590   590 root     /sbin/dhclient -4 -v -i -pf /run/dhclient.enp0s8.pid -lf /var/lib/dhcp/dhclient.enp0s8.leases -I -df /var/lib/dhcp/dhclient6.enp0s8.leases enp0s8
+ 0.0   493   493 root     /usr/lib/policykit-1/polkitd --no-debug
+ 0.0   491   491 root     /usr/sbin/alsactl -E HOME=/run/alsa -s -n 19 -c rdaemon
+ 0.0   490   490 avahi    avahi-daemon: chroot helper
+ 0.0   472   472 root     /usr/sbin/NetworkManager --no-daemon
+ 0.0   471   471 root     /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ 0.0   470   470 message+ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 0.0   468   468 root     /lib/systemd/systemd-logind
+ 0.0   467   467 root     /usr/sbin/cron -f
+ 0.0   466   466 avahi    avahi-daemon: running [debian.local]
+ 0.0   465   465 root     /usr/sbin/ModemManager --filter-policy=strict
+ 0.0   462   462 root     /usr/lib/udisks2/udisksd
+ 0.0   460   460 root     /usr/lib/accountsservice/accounts-daemon
+ 0.0   457   457 root     /usr/sbin/rsyslogd -n -iNONE
+ 0.0   449   449 systemd+ /lib/systemd/systemd-timesyncd
+ 0.0   432   432 root     [ext4-rsv-conver]
+ 0.0   429   429 root     [jbd2/dm-2-8]
+ 0.0   427   427 root     [ext4-rsv-conver]
+ 0.0   425   425 root     [jbd2/dm-4-8]
+ 0.0   419   419 root     [ext4-rsv-conver]
+ 0.0   417   417 root     [jbd2/dm-3-8]
+ 0.0   358   358 root     [ext4-rsv-conver]
+ 0.0   353   353 root     [kdmflush]
+ 0.0   351   351 root     [kdmflush]
+ 0.0   350   350 root     [kdmflush]
+ 0.0   274   274 root     /lib/systemd/systemd-udevd
+ 0.0   257   257 root     /lib/systemd/systemd-journald
+ 0.0   213   213 root     [ext4-rsv-conver]
+ 0.0   212   212 root     [jbd2/dm-0-8]
+ 0.0   210   210 root     [kworker/u3:0]
+ 0.0   182   182 root     [kdmflush]
+ 0.0   176   176 root     [kdmflush]
+ 0.0   161   161 root     [kworker/0:1H-kblockd]
+ 0.0   135   135 root     [irq/18-vmwgfx]
+ 0.0   133   133 root     [ttm_swap]
+ 0.0   119   119 root     [scsi_tmf_2]
+ 0.0   118   118 root     [scsi_eh_2]
+ 0.0   114   114 root     [scsi_tmf_1]
+ 0.0   112   112 root     [scsi_eh_1]
+ 0.0   110   110 root     [scsi_tmf_0]
+ 0.0   108   108 root     [scsi_eh_0]
+ 0.0   103   103 root     [ata_sff]
+ 0.0    59    59 root     [kstrp]
+ 0.0    49    49 root     [ipv6_addrconf]
+ 0.0    48    48 root     [kthrotld]
+ 0.0    30    30 root     [kswapd0]
+ 0.0    29    29 root     [watchdogd]
+ 0.0    28    28 root     [devfreq_wq]
+ 0.0    27    27 root     [edac-poller]
+ 0.0    26    26 root     [kblockd]
+ 0.0    25    25 root     [kintegrityd]
+ 0.0    24    24 root     [crypto]
+ 0.0    23    23 root     [khugepaged]
+ 0.0    22    22 root     [ksmd]
+ 0.0    21    21 root     [kcompactd0]
+ 0.0    20    20 root     [writeback]
+ 0.0    19    19 root     [oom_reaper]
+ 0.0    18    18 root     [khungtaskd]
+ 0.0    17    17 root     [kauditd]
+ 0.0    16    16 root     [netns]
+ 0.0    15    15 root     [kdevtmpfs]
+ 0.0    14    14 root     [cpuhp/0]
+ 0.0    12    12 root     [migration/0]
+ 0.0    11    11 root     [rcu_bh]
+ 0.0    10    10 root     [rcu_sched]
+ 0.0     9     9 root     [ksoftirqd/0]
+ 0.0     8     8 root     [mm_percpu_wq]
+ 0.0     6     6 root     [kworker/0:0H-kblockd]
+ 0.0     4     4 root     [rcu_par_gp]
+ 0.0     3     3 root     [rcu_gp]
+ 0.0     2     2 root     [kthreadd]
+ 0.0     1     1 root     /sbin/init

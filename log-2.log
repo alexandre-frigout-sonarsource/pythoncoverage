@@ -1,0 +1,637 @@
+09:18:54.539 INFO: Scanner configuration file: /home/alex/tools/scannercli/sonar-scanner-3.1.0.1141-linux/conf/sonar-scanner.properties
+09:18:54.545 INFO: Project root configuration file: /home/alex/code/pythoncoverage/sonar-project.properties
+09:18:54.582 INFO: SonarQube Scanner 3.1.0.1141
+09:18:54.582 INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+09:18:54.582 INFO: Linux 4.19.0-6-amd64 amd64
+09:18:54.836 DEBUG: keyStore is : 
+09:18:54.836 DEBUG: keyStore type is : jks
+09:18:54.837 DEBUG: keyStore provider is : 
+09:18:54.837 DEBUG: init keystore
+09:18:54.837 DEBUG: init keymanager of type SunX509
+09:18:54.996 DEBUG: Create: /home/alex/.sonar/cache
+09:18:54.996 INFO: User cache: /home/alex/.sonar/cache
+09:18:54.996 DEBUG: Create: /home/alex/.sonar/cache/_tmp
+09:18:54.998 DEBUG: Extract sonar-scanner-api-batch in temp...
+09:18:55.013 DEBUG: Get bootstrap index...
+09:18:55.013 DEBUG: Download: http://localhost:9000/batch/index
+09:18:55.097 DEBUG: Get bootstrap completed
+09:18:55.107 DEBUG: Download http://localhost:9000/batch/file?name=scanner-enterprise-7.9.2-all.jar to /home/alex/.sonar/cache/_tmp/fileCache4371530232123441519.tmp
+09:18:55.496 DEBUG: Create isolated classloader...
+09:18:55.510 DEBUG: Start temp cleaning...
+09:18:55.515 DEBUG: Temp cleaning done
+09:18:55.515 DEBUG: Execution getVersion
+09:18:55.521 INFO: SonarQube server 7.9.2
+09:18:55.522 INFO: Default locale: "en_US", source code encoding: "US-ASCII" (analysis is platform dependent)
+09:18:55.523 DEBUG: Work directory: /home/alex/code/pythoncoverage/.scannerwork
+09:18:55.524 DEBUG: Execution execute
+09:18:55.803 DEBUG: Enterprise 7.9.2.30863
+09:18:55.968 INFO: Load global settings
+09:18:55.999 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=30ms
+09:18:56.030 INFO: Load global settings (done) | time=62ms
+09:18:56.031 INFO: Server id: 7EF2491C-AXBYkzaFTuYebd_wMmRb
+09:18:56.056 INFO: User cache: /home/alex/.sonar/cache
+09:18:56.059 INFO: Load/download plugins
+09:18:56.059 INFO: Load plugins index
+09:18:56.077 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=17ms
+09:18:56.120 INFO: Load plugins index (done) | time=61ms
+09:18:56.122 DEBUG: Download plugin 'cobolcustom' to '/home/alex/.sonar/_tmp/fileCache1602646042406905864.tmp'
+09:18:56.128 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=cobolcustom&acceptCompressions=pack200 | time=5ms
+09:18:56.148 DEBUG: Download plugin 'scmgit' to '/home/alex/.sonar/_tmp/fileCache6421883692629246267.tmp'
+09:18:56.160 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=scmgit&acceptCompressions=pack200 | time=11ms
+09:18:56.302 DEBUG: Download plugin 'authgithub' to '/home/alex/.sonar/_tmp/fileCache1556443883288709090.tmp'
+09:18:56.307 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=authgithub&acceptCompressions=pack200 | time=5ms
+09:18:56.320 DEBUG: Download plugin 'jacoco' to '/home/alex/.sonar/_tmp/fileCache6575837550408414412.tmp'
+09:18:56.326 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=jacoco&acceptCompressions=pack200 | time=5ms
+09:18:56.332 DEBUG: Download plugin 'ldap' to '/home/alex/.sonar/_tmp/fileCache5220494494603123318.tmp'
+09:18:56.336 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=ldap&acceptCompressions=pack200 | time=4ms
+09:18:56.352 DEBUG: Download plugin 'license' to '/home/alex/.sonar/_tmp/fileCache2595254837559211333.tmp'
+09:18:56.356 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=license&acceptCompressions=pack200 | time=4ms
+09:18:56.365 DEBUG: Download plugin 'authsaml' to '/home/alex/.sonar/_tmp/fileCache4439257654326573879.tmp'
+09:18:56.369 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=authsaml&acceptCompressions=pack200 | time=4ms
+09:18:56.441 DEBUG: Download plugin 'abap' to '/home/alex/.sonar/_tmp/fileCache8299965674833724195.tmp'
+09:18:56.452 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=abap&acceptCompressions=pack200 | time=10ms
+09:18:56.495 DEBUG: Download plugin 'sonarapex' to '/home/alex/.sonar/_tmp/fileCache531693455267390565.tmp'
+09:18:56.505 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=sonarapex&acceptCompressions=pack200 | time=5ms
+09:18:56.665 DEBUG: Download plugin 'csharp' to '/home/alex/.sonar/_tmp/fileCache207127521634694398.tmp'
+09:18:56.674 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=csharp&acceptCompressions=pack200 | time=9ms
+09:18:56.828 DEBUG: Download plugin 'cpp' to '/home/alex/.sonar/_tmp/fileCache8117343551204662555.tmp'
+09:18:56.836 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=cpp&acceptCompressions=pack200 | time=7ms
+09:18:57.491 DEBUG: Download plugin 'cobol' to '/home/alex/.sonar/_tmp/fileCache7495330683835536862.tmp'
+09:18:57.497 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=cobol&acceptCompressions=pack200 | time=6ms
+09:18:57.570 DEBUG: Download plugin 'cssfamily' to '/home/alex/.sonar/_tmp/fileCache4944056332935673005.tmp'
+09:18:57.587 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=cssfamily&acceptCompressions=pack200 | time=17ms
+09:18:57.739 DEBUG: Download plugin 'flex' to '/home/alex/.sonar/_tmp/fileCache1957005167639844656.tmp'
+09:18:57.752 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=flex&acceptCompressions=pack200 | time=12ms
+09:18:57.778 DEBUG: Download plugin 'go' to '/home/alex/.sonar/_tmp/fileCache1747508066179605717.tmp'
+09:18:57.784 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=go&acceptCompressions=pack200 | time=5ms
+09:18:57.858 DEBUG: Download plugin 'web' to '/home/alex/.sonar/_tmp/fileCache5124031337497048392.tmp'
+09:18:57.863 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=web&acceptCompressions=pack200 | time=4ms
+09:18:57.893 DEBUG: Download plugin 'javascript' to '/home/alex/.sonar/_tmp/fileCache820533729087250865.tmp'
+09:18:57.899 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=javascript&acceptCompressions=pack200 | time=6ms
+09:18:58.097 DEBUG: Download plugin 'java' to '/home/alex/.sonar/_tmp/fileCache3292261807853411403.tmp'
+09:18:58.103 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=java&acceptCompressions=pack200 | time=5ms
+09:18:58.459 DEBUG: Download plugin 'kotlin' to '/home/alex/.sonar/_tmp/fileCache6644166405430850394.tmp'
+09:18:58.467 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=kotlin&acceptCompressions=pack200 | time=8ms
+09:18:58.589 DEBUG: Download plugin 'php' to '/home/alex/.sonar/_tmp/fileCache5282086699207161202.tmp'
+09:18:58.595 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=php&acceptCompressions=pack200 | time=6ms
+09:18:58.686 DEBUG: Download plugin 'pli' to '/home/alex/.sonar/_tmp/fileCache6721220052162568483.tmp'
+09:18:58.699 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=pli&acceptCompressions=pack200 | time=13ms
+09:18:58.743 DEBUG: Download plugin 'plsql' to '/home/alex/.sonar/_tmp/fileCache5053844050202008057.tmp'
+09:18:58.753 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=plsql&acceptCompressions=pack200 | time=6ms
+09:18:58.822 DEBUG: Download plugin 'python' to '/home/alex/.sonar/_tmp/fileCache2506980793494210978.tmp'
+09:18:58.828 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=python&acceptCompressions=pack200 | time=6ms
+09:18:58.884 DEBUG: Download plugin 'rpg' to '/home/alex/.sonar/_tmp/fileCache25266950750394004.tmp'
+09:18:58.892 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=rpg&acceptCompressions=pack200 | time=7ms
+09:18:58.926 DEBUG: Download plugin 'ruby' to '/home/alex/.sonar/_tmp/fileCache1318203633094178980.tmp'
+09:18:58.933 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=ruby&acceptCompressions=pack200 | time=4ms
+09:18:59.099 DEBUG: Download plugin 'sonarscala' to '/home/alex/.sonar/_tmp/fileCache4365828607823865230.tmp'
+09:18:59.103 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=sonarscala&acceptCompressions=pack200 | time=3ms
+09:18:59.253 DEBUG: Download plugin 'swift' to '/home/alex/.sonar/_tmp/fileCache2912673959196488099.tmp'
+09:18:59.258 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=swift&acceptCompressions=pack200 | time=4ms
+09:18:59.306 DEBUG: Download plugin 'typescript' to '/home/alex/.sonar/_tmp/fileCache6432157162538725169.tmp'
+09:18:59.313 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=typescript&acceptCompressions=pack200 | time=7ms
+09:18:59.316 DEBUG: Download plugin 'tsql' to '/home/alex/.sonar/_tmp/fileCache4220555438147847196.tmp'
+09:18:59.322 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=tsql&acceptCompressions=pack200 | time=5ms
+09:18:59.367 DEBUG: Download plugin 'vbnet' to '/home/alex/.sonar/_tmp/fileCache2951449771292659683.tmp'
+09:18:59.372 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=vbnet&acceptCompressions=pack200 | time=4ms
+09:18:59.431 DEBUG: Download plugin 'vb' to '/home/alex/.sonar/_tmp/fileCache785590056704279713.tmp'
+09:18:59.437 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=vb&acceptCompressions=pack200 | time=5ms
+09:18:59.527 DEBUG: Download plugin 'xml' to '/home/alex/.sonar/_tmp/fileCache3127868744492054839.tmp'
+09:18:59.536 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=xml&acceptCompressions=pack200 | time=7ms
+09:18:59.577 DEBUG: Download plugin 'scmsvn' to '/home/alex/.sonar/_tmp/fileCache97273293255465399.tmp'
+09:18:59.580 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=scmsvn&acceptCompressions=pack200 | time=3ms
+09:18:59.693 DEBUG: Download plugin 'security' to '/home/alex/.sonar/_tmp/fileCache7780654011732877735.tmp'
+09:18:59.700 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=security&acceptCompressions=pack200 | time=5ms
+09:18:59.740 DEBUG: Download plugin 'securitycsharpfrontend' to '/home/alex/.sonar/_tmp/fileCache4362492679727600078.tmp'
+09:18:59.752 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=securitycsharpfrontend&acceptCompressions=pack200 | time=12ms
+09:18:59.760 DEBUG: Download plugin 'securityjavafrontend' to '/home/alex/.sonar/_tmp/fileCache7022397639183327700.tmp'
+09:18:59.774 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=securityjavafrontend&acceptCompressions=pack200 | time=14ms
+09:18:59.957 DEBUG: Download plugin 'securityphpfrontend' to '/home/alex/.sonar/_tmp/fileCache1581241421467366031.tmp'
+09:18:59.966 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=securityphpfrontend&acceptCompressions=pack200 | time=9ms
+09:19:00.021 DEBUG: Download plugin 'securitypythonfrontend' to '/home/alex/.sonar/_tmp/fileCache1770599081275074426.tmp'
+09:19:00.025 DEBUG: GET 200 http://localhost:9000/api/plugins/download?plugin=securitypythonfrontend&acceptCompressions=pack200 | time=4ms
+09:19:00.059 INFO: Load/download plugins (done) | time=4000ms
+09:19:00.604 DEBUG: Plugins:
+09:19:00.605 DEBUG:   * SonarCSS 1.1.1.1010 (cssfamily)
+09:19:00.605 DEBUG:   * Svn 1.9.0.1295 (scmsvn)
+09:19:00.605 DEBUG:   * SonarPLSQL 3.4.1.2576 (plsql)
+09:19:00.605 DEBUG:   * SonarScala 1.5.0.315 (sonarscala)
+09:19:00.605 DEBUG:   * COBOL Custom Rules 1.0 (cobolcustom)
+09:19:00.605 DEBUG:   * SonarC# 8.1.0.13383 (csharp)
+09:19:00.605 DEBUG:   * Vulnerability Analysis 8.1.0.675 (security)
+09:19:00.611 DEBUG:   * SonarJava 6.0.0.20538 (java)
+09:19:00.612 DEBUG:   * LDAP 2.2.0.608 (ldap)
+09:19:00.612 DEBUG:   * SonarHTML 3.1.0.1615 (web)
+09:19:00.612 DEBUG:   * SonarFlex 2.5.1.1831 (flex)
+09:19:00.612 DEBUG:   * SonarXML 2.0.1.2020 (xml)
+09:19:00.612 DEBUG:   * SonarTS 2.1.0.4359 (typescript)
+09:19:00.615 DEBUG:   * SonarVB 7.15.0.8572 (vbnet)
+09:19:00.616 DEBUG:   * SonarSwift 4.1.0.3087 (swift)
+09:19:00.616 DEBUG:   * SonarCFamily 6.8.0.16475 (cpp)
+09:19:00.616 DEBUG:   * SonarPython 2.3.0.5351 (python)
+09:19:00.616 DEBUG:   * GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+09:19:00.616 DEBUG:   * JaCoCo 1.0.2.475 (jacoco)
+09:19:00.616 DEBUG:   * SonarGo 1.1.1.2000 (go)
+09:19:00.616 DEBUG:   * SonarKotlin 1.5.0.315 (kotlin)
+09:19:00.616 DEBUG:   * SonarRPG 2.3.0.1187 (rpg)
+09:19:00.616 DEBUG:   * SonarPLI 1.10.0.1880 (pli)
+09:19:00.616 DEBUG:   * SonarTSQL 1.4.0.3334 (tsql)
+09:19:00.616 DEBUG:   * SonarVB6 2.6.0.1875 (vb)
+09:19:00.616 DEBUG:   * SonarApex 1.5.0.315 (sonarapex)
+09:19:00.616 DEBUG:   * SonarJS 6.2.1.12157 (javascript)
+09:19:00.616 DEBUG:   * SonarRuby 1.5.0.315 (ruby)
+09:19:00.616 DEBUG:   * Vulnerability Rules for C# 8.1.0.675 (securitycsharpfrontend)
+09:19:00.616 DEBUG:   * Vulnerability Rules for Java 8.2.0.1218 (securityjavafrontend)
+09:19:00.616 DEBUG:   * License for SonarLint 7.9.2 (license)
+09:19:00.616 DEBUG:   * SonarCOBOL 4.4.0.3403 (cobol)
+09:19:00.617 DEBUG:   * Vulnerability Rules for Python 8.1.0.675 (securitypythonfrontend)
+09:19:00.617 DEBUG:   * Git 1.11.1.2008 (scmgit)
+09:19:00.617 DEBUG:   * SAML 2.0 Authentication for SonarQube 1.1.0.181 (authsaml)
+09:19:00.617 DEBUG:   * SonarPHP 3.3.0.5166 (php)
+09:19:00.617 DEBUG:   * SonarABAP 3.8.0.2034 (abap)
+09:19:00.617 DEBUG:   * Vulnerability Rules for PHP 8.1.0.675 (securityphpfrontend)
+09:19:00.696 INFO: Loaded core extensions: developer-scanner
+09:19:00.737 DEBUG: Installed core extension: developer-scanner
+09:19:02.004 INFO: Process project properties
+09:19:02.020 DEBUG: Process project properties (done) | time=15ms
+09:19:02.020 INFO: Execute project builders
+09:19:02.021 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+09:19:02.026 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+09:19:02.028 INFO: Execute project builders (done) | time=8ms
+09:19:02.039 INFO: Project key: python
+09:19:02.039 INFO: Base dir: /home/alex/code/pythoncoverage
+09:19:02.039 INFO: Working dir: /home/alex/code/pythoncoverage/.scannerwork
+09:19:02.039 DEBUG: Project global encoding: US-ASCII, default locale: en_US
+09:19:02.040 DEBUG: Creating module hierarchy
+09:19:02.040 DEBUG:   Init module 'python'
+09:19:02.041 DEBUG:     Base dir: /home/alex/code/pythoncoverage
+09:19:02.041 DEBUG:     Working dir: /home/alex/code/pythoncoverage/.scannerwork
+09:19:02.041 DEBUG:     Module global encoding: US-ASCII, default locale: en_US
+09:19:02.089 INFO: Load project settings for component key: 'python'
+09:19:02.102 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=python | time=13ms
+09:19:02.103 INFO: Load project settings for component key: 'python' (done) | time=14ms
+09:19:02.235 INFO: Load project branches
+09:19:02.261 DEBUG: GET 200 http://localhost:9000/api/project_branches/list?project=python | time=26ms
+09:19:02.274 INFO: Load project branches (done) | time=39ms
+09:19:02.275 INFO: Load project pull requests
+09:19:02.286 DEBUG: GET 200 http://localhost:9000/api/project_pull_requests/list?project=python | time=11ms
+09:19:02.288 INFO: Load project pull requests (done) | time=13ms
+09:19:02.288 INFO: Load branch configuration
+09:19:02.294 INFO: Load branch configuration (done) | time=6ms
+09:19:02.381 DEBUG: Available languages:
+09:19:02.381 DEBUG:   * CSS => "css"
+09:19:02.381 DEBUG:   * PL/SQL => "plsql"
+09:19:02.381 DEBUG:   * Scala => "scala"
+09:19:02.381 DEBUG:   * C# => "cs"
+09:19:02.381 DEBUG:   * Java => "java"
+09:19:02.381 DEBUG:   * HTML => "web"
+09:19:02.381 DEBUG:   * JSP => "jsp"
+09:19:02.381 DEBUG:   * Flex => "flex"
+09:19:02.391 DEBUG:   * XML => "xml"
+09:19:02.392 DEBUG:   * VB.NET => "vbnet"
+09:19:02.393 DEBUG:   * Swift => "swift"
+09:19:02.393 DEBUG:   * C => "c"
+09:19:02.393 DEBUG:   * C++ => "cpp"
+09:19:02.394 DEBUG:   * Objective-C => "objc"
+09:19:02.394 DEBUG:   * Python => "py"
+09:19:02.394 DEBUG:   * Go => "go"
+09:19:02.394 DEBUG:   * Kotlin => "kotlin"
+09:19:02.394 DEBUG:   * RPG => "rpg"
+09:19:02.394 DEBUG:   * PL/I => "pli"
+09:19:02.394 DEBUG:   * T-SQL => "tsql"
+09:19:02.394 DEBUG:   * Vb => "vb"
+09:19:02.394 DEBUG:   * Apex => "apex"
+09:19:02.394 DEBUG:   * JavaScript => "js"
+09:19:02.394 DEBUG:   * TypeScript => "ts"
+09:19:02.395 DEBUG:   * Ruby => "ruby"
+09:19:02.395 DEBUG:   * COBOL => "cobol"
+09:19:02.395 DEBUG:   * PHP => "php"
+09:19:02.395 DEBUG:   * ABAP => "abap"
+09:19:02.400 INFO: Load quality profiles
+09:19:02.433 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=python | time=32ms
+09:19:02.495 INFO: Load quality profiles (done) | time=95ms
+09:19:02.513 INFO: Load active rules
+09:19:02.532 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6pnpS1mcWinkAcc-B&ps=500&p=1 | time=18ms
+09:19:02.720 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6pnsJ1mcWinkAcc-3&ps=500&p=1 | time=18ms
+09:19:02.737 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6pnut1mcWinkAcc_W&ps=500&p=1 | time=12ms
+09:19:02.783 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8ZNTuYebd_wMnYx&ps=500&p=1 | time=45ms
+09:19:02.855 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8b4TuYebd_wMnaV&ps=500&p=1 | time=40ms
+09:19:02.891 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6pnz-1mcWinkAcdBC&ps=500&p=1 | time=24ms
+09:19:02.939 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8nGTuYebd_wMnf0&ps=500&p=1 | time=46ms
+09:19:03.065 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXI9-kNdrB-JOFIK4Ocl&ps=500&p=1 | time=95ms
+09:19:03.153 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6pn9h1mcWinkAcdFe&ps=500&p=1 | time=12ms
+09:19:03.185 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9KeTuYebd_wMn0N&ps=500&p=1 | time=25ms
+09:19:03.220 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9MhTuYebd_wMn1M&ps=500&p=1 | time=34ms
+09:19:03.271 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9UpTuYebd_wMn5q&ps=500&p=1 | time=51ms
+09:19:03.311 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9b6TuYebd_wMn98&ps=500&p=1 | time=37ms
+09:19:03.402 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8HPTuYebd_wMnKZ&ps=500&p=1 | time=87ms
+09:19:03.477 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8ORTuYebd_wMnQs&ps=500&p=1 | time=52ms
+09:19:03.523 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6poMT1mcWinkAcdI7&ps=500&p=1 | time=37ms
+09:19:03.550 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6poJO1mcWinkAcdH9&ps=500&p=1 | time=26ms
+09:19:03.583 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8SrTuYebd_wMnTo&ps=500&p=1 | time=32ms
+09:19:03.611 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8d1TuYebd_wMnbF&ps=500&p=1 | time=27ms
+09:19:03.654 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8h4TuYebd_wMnc5&ps=500&p=1 | time=43ms
+09:19:03.692 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8fyTuYebd_wMnbr&ps=500&p=1 | time=36ms
+09:19:03.709 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXG6poSt1mcWinkAcdJ8&ps=500&p=1 | time=17ms
+09:19:03.819 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8w3TuYebd_wMnkz&ps=500&p=1 | time=109ms
+09:19:03.872 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXHzi2cLg-ZxP-W3Pu9P&ps=500&p=1 | time=32ms
+09:19:03.933 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9N4TuYebd_wMn2K&ps=500&p=1 | time=52ms
+09:19:03.965 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9YYTuYebd_wMn78&ps=500&p=1 | time=20ms
+09:19:04.031 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9i1TuYebd_wMoBQ&ps=500&p=1 | time=60ms
+09:19:04.074 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9pdTuYebd_wMoEJ&ps=500&p=1 | time=37ms
+09:19:04.140 INFO: Load active rules (done) | time=1627ms
+09:19:04.353 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+09:19:04.355 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+09:19:04.355 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+09:19:04.355 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+09:19:04.355 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+09:19:04.356 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+09:19:04.356 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+09:19:04.356 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+09:19:04.356 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+09:19:04.356 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+09:19:04.356 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+09:19:04.356 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+09:19:04.357 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+09:19:04.357 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+09:19:04.357 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+09:19:04.357 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+09:19:04.357 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+09:19:04.357 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.rpg,**/*.rpgle
+09:19:04.358 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+09:19:04.358 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+09:19:04.358 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+09:19:04.358 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+09:19:04.358 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+09:19:04.358 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+09:19:04.358 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+09:19:04.358 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : **/*.cblle
+09:19:04.358 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+09:19:04.359 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+09:19:04.383 DEBUG: Will ignore generated code
+09:19:04.384 DEBUG: Will ignore generated code
+09:19:04.385 INFO: Indexing files...
+09:19:04.401 INFO: Project configuration:
+09:19:04.402 INFO:   Excluded sources: **/test/*
+09:19:04.402 INFO:   Included tests: **/test/*
+09:19:04.443 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-07-02 09:19:04.434000000, lastModified=2020-01-28 15:03:17.000000000, size=92, fileKey=(dev=fe04,ino=1309501)
+09:19:04.474 DEBUG: file=null, size changed from -1 to 154 bytes
+09:19:04.474 DEBUG: loading config FileBasedConfig[/home/alex/.config/jgit/config]
+09:19:04.475 DEBUG: file=/home/alex/.config/jgit/config, create new FileSnapshot: lastRead=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, size=154, fileKey=(dev=fe04,ino=1179918)
+09:19:04.477 DEBUG: readpipe [git, --version],/usr/bin
+09:19:04.507 DEBUG: readpipe may return 'git version 2.20.1'
+09:19:04.507 DEBUG: remaining output:
+
+09:19:04.508 DEBUG: readpipe [git, config, --system, --edit],/usr/bin
+09:19:04.523 DEBUG: readpipe may return '/etc/gitconfig'
+09:19:04.523 DEBUG: remaining output:
+
+09:19:04.542 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.542 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.542 DEBUG: file=null, size changed from -1 to 0 bytes
+09:19:04.542 DEBUG: loading config FileBasedConfig[/etc/gitconfig]
+09:19:04.542 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.542 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.542 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.542 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.543 DEBUG: file=null, size changed from -1 to 63 bytes
+09:19:04.543 DEBUG: loading config FileBasedConfig[/home/alex/.gitconfig]
+09:19:04.544 DEBUG: file=/home/alex/.gitconfig, create new FileSnapshot: lastRead=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, size=63, fileKey=(dev=fe04,ino=1050705)
+09:19:04.544 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, size=92, fileKey=(dev=fe04,ino=1309501)
+09:19:04.545 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.545 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.545 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.545 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.545 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.545 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.545 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454147544000000 ns, racy<=2500000000 ns
+09:19:04.545 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:04.636 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.636 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.636 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.636 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.637 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.637 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.639 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-07-02 09:19:04.619000000, lastModified=2020-07-01 10:02:47.000000000, size=3126, fileKey=(dev=fe04,ino=1309398)
+09:19:04.668 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.668 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.678 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.679 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.679 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.679 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.685 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.686 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.686 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.686 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.687 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.687 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.694 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.694 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.694 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.694 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.694 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.694 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.694 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454147544000000 ns, racy<=2500000000 ns
+09:19:04.694 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:04.707 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.707 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.707 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.707 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.707 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.707 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.707 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454147544000000 ns, racy<=2500000000 ns
+09:19:04.707 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:04.739 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.740 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.741 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.741 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.742 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.742 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.743 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454147544000000 ns, racy<=2500000000 ns
+09:19:04.743 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:04.753 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:04.753 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:04.754 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:04.760 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:04.760 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:04.760 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:04.760 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:04.544000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454147544000000 ns, racy<=2500000000 ns
+09:19:04.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:04.841 DEBUG: 40 non excluded files in this Git repository
+09:19:04.889 DEBUG: '__init__.py' indexed with language 'py'
+09:19:04.895 DEBUG: 'coverage.xml' indexed with language 'xml'
+09:19:04.896 DEBUG: 'analysis' indexed with language 'null'
+09:19:04.896 DEBUG: '__init__.pyc' indexed with language 'null'
+09:19:04.897 DEBUG: 'analysis.log' indexed with language 'null'
+09:19:04.916 DEBUG: 'module1/filetoexcl.py' indexed with language 'py'
+09:19:04.917 DEBUG: 'module1/main.py' indexed with language 'py'
+09:19:04.938 DEBUG: 'module1/newmain.py' indexed with language 'py'
+09:19:04.939 DEBUG: 'module1/file.txt' indexed with language 'null'
+09:19:04.940 DEBUG: 'module1/submod/file.py' indexed with language 'py'
+09:19:04.940 DEBUG: 'module1/fileexcludemod1o.py' indexed with language 'py'
+09:19:04.941 DEBUG: 'testreports/pytest-report.xml' indexed with language 'xml'
+09:19:04.942 DEBUG: 'src/__init__.py' indexed with language 'py'
+09:19:04.942 DEBUG: 'src/__init__.pyc' indexed with language 'null'
+09:19:04.943 DEBUG: 'src/main.py' indexed with language 'py'
+09:19:04.943 DEBUG: 'src/test.sql' indexed with language 'plsql'
+09:19:04.944 DEBUG: 'src/newfile.py' indexed with language 'py'
+09:19:04.944 DEBUG: 'src/newfile.pyc' indexed with language 'null'
+09:19:04.945 DEBUG: 'src/main.pyc' indexed with language 'null'
+09:19:04.945 DEBUG: 'src/second.py' indexed with language 'py'
+09:19:04.946 DEBUG: 'src/Connector.py' indexed with language 'py'
+09:19:04.946 DEBUG: 'module2/filetoexcl.py' indexed with language 'py'
+09:19:04.947 DEBUG: 'module2/main.py' indexed with language 'py'
+09:19:04.947 DEBUG: 'module2/newmain.py' indexed with language 'py'
+09:19:04.978 DEBUG: 'module2/file.txt' indexed with language 'null'
+09:19:04.982 DEBUG: 'short-1.txt' indexed with language 'null'
+09:19:04.982 DEBUG: 'short-2.txt' indexed with language 'null'
+09:19:04.983 DEBUG: 'log.log' indexed with language 'null'
+09:19:04.983 DEBUG: 'pytest-report.xml' indexed with language 'xml'
+09:19:04.983 DEBUG: 'log-2.log' indexed with language 'null'
+09:19:04.984 DEBUG: 'README.md' indexed with language 'null'
+09:19:04.984 DEBUG: 'sonar-project.properties' indexed with language 'null'
+09:19:05.006 INFO: 32 files indexed
+09:19:05.007 INFO: 0 files ignored because of inclusion/exclusion patterns
+09:19:05.007 INFO: 0 files ignored because of scm ignore settings
+09:19:05.007 INFO: Quality profile for plsql: Sonar way
+09:19:05.007 INFO: Quality profile for py: Sonar way
+09:19:05.007 INFO: Quality profile for xml: Sonar way
+09:19:05.007 INFO: ------------- Run sensors on module python
+09:19:05.401 INFO: Load metrics repository
+09:19:05.408 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=7ms
+09:19:05.432 INFO: Load metrics repository (done) | time=31ms
+09:19:10.203 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+09:19:10.203 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+09:19:10.204 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+09:19:10.204 DEBUG: 'SonarCSS Metrics' skipped because there is no related file in current project
+09:19:10.204 DEBUG: 'SonarCSS Rules' skipped because there is no related file in current project
+09:19:10.205 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+09:19:10.205 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+09:19:10.205 DEBUG: 'Scoverage sensor for Scala coverage' skipped because one of the required properties is missing
+09:19:10.206 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+09:19:10.206 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+09:19:10.206 DEBUG: 'C# Properties' skipped because there is no related file in current project
+09:19:10.207 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+09:19:10.207 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+09:19:10.207 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+09:19:10.208 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+09:19:10.208 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+09:19:10.219 DEBUG: 'Flex' skipped because there is no related file in current project
+09:19:10.222 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+09:19:10.223 DEBUG: 'SonarTS' skipped because there is no related file in current project
+09:19:10.223 DEBUG: 'VB.NET Properties' skipped because there is no related file in current project
+09:19:10.224 DEBUG: 'SonarSwift' skipped because there is no related file in current project
+09:19:10.224 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+09:19:10.226 DEBUG: 'gcov' skipped because there is no related file in current project
+09:19:10.226 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+09:19:10.226 DEBUG: 'cppunit' skipped because there is no related file in current project
+09:19:10.227 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+09:19:10.227 DEBUG: 'bullseye' skipped because there is no related file in current project
+09:19:10.227 DEBUG: 'PylintSensor' skipped because there is no related rule activated in the quality profile
+09:19:10.228 DEBUG: 'PylintImportSensor' skipped because there is no related rule activated in the quality profile
+09:19:10.228 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+09:19:10.229 DEBUG: 'SonarGo' skipped because there is no related file in current project
+09:19:10.229 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+09:19:10.229 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+09:19:10.230 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+09:19:10.230 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+09:19:10.230 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+09:19:10.233 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+09:19:10.233 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+09:19:10.233 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+09:19:10.233 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+09:19:10.233 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+09:19:10.234 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+09:19:10.234 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+09:19:10.234 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+09:19:10.234 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+09:19:10.234 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+09:19:10.239 DEBUG: 'SonarJS Coverage' skipped because there is no related file in current project
+09:19:10.239 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+09:19:10.240 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+09:19:10.240 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+09:19:10.240 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+09:19:10.240 DEBUG: 'Import of RuboCop issues' skipped because one of the required properties is missing
+09:19:10.240 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+09:19:10.241 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+09:19:10.241 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+09:19:10.241 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+09:19:10.250 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+09:19:10.250 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+09:19:10.250 DEBUG: 'C#' skipped because there is no related file in current project
+09:19:10.250 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+09:19:10.250 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+09:19:10.250 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+09:19:10.251 DEBUG: 'VB.NET' skipped because there is no related file in current project
+09:19:10.251 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+09:19:10.251 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+09:19:10.251 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+09:19:10.252 DEBUG: 'CFamily' skipped because there is no related file in current project
+09:19:10.252 DEBUG: Sensors : PL/SQL Sensor -> JavaXmlSensor -> HTML -> XML Sensor -> Python Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> ThymeLeaf template sensor -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor
+09:19:10.254 INFO: Sensor PL/SQL Sensor [plsql]
+09:19:10.374 INFO: 1 source files to be analyzed
+09:19:10.399 INFO: Load project repositories
+09:19:10.411 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=python | time=12ms
+09:19:10.450 INFO: Load project repositories (done) | time=51ms
+09:19:10.450 DEBUG: 'src/test.sql' generated metadata with charset 'US-ASCII'
+09:19:10.507 DEBUG: Not enough content in 'src/test.sql' to have CPD blocks, it will not be part of the duplication detection
+09:19:10.526 INFO: 1/1 source files have been analyzed
+09:19:10.527 INFO: Sensor PL/SQL Sensor [plsql] (done) | time=274ms
+09:19:10.527 INFO: Sensor JavaXmlSensor [java]
+09:19:10.529 INFO: 3 source files to be analyzed
+09:19:10.541 DEBUG: 'coverage.xml' generated metadata with charset 'US-ASCII'
+09:19:10.805 DEBUG: 'pytest-report.xml' generated metadata with charset 'US-ASCII'
+09:19:10.825 DEBUG: 'testreports/pytest-report.xml' generated metadata with charset 'US-ASCII'
+09:19:10.849 INFO: 3/3 source files have been analyzed
+09:19:10.849 INFO: Sensor JavaXmlSensor [java] (done) | time=322ms
+09:19:10.850 INFO: Sensor HTML [web]
+09:19:10.875 INFO: Sensor HTML [web] (done) | time=25ms
+09:19:10.875 INFO: Sensor XML Sensor [xml]
+09:19:10.877 INFO: 3 source files to be analyzed
+09:19:11.090 DEBUG: Count lines in file:///home/alex/code/pythoncoverage/coverage.xml
+09:19:11.178 DEBUG: Count lines in file:///home/alex/code/pythoncoverage/pytest-report.xml
+09:19:11.187 DEBUG: Count lines in file:///home/alex/code/pythoncoverage/testreports/pytest-report.xml
+09:19:11.194 INFO: 3/3 source files have been analyzed
+09:19:11.194 INFO: Sensor XML Sensor [xml] (done) | time=319ms
+09:19:11.194 INFO: Sensor Python Sensor [python]
+09:19:11.206 DEBUG: '__init__.py' generated metadata with charset 'US-ASCII'
+09:19:11.264 DEBUG: Not enough content in '__init__.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.527 DEBUG: 'module1/fileexcludemod1o.py' generated metadata with charset 'US-ASCII'
+09:19:11.563 DEBUG: Not enough content in 'module1/fileexcludemod1o.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.625 DEBUG: 'module1/filetoexcl.py' generated metadata with charset 'US-ASCII'
+09:19:11.638 DEBUG: Not enough content in 'module1/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.652 DEBUG: 'module1/main.py' generated metadata with charset 'US-ASCII'
+09:19:11.681 DEBUG: Not enough content in 'module1/main.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.742 DEBUG: 'module1/newmain.py' generated metadata with charset 'US-ASCII'
+09:19:11.748 DEBUG: Not enough content in 'module1/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.753 DEBUG: 'module1/submod/file.py' generated metadata with charset 'US-ASCII'
+09:19:11.766 DEBUG: Not enough content in 'module1/submod/file.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.773 DEBUG: 'module2/filetoexcl.py' generated metadata with charset 'US-ASCII'
+09:19:11.776 DEBUG: Not enough content in 'module2/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.788 DEBUG: 'module2/main.py' generated metadata with charset 'US-ASCII'
+09:19:11.792 DEBUG: Not enough content in 'module2/main.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.803 DEBUG: 'module2/newmain.py' generated metadata with charset 'US-ASCII'
+09:19:11.810 DEBUG: Not enough content in 'module2/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.818 DEBUG: 'src/Connector.py' generated metadata with charset 'US-ASCII'
+09:19:11.852 DEBUG: Not enough content in 'src/Connector.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.886 DEBUG: 'src/__init__.py' generated metadata with charset 'US-ASCII'
+09:19:11.890 DEBUG: Not enough content in 'src/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:11.903 DEBUG: 'src/main.py' generated metadata with charset 'US-ASCII'
+09:19:12.033 DEBUG: 'src/newfile.py' generated metadata with charset 'US-ASCII'
+09:19:12.036 DEBUG: Not enough content in 'src/newfile.py' to have CPD blocks, it will not be part of the duplication detection
+09:19:12.048 DEBUG: 'src/second.py' generated metadata with charset 'US-ASCII'
+09:19:12.096 INFO: Sensor Python Sensor [python] (done) | time=902ms
+09:19:12.096 INFO: Sensor Cobertura Sensor for Python coverage [python]
+09:19:12.096 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+09:19:12.115 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+09:19:12.115 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=19ms
+09:19:12.115 INFO: Sensor PythonXUnitSensor [python]
+09:19:12.115 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+09:19:12.118 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+09:19:12.118 INFO: Sensor PythonXUnitSensor [python] (done) | time=3ms
+09:19:12.118 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+09:19:12.132 DEBUG: No reports found
+09:19:12.132 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=14ms
+09:19:12.132 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+09:19:12.133 INFO: javasecurity:S5131 is not activated in quality profile: skipping execution of thymeleaf sensor.
+09:19:12.134 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=1ms
+09:19:12.135 INFO: Sensor JavaSecuritySensor [security]
+09:19:12.135 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/java
+09:19:12.135 INFO: Read 0 type definitions
+09:19:12.137 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/java
+09:19:12.138 INFO: No UCFGs have been included for analysis.
+09:19:12.138 INFO: Sensor JavaSecuritySensor [security] (done) | time=4ms
+09:19:12.138 INFO: Sensor CSharpSecuritySensor [security]
+09:19:12.138 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/ucfg_cs2
+09:19:12.138 INFO: Read 0 type definitions
+09:19:12.138 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/ucfg_cs2
+09:19:12.138 INFO: No UCFGs have been included for analysis.
+09:19:12.138 INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+09:19:12.138 INFO: Sensor PhpSecuritySensor [security]
+09:19:12.139 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/php
+09:19:12.140 INFO: Read 0 type definitions
+09:19:12.140 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/php
+09:19:12.140 INFO: No UCFGs have been included for analysis.
+09:19:12.140 INFO: Sensor PhpSecuritySensor [security] (done) | time=2ms
+09:19:12.140 INFO: Sensor PythonSecuritySensor [security]
+09:19:12.141 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/python
+09:19:12.203 INFO: Read 17 type definitions
+09:19:12.204 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/python
+09:19:12.302 INFO: 09:19:12.302 Building Type propagation graph
+09:19:12.315 INFO: 09:19:12.315 Running Tarjan on 51 nodes
+09:19:12.316 INFO: 09:19:12.316 Tarjan found 51 components
+09:19:12.321 INFO: 09:19:12.321 Variable type analysis: done
+09:19:12.322 INFO: 09:19:12.322 Building Type propagation graph
+09:19:12.332 INFO: 09:19:12.332 Running Tarjan on 51 nodes
+09:19:12.333 INFO: 09:19:12.333 Tarjan found 51 components
+09:19:12.334 INFO: 09:19:12.334 Variable type analysis: done
+09:19:12.335 INFO: Analyzing 60 ucfgs to detect vulnerabilities.
+09:19:12.627 DEBUG: Resource file pythonsecurity/sources/S3649.json was not read
+09:19:12.628 DEBUG: loaded 9 sources for rule S3649
+09:19:12.641 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+09:19:12.645 DEBUG: loaded 18 sinks for rule S3649
+09:19:12.653 INFO: All rules entrypoints : 0 Retained UCFGs : 0
+09:19:12.654 INFO: rule: S3649, entrypoints: 0
+09:19:12.654 DEBUG: Running rule pythonsecurity:S3649
+09:19:12.664 DEBUG: Resource file pythonsecurity/sanitizers/S3649.json was not read
+09:19:12.664 DEBUG: loaded 21 sanitizers for rule S3649
+09:19:12.669 DEBUG: Resource file pythonsecurity/passthroughs/S3649.json was not read
+09:19:12.669 DEBUG: loaded 36 passthroughs for rule S3649
+09:19:12.678 INFO: Visited 0 ucfgs in 0 ms, 0 steps
+09:19:12.678 INFO: rule: S3649 done
+09:19:12.678 INFO: Sensor PythonSecuritySensor [security] (done) | time=538ms
+09:19:12.681 INFO: ------------- Run sensors on project
+09:19:12.693 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+09:19:12.693 DEBUG: Sensors : Zero Coverage Sensor
+09:19:12.693 INFO: Sensor Zero Coverage Sensor
+09:19:12.712 INFO: Sensor Zero Coverage Sensor (done) | time=19ms
+09:19:12.734 INFO: 13 files had no CPD blocks
+09:19:12.734 INFO: Calculating CPD for 2 files
+09:19:12.734 DEBUG: Detection of duplications for /home/alex/code/pythoncoverage/src/second.py
+09:19:12.740 DEBUG: Detection of duplications for /home/alex/code/pythoncoverage/src/main.py
+09:19:12.741 INFO: CPD calculation finished
+09:19:12.759 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-07-02 09:19:12.759000000, lastModified=2020-01-28 15:03:17.000000000, size=92, fileKey=(dev=fe04,ino=1309501)
+09:19:12.760 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:12.760 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:12.760 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:12.760 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:12.760 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:12.760 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:12.760 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-07-02 09:19:12.760000000, lastModified=2020-01-28 15:03:17.000000000, size=92, fileKey=(dev=fe04,ino=1309501)
+09:19:12.760 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:12.760 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:12.761 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:12.761 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:12.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:12.760000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454155760000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:12.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-07-02 09:19:12.761000000, lastModified=2020-07-01 10:02:47.000000000, size=3126, fileKey=(dev=fe04,ino=1309398)
+09:19:12.761 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-07-02 09:19:04.475000000, lastModified=2020-05-18 14:42:44.000000000, delta=3868580475000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:19:12.761 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.542000000, lastModified=1970-01-01 01:00:00.000000000, delta=1593674344542000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/etc/gitconfig, is unmodified
+09:19:12.761 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-07-02 09:19:04.543000000, lastModified=2020-05-25 12:26:25.000000000, delta=3271959543000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:19:12.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-07-02 09:19:12.760000000, lastModified=2020-01-28 15:03:17.000000000, delta=13454155760000000 ns, racy<=2500000000 ns
+09:19:12.761 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:19:12.762 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2020-07-02 09:19:12.762000000, lastModified=2020-04-22 15:57:47.000000000, size=24, fileKey=(dev=fe04,ino=1309060)
+09:19:12.764 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/short-1, create new FileSnapshot: lastRead=2020-07-02 09:19:12.763000000, lastModified=2020-07-01 10:02:47.000000000, size=41, fileKey=(dev=fe04,ino=1310640)
+09:19:12.943 INFO: Analysis report generated in 200ms, dir size=169 KB
+09:19:13.018 INFO: Analysis report compressed in 72ms, zip size=45 KB
+09:19:13.018 INFO: Analysis report generated in /home/alex/code/pythoncoverage/.scannerwork/scanner-report
+09:19:13.018 DEBUG: Upload report
+09:19:13.082 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=python | time=63ms
+09:19:13.088 INFO: Analysis report uploaded in 69ms
+09:19:13.089 INFO: ANALYSIS SUCCESSFUL, you can browse http://alexsonar.com/dashboard?id=python
+09:19:13.089 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+09:19:13.089 INFO: More about the report processing at http://alexsonar.com/api/ce/task?id=AXMOZMmyHt2EtZDW3luN
+09:19:13.091 DEBUG: Report metadata written to /home/alex/code/pythoncoverage/.scannerwork/report-task.txt
+09:19:13.099 DEBUG: Post-jobs : 
+09:19:13.104 INFO: Analysis total time: 12.408 s
+09:19:13.106 INFO: ------------------------------------------------------------------------
+09:19:13.106 INFO: EXECUTION SUCCESS
+09:19:13.106 INFO: ------------------------------------------------------------------------
+09:19:13.106 INFO: Total time: 18.608s
+09:19:13.211 INFO: Final Memory: 33M/102M
+09:19:13.211 INFO: ------------------------------------------------------------------------

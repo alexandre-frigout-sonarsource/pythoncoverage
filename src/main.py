@@ -1,7 +1,13 @@
-import os, sys
+import os, sys, subprocess
+
+
+PASSWORD = '123456'
 
 def getarguments(*args):
     lists = [item for item in args]
+    params = ["ls", "-l"]
+    subprocess.run(params)
+    subprocess.Popen(params)
     return lists
 
 def conditional(testvalue):
@@ -56,6 +62,38 @@ def tocoverinnewcode(t):
     else:
         print("<4")
 
+<<<<<<< HEAD
 
 def mytest():
     print("1")
+=======
+def Open1Issue():
+    return 1
+
+def Open2Issue():
+    return 1
+
+def funcPR():
+    return 4;
+
+def newfunc():
+    return "new"
+
+def brfunc():
+    return "b"
+
+def PRret():
+    retunr "PR"
+
+def develop():
+    return "t"
+
+def shortttttt():
+    return 2
+
+def MMMMMMYYYYFUUUNNNC():
+    PASSWORD = 12345
+    return 3
+
+
+>>>>>>> short

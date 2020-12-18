@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="debian" name="pytest" skipped="0" tests="8" time="0.049" timestamp="2020-02-26T17:09:40.034317"><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="19" name="test_conditional" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="25" name="test_mc" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="28" name="test_mn" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="31" name="test_mnt" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="22" name="test_my" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="34" name="test_temp" time="0.001"><failure message="AssertionError: None != &apos;Not freezing&apos;">self = &lt;pythoncoverage.test.tests.TestArgumentsList testMethod=test_temp&gt;
+
+    def test_temp(self):
+&gt;       self.assertEqual(self.tempreature, &quot;Not freezing&quot;)
+E       AssertionError: None != &apos;Not freezing&apos;
+
+test/tests.py:36: AssertionError</failure><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="16" name="test_type" time="0.001"><system-out>Not freezing
+&lt;4
+</system-out></testcase><testcase classname="test.tests.TestArgumentsList" file="test/tests.py" line="37" name="test_y" time="0.001"><failure message="AssertionError: None != &apos;&gt;4&apos;">self = &lt;pythoncoverage.test.tests.TestArgumentsList testMethod=test_y&gt;
+
+    def test_y(self):
+&gt;       self.assertEqual(self.y, &quot;&gt;4&quot;)
+E       AssertionError: None != &apos;&gt;4&apos;
+
+test/tests.py:39: AssertionError</failure><system-out>Not freezing
+&lt;4
+</system-out></testcase></testsuite></testsuites>
