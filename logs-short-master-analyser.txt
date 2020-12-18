@@ -1,0 +1,713 @@
+09:36:02.049 INFO: Scanner configuration file: /home/alex/tools/scannercli/sonar-scanner-3.1.0.1141-linux/conf/sonar-scanner.properties
+09:36:02.061 INFO: Project root configuration file: /home/alex/code/pythoncoverage/sonar-project.properties
+09:36:02.114 INFO: SonarQube Scanner 3.1.0.1141
+09:36:02.114 INFO: Java 1.8.0_121 Oracle Corporation (64-bit)
+09:36:02.114 INFO: Linux 4.19.0-6-amd64 amd64
+09:36:02.464 DEBUG: keyStore is : 
+09:36:02.464 DEBUG: keyStore type is : jks
+09:36:02.464 DEBUG: keyStore provider is : 
+09:36:02.465 DEBUG: init keystore
+09:36:02.468 DEBUG: init keymanager of type SunX509
+09:36:02.648 DEBUG: Create: /home/alex/.sonar/cache
+09:36:02.657 INFO: User cache: /home/alex/.sonar/cache
+09:36:02.657 DEBUG: Create: /home/alex/.sonar/cache/_tmp
+09:36:02.666 DEBUG: Extract sonar-scanner-api-batch in temp...
+09:36:02.680 DEBUG: Get bootstrap index...
+09:36:02.680 DEBUG: Download: http://localhost:9000/batch/index
+09:36:02.775 DEBUG: Get bootstrap completed
+09:36:02.788 DEBUG: Create isolated classloader...
+09:36:02.804 DEBUG: Start temp cleaning...
+09:36:02.818 DEBUG: Temp cleaning done
+09:36:02.818 DEBUG: Execution getVersion
+09:36:02.824 INFO: SonarQube server 7.9.2
+09:36:02.824 INFO: Default locale: "en_US", source code encoding: "US-ASCII" (analysis is platform dependent)
+09:36:02.825 DEBUG: Work directory: /home/alex/code/pythoncoverage/.scannerwork
+09:36:02.827 DEBUG: Execution execute
+09:36:03.142 DEBUG: Enterprise 7.9.2.30863
+09:36:03.314 INFO: Load global settings
+09:36:03.482 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=162ms
+09:36:03.535 INFO: Load global settings (done) | time=221ms
+09:36:03.537 INFO: Server id: 5A17C803-AXBYkzaFTuYebd_wMmRb
+09:36:03.576 INFO: User cache: /home/alex/.sonar/cache
+09:36:03.581 INFO: Load/download plugins
+09:36:03.581 INFO: Load plugins index
+09:36:03.599 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=18ms
+09:36:03.642 INFO: Load plugins index (done) | time=60ms
+09:36:03.955 INFO: Load/download plugins (done) | time=374ms
+09:36:04.301 DEBUG: Plugins:
+09:36:04.311 DEBUG:   * SonarCSS 1.1.1.1010 (cssfamily)
+09:36:04.311 DEBUG:   * Svn 1.9.0.1295 (scmsvn)
+09:36:04.311 DEBUG:   * SonarPLSQL 3.4.1.2576 (plsql)
+09:36:04.312 DEBUG:   * SonarScala 1.5.0.315 (sonarscala)
+09:36:04.312 DEBUG:   * COBOL Custom Rules 1.0 (cobolcustom)
+09:36:04.313 DEBUG:   * C# Code Quality and Security 8.6.1.17183 (csharp)
+09:36:04.313 DEBUG:   * Vulnerability Analysis 8.1.0.675 (security)
+09:36:04.313 DEBUG:   * SonarJava 6.0.0.20538 (java)
+09:36:04.314 DEBUG:   * LDAP 2.2.0.608 (ldap)
+09:36:04.314 DEBUG:   * SonarHTML 3.1.0.1615 (web)
+09:36:04.314 DEBUG:   * SonarFlex 2.5.1.1831 (flex)
+09:36:04.314 DEBUG:   * SonarXML 2.0.1.2020 (xml)
+09:36:04.314 DEBUG:   * SonarTS 2.1.0.4359 (typescript)
+09:36:04.315 DEBUG:   * SonarVB 7.15.0.8572 (vbnet)
+09:36:04.315 DEBUG:   * SonarSwift 4.1.0.3087 (swift)
+09:36:04.315 DEBUG:   * SonarCFamily 6.8.0.16475 (cpp)
+09:36:04.315 DEBUG:   * SonarPython 2.8.0.6204 (python)
+09:36:04.315 DEBUG:   * GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+09:36:04.315 DEBUG:   * JaCoCo 1.0.2.475 (jacoco)
+09:36:04.315 DEBUG:   * SonarGo 1.1.1.2000 (go)
+09:36:04.316 DEBUG:   * SonarKotlin 1.5.0.315 (kotlin)
+09:36:04.316 DEBUG:   * SonarRPG 2.3.0.1187 (rpg)
+09:36:04.316 DEBUG:   * SonarPLI 1.10.0.1880 (pli)
+09:36:04.317 DEBUG:   * SonarTSQL 1.4.0.3334 (tsql)
+09:36:04.317 DEBUG:   * SonarVB6 2.6.0.1875 (vb)
+09:36:04.317 DEBUG:   * SonarApex 1.5.0.315 (sonarapex)
+09:36:04.318 DEBUG:   * SonarJS 6.2.1.12157 (javascript)
+09:36:04.318 DEBUG:   * SonarRuby 1.5.0.315 (ruby)
+09:36:04.318 DEBUG:   * Vulnerability Rules for C# 8.1.0.675 (securitycsharpfrontend)
+09:36:04.318 DEBUG:   * Vulnerability Rules for Java 8.2.0.1218 (securityjavafrontend)
+09:36:04.318 DEBUG:   * License for SonarLint 7.9.2 (license)
+09:36:04.318 DEBUG:   * SonarCOBOL 4.4.0.3403 (cobol)
+09:36:04.318 DEBUG:   * Vulnerability Rules for Python 8.1.0.675 (securitypythonfrontend)
+09:36:04.318 DEBUG:   * Git 1.11.1.2008 (scmgit)
+09:36:04.318 DEBUG:   * SAML 2.0 Authentication for SonarQube 1.1.0.181 (authsaml)
+09:36:04.318 DEBUG:   * SonarPHP 3.3.0.5166 (php)
+09:36:04.318 DEBUG:   * SonarABAP 3.8.0.2034 (abap)
+09:36:04.319 DEBUG:   * Vulnerability Rules for PHP 8.1.0.675 (securityphpfrontend)
+09:36:04.399 INFO: Loaded core extensions: developer-scanner
+09:36:04.425 DEBUG: Installed core extension: developer-scanner
+09:36:05.734 INFO: Process project properties
+09:36:05.751 DEBUG: Process project properties (done) | time=17ms
+09:36:05.751 INFO: Execute project builders
+09:36:05.752 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+09:36:05.756 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+09:36:05.757 INFO: Execute project builders (done) | time=6ms
+09:36:05.766 INFO: Project key: python
+09:36:05.766 INFO: Base dir: /home/alex/code/pythoncoverage
+09:36:05.766 INFO: Working dir: /home/alex/code/pythoncoverage/.scannerwork
+09:36:05.766 DEBUG: Project global encoding: US-ASCII, default locale: en_US
+09:36:05.776 DEBUG: Creating module hierarchy
+09:36:05.776 DEBUG:   Init module 'python'
+09:36:05.777 DEBUG:     Base dir: /home/alex/code/pythoncoverage
+09:36:05.777 DEBUG:     Working dir: /home/alex/code/pythoncoverage/.scannerwork
+09:36:05.777 DEBUG:     Module global encoding: US-ASCII, default locale: en_US
+09:36:05.833 INFO: Load project settings for component key: 'python'
+09:36:06.092 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=python | time=259ms
+09:36:06.093 INFO: Load project settings for component key: 'python' (done) | time=260ms
+09:36:06.268 INFO: Load project branches
+09:36:06.302 DEBUG: GET 200 http://localhost:9000/api/project_branches/list?project=python | time=34ms
+09:36:06.311 INFO: Load project branches (done) | time=43ms
+09:36:06.314 INFO: Load project pull requests
+09:36:06.340 DEBUG: GET 200 http://localhost:9000/api/project_pull_requests/list?project=python | time=25ms
+09:36:06.345 INFO: Load project pull requests (done) | time=31ms
+09:36:06.346 INFO: Load branch configuration
+09:36:06.346 DEBUG: Found manual configuration of branch/PR analysis. Skipping automatic configuration.
+09:36:06.347 INFO: Load branch configuration (done) | time=1ms
+09:36:06.450 DEBUG: Available languages:
+09:36:06.451 DEBUG:   * CSS => "css"
+09:36:06.451 DEBUG:   * PL/SQL => "plsql"
+09:36:06.451 DEBUG:   * Scala => "scala"
+09:36:06.451 DEBUG:   * C# => "cs"
+09:36:06.451 DEBUG:   * Java => "java"
+09:36:06.451 DEBUG:   * HTML => "web"
+09:36:06.451 DEBUG:   * JSP => "jsp"
+09:36:06.451 DEBUG:   * Flex => "flex"
+09:36:06.451 DEBUG:   * XML => "xml"
+09:36:06.451 DEBUG:   * VB.NET => "vbnet"
+09:36:06.451 DEBUG:   * Swift => "swift"
+09:36:06.451 DEBUG:   * C => "c"
+09:36:06.451 DEBUG:   * C++ => "cpp"
+09:36:06.451 DEBUG:   * Objective-C => "objc"
+09:36:06.451 DEBUG:   * Python => "py"
+09:36:06.452 DEBUG:   * Go => "go"
+09:36:06.452 DEBUG:   * Kotlin => "kotlin"
+09:36:06.452 DEBUG:   * RPG => "rpg"
+09:36:06.452 DEBUG:   * PL/I => "pli"
+09:36:06.452 DEBUG:   * T-SQL => "tsql"
+09:36:06.453 DEBUG:   * Vb => "vb"
+09:36:06.453 DEBUG:   * Apex => "apex"
+09:36:06.456 DEBUG:   * JavaScript => "js"
+09:36:06.456 DEBUG:   * TypeScript => "ts"
+09:36:06.456 DEBUG:   * Ruby => "ruby"
+09:36:06.456 DEBUG:   * COBOL => "cobol"
+09:36:06.456 DEBUG:   * PHP => "php"
+09:36:06.456 DEBUG:   * ABAP => "abap"
+09:36:06.462 INFO: Load quality profiles
+09:36:06.578 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=python | time=116ms
+09:36:06.628 INFO: Load quality profiles (done) | time=166ms
+09:36:06.635 INFO: Load active rules
+09:36:06.884 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79bupToBsQl4mIY7S&ps=500&p=1 | time=249ms
+09:36:07.246 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79bxEToBsQl4mIY8I&ps=500&p=1 | time=224ms
+09:36:07.270 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79bzKToBsQl4mIY8n&ps=500&p=1 | time=18ms
+09:36:08.618 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8ZNTuYebd_wMnYx&ps=500&p=1 | time=1348ms
+09:36:10.574 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8b4TuYebd_wMnaV&ps=500&p=1 | time=1914ms
+09:36:10.908 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79cDNToBsQl4mIZCx&ps=500&p=1 | time=304ms
+09:36:12.522 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8nGTuYebd_wMnf0&ps=500&p=1 | time=1605ms
+09:36:18.444 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk86sTuYebd_wMnsT&ps=500&p=1 | time=5907ms
+09:36:18.781 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79cL9ToBsQl4mIZHN&ps=500&p=1 | time=263ms
+09:36:19.326 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9KeTuYebd_wMn0N&ps=500&p=1 | time=542ms
+09:36:19.432 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9MhTuYebd_wMn1M&ps=500&p=1 | time=104ms
+09:36:20.843 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9UpTuYebd_wMn5q&ps=500&p=1 | time=1410ms
+09:36:21.692 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9b6TuYebd_wMn98&ps=500&p=1 | time=842ms
+09:36:25.319 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8HPTuYebd_wMnKZ&ps=500&p=1 | time=3625ms
+09:36:27.488 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8ORTuYebd_wMnQs&ps=500&p=1 | time=2153ms
+09:36:27.822 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79ciaToBsQl4mIZPK&ps=500&p=1 | time=325ms
+09:36:28.159 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79cgdToBsQl4mIZOM&ps=500&p=1 | time=336ms
+09:36:28.488 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8SrTuYebd_wMnTo&ps=500&p=1 | time=327ms
+09:36:28.706 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8d1TuYebd_wMnbF&ps=500&p=1 | time=217ms
+09:36:29.470 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8h4TuYebd_wMnc5&ps=500&p=1 | time=763ms
+09:36:29.784 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8fyTuYebd_wMnbr&ps=500&p=1 | time=305ms
+09:36:30.111 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXR79cm6ToBsQl4mIZQL&ps=500&p=1 | time=326ms
+09:36:34.232 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk8w3TuYebd_wMnkz&ps=500&p=1 | time=4120ms
+09:36:34.926 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9F_TuYebd_wMnyE&ps=500&p=1 | time=667ms
+09:36:36.909 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9N4TuYebd_wMn2K&ps=500&p=1 | time=1969ms
+09:36:37.671 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9YYTuYebd_wMn78&ps=500&p=1 | time=751ms
+09:36:39.987 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9i1TuYebd_wMoBQ&ps=500&p=1 | time=2311ms
+09:36:41.289 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXBYk9pdTuYebd_wMoEJ&ps=500&p=1 | time=1297ms
+09:36:41.329 INFO: Load active rules (done) | time=34694ms
+09:36:41.377 INFO: Branch name: short, type: short living
+09:36:41.407 INFO: SCM collecting changed files in the branch
+09:36:41.456 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:41.450000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:41.465 DEBUG: file=null, size changed from -1 to 443 bytes
+09:36:41.465 DEBUG: loading config FileBasedConfig[/home/alex/.config/jgit/config]
+09:36:41.465 DEBUG: file=/home/alex/.config/jgit/config, create new FileSnapshot: lastRead=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, size=443, fileKey=(dev=fe04,ino=1179681)
+09:36:41.466 DEBUG: readpipe [git, --version],/usr/bin
+09:36:41.476 DEBUG: readpipe may return 'git version 2.20.1'
+09:36:41.476 DEBUG: remaining output:
+
+09:36:41.477 DEBUG: readpipe [git, config, --system, --edit],/usr/bin
+09:36:41.481 DEBUG: readpipe may return '/etc/gitconfig'
+09:36:41.481 DEBUG: remaining output:
+
+09:36:41.482 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.482 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.482 DEBUG: file=null, size changed from -1 to 0 bytes
+09:36:41.482 DEBUG: loading config FileBasedConfig[/etc/gitconfig]
+09:36:41.483 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.483 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.485 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.486 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.486 DEBUG: file=null, size changed from -1 to 63 bytes
+09:36:41.486 DEBUG: loading config FileBasedConfig[/home/alex/.gitconfig]
+09:36:41.486 DEBUG: file=/home/alex/.gitconfig, create new FileSnapshot: lastRead=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, size=63, fileKey=(dev=fe04,ino=1050705)
+09:36:41.486 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:41.488 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.488 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.488 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.488 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.488 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.488 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.489 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.489 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.550 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.550 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.550 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.550 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.555 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.555 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.556 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-12-18 09:36:41.532000000, lastModified=2020-12-18 09:33:54.000000000, size=2362, fileKey=(dev=fe04,ino=1309017)
+09:36:41.556 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.556 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.557 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.557 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.557 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.557 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.557 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.557 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.557 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2020-12-18 09:36:41.557000000, lastModified=2020-08-21 12:09:57.000000000, size=46, fileKey=(dev=fe04,ino=1310316)
+09:36:41.558 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master, create new FileSnapshot: lastRead=2020-12-18 09:36:41.558000000, lastModified=2020-01-28 15:04:17.000000000, size=41, fileKey=(dev=fe04,ino=1309575)
+09:36:41.563 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.564 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.564 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.564 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.564 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.564 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.564 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.564 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.603 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.603 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.603 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.603 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.604 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.604 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.605 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.608 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.608 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.608 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.610 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.610 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.628 DEBUG: file=null, size changed from -1 to 4096 bytes
+09:36:41.629 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, create new FileSnapshot: lastRead=2020-12-18 09:36:41.629000000, lastModified=2020-01-28 15:03:17.000000000, size=4096, fileKey=(dev=fe04,ino=1309502)
+09:36:41.629 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2020-12-18 09:36:41.629000000, lastModified=2020-01-28 15:03:17.000000000, delta=28060404629000000 ns, racy<=1255000000 ns
+09:36:41.629 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, is unmodified
+09:36:41.640 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.640 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.640 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.640 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.640 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.642 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.642 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.642 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.642 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2020-12-18 09:36:41.557000000, lastModified=2020-08-21 12:09:57.000000000, delta=10276004557000000 ns, racy<=1255000000 ns
+09:36:41.643 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, is unmodified
+09:36:41.644 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2020-12-18 09:36:41.644000000, lastModified=2020-12-18 09:35:58.000000000, size=28, fileKey=(dev=fe04,ino=1309376)
+09:36:41.647 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master-copy, create new FileSnapshot: lastRead=2020-12-18 09:36:41.645000000, lastModified=2020-12-18 09:35:58.000000000, size=41, fileKey=(dev=fe04,ino=1309320)
+09:36:41.648 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2020-12-18 09:36:41.629000000, lastModified=2020-01-28 15:03:17.000000000, delta=28060404629000000 ns, racy<=1255000000 ns
+09:36:41.651 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, is unmodified
+09:36:41.652 DEBUG: Merge base sha1: 4ed77d184208a0c4fdad3813a1d6a60e9a49d398
+09:36:41.655 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2020-12-18 09:36:41.629000000, lastModified=2020-01-28 15:03:17.000000000, delta=28060404629000000 ns, racy<=1255000000 ns
+09:36:41.657 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, is unmodified
+09:36:41.665 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.665 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.665 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.665 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.666 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.666 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.666 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.666 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2020-12-18 09:36:41.557000000, lastModified=2020-08-21 12:09:57.000000000, delta=10276004557000000 ns, racy<=1255000000 ns
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, is unmodified
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, isRacyClean=false, read=2020-12-18 09:36:41.644000000, lastModified=2020-12-18 09:35:58.000000000, delta=43644000000 ns, racy<=1255000000 ns
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, is unmodified
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master-copy, isRacyClean=false, read=2020-12-18 09:36:41.645000000, lastModified=2020-12-18 09:35:58.000000000, delta=43645000000 ns, racy<=1255000000 ns
+09:36:41.668 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master-copy, is unmodified
+09:36:41.678 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.678 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.678 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.678 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.678 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.678 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.678 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643486000000 ns, racy<=2500000000 ns
+09:36:41.679 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.699 INFO: SCM collecting changed files in the branch (done) | time=293ms
+09:36:41.699 DEBUG: SCM reported 0 files changed in the branch
+09:36:41.748 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+09:36:41.749 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+09:36:41.749 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+09:36:41.749 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+09:36:41.750 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+09:36:41.751 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+09:36:41.754 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+09:36:41.754 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+09:36:41.754 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+09:36:41.755 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+09:36:41.755 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+09:36:41.755 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+09:36:41.755 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+09:36:41.755 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+09:36:41.755 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+09:36:41.755 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+09:36:41.755 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+09:36:41.755 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.rpg,**/*.rpgle
+09:36:41.755 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+09:36:41.756 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+09:36:41.756 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+09:36:41.756 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+09:36:41.756 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+09:36:41.756 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+09:36:41.757 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+09:36:41.757 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : 
+09:36:41.757 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+09:36:41.757 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+09:36:41.761 DEBUG: Will ignore generated code
+09:36:41.763 DEBUG: Will ignore generated code
+09:36:41.764 INFO: Indexing files...
+09:36:41.765 INFO: Project configuration:
+09:36:41.766 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:41.765000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:41.774 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.774 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.774 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.774 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.774 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.774 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.774 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:41.775 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.775 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.775 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.775 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.775 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.775 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.775 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643774000000 ns, racy<=2500000000 ns
+09:36:41.775 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.776 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-12-18 09:36:41.776000000, lastModified=2020-12-18 09:33:54.000000000, size=2362, fileKey=(dev=fe04,ino=1309017)
+09:36:41.789 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.789 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.789 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.789 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.789 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.790 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.790 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643774000000 ns, racy<=2500000000 ns
+09:36:41.790 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.794 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.794 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.794 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.794 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.794 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.795 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.795 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643774000000 ns, racy<=2500000000 ns
+09:36:41.795 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.804 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.807 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.807 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.807 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.808 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.808 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.808 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643774000000 ns, racy<=2500000000 ns
+09:36:41.808 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.821 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:41.821 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:41.821 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:41.824 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:41.824 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:41.824 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:41.824 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:41.774000000, lastModified=2020-12-17 17:52:38.000000000, delta=56643774000000 ns, racy<=2500000000 ns
+09:36:41.824 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:41.837 DEBUG: 29 non excluded files in this Git repository
+09:36:41.883 DEBUG: '__init__.py' indexed with language 'py'
+09:36:41.892 DEBUG: 'logs-short.txt' indexed with language 'null'
+09:36:41.895 DEBUG: 'coverage.xml' indexed with language 'xml'
+09:36:41.908 DEBUG: 'module1/filetoexcl.py' indexed with language 'py'
+09:36:41.911 DEBUG: 'module1/main.py' indexed with language 'py'
+09:36:41.914 DEBUG: 'module1/newmain.py' indexed with language 'py'
+09:36:41.922 DEBUG: 'module1/file.txt' indexed with language 'null'
+09:36:41.923 DEBUG: 'module1/submod/file.py' indexed with language 'py'
+09:36:41.925 DEBUG: 'module1/fileexcludemod1o.py' indexed with language 'py'
+09:36:41.929 DEBUG: 'test/__init__.py' indexed with language 'py'
+09:36:41.930 DEBUG: 'test/bck.txt' indexed with language 'null'
+09:36:41.941 DEBUG: 'test/nosetests.xml' indexed with language 'xml'
+09:36:41.942 DEBUG: 'test/tests.py' indexed with language 'py'
+09:36:41.942 DEBUG: 'src/__init__.py' indexed with language 'py'
+09:36:41.943 DEBUG: 'src/__init__.pyc' indexed with language 'null'
+09:36:41.944 DEBUG: 'src/main.py' indexed with language 'py'
+09:36:41.945 DEBUG: 'src/test.sql' indexed with language 'plsql'
+09:36:41.946 DEBUG: 'src/newfile.py' indexed with language 'py'
+09:36:41.947 DEBUG: 'src/newfile.pyc' indexed with language 'null'
+09:36:41.949 DEBUG: 'src/main.pyc' indexed with language 'null'
+09:36:41.951 DEBUG: 'src/second.py' indexed with language 'py'
+09:36:41.951 DEBUG: 'module2/filetoexcl.py' indexed with language 'py'
+09:36:41.952 DEBUG: 'module2/main.py' indexed with language 'py'
+09:36:41.952 DEBUG: 'module2/newmain.py' indexed with language 'py'
+09:36:41.964 DEBUG: 'module2/file.txt' indexed with language 'null'
+09:36:41.965 DEBUG: 'README.md' indexed with language 'null'
+09:36:41.966 DEBUG: 'sonar-project.properties' indexed with language 'null'
+09:36:41.967 DEBUG: 'logs-short-master-analyser.txt' indexed with language 'null'
+09:36:41.968 INFO: 28 files indexed
+09:36:41.969 INFO: 0 files ignored because of scm ignore settings
+09:36:41.969 INFO: Quality profile for plsql: Sonar way
+09:36:41.969 INFO: Quality profile for py: Sonar way
+09:36:41.970 INFO: Quality profile for xml: Sonar way
+09:36:41.970 INFO: ------------- Run sensors on module python
+09:36:42.253 INFO: Load metrics repository
+09:36:42.322 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=69ms
+09:36:42.341 INFO: Load metrics repository (done) | time=88ms
+09:36:48.229 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+09:36:48.229 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+09:36:48.230 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+09:36:48.230 DEBUG: 'SonarCSS Metrics' skipped because there is no related file in current project
+09:36:48.235 DEBUG: 'SonarCSS Rules' skipped because there is no related file in current project
+09:36:48.236 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+09:36:48.236 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+09:36:48.237 DEBUG: 'Scoverage sensor for Scala coverage' skipped because one of the required properties is missing
+09:36:48.246 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+09:36:48.247 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+09:36:48.247 DEBUG: 'C# Properties' skipped because there is no related file in current project
+09:36:48.248 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+09:36:48.249 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+09:36:48.249 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+09:36:48.249 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+09:36:48.249 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+09:36:48.250 DEBUG: 'Flex' skipped because there is no related file in current project
+09:36:48.252 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+09:36:48.253 DEBUG: 'SonarTS' skipped because there is no related file in current project
+09:36:48.254 DEBUG: 'VB.NET Properties' skipped because there is no related file in current project
+09:36:48.260 DEBUG: 'SonarSwift' skipped because there is no related file in current project
+09:36:48.260 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+09:36:48.261 DEBUG: 'gcov' skipped because there is no related file in current project
+09:36:48.262 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+09:36:48.262 DEBUG: 'cppunit' skipped because there is no related file in current project
+09:36:48.263 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+09:36:48.263 DEBUG: 'bullseye' skipped because there is no related file in current project
+09:36:48.263 DEBUG: 'PylintSensor' skipped because there is no related rule activated in the quality profile
+09:36:48.264 DEBUG: 'PylintImportSensor' skipped because there is no related rule activated in the quality profile
+09:36:48.264 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+09:36:48.264 DEBUG: 'SonarGo' skipped because there is no related file in current project
+09:36:48.264 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+09:36:48.265 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+09:36:48.267 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+09:36:48.267 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+09:36:48.267 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+09:36:48.275 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+09:36:48.275 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+09:36:48.276 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+09:36:48.276 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+09:36:48.276 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+09:36:48.276 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+09:36:48.276 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+09:36:48.276 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+09:36:48.277 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+09:36:48.278 DEBUG: 'JavaScript analysis' skipped because there is no related file in current project
+09:36:48.278 DEBUG: 'SonarJS Coverage' skipped because there is no related file in current project
+09:36:48.278 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+09:36:48.279 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+09:36:48.279 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+09:36:48.279 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+09:36:48.279 DEBUG: 'Import of RuboCop issues' skipped because one of the required properties is missing
+09:36:48.279 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+09:36:48.280 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+09:36:48.280 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+09:36:48.280 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+09:36:48.291 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+09:36:48.291 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+09:36:48.291 DEBUG: 'C#' skipped because there is no related file in current project
+09:36:48.291 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+09:36:48.291 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+09:36:48.292 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+09:36:48.292 DEBUG: 'VB.NET' skipped because there is no related file in current project
+09:36:48.292 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+09:36:48.292 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+09:36:48.292 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+09:36:48.293 DEBUG: 'CFamily' skipped because there is no related file in current project
+09:36:48.294 DEBUG: Sensors : PL/SQL Sensor -> JavaXmlSensor -> HTML -> XML Sensor -> Python Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> ThymeLeaf template sensor -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor
+09:36:48.296 INFO: Sensor PL/SQL Sensor [plsql]
+09:36:48.528 INFO: 1 source files to be analyzed
+09:36:48.552 DEBUG: 'src/test.sql' generated metadata with charset 'US-ASCII'
+09:36:48.662 DEBUG: Not enough content in 'src/test.sql' to have CPD blocks, it will not be part of the duplication detection
+09:36:48.680 INFO: 1/1 source files have been analyzed
+09:36:48.681 INFO: Sensor PL/SQL Sensor [plsql] (done) | time=386ms
+09:36:48.681 INFO: Sensor JavaXmlSensor [java]
+09:36:48.687 INFO: 2 source files to be analyzed
+09:36:48.705 DEBUG: 'coverage.xml' generated metadata with charset 'US-ASCII'
+09:36:49.045 DEBUG: 'test/nosetests.xml' generated metadata with charset 'US-ASCII'
+09:36:49.072 INFO: 2/2 source files have been analyzed
+09:36:49.072 INFO: Sensor JavaXmlSensor [java] (done) | time=391ms
+09:36:49.072 INFO: Sensor HTML [web]
+09:36:49.090 INFO: Sensor HTML [web] (done) | time=18ms
+09:36:49.090 INFO: Sensor XML Sensor [xml]
+09:36:49.095 INFO: 2 source files to be analyzed
+09:36:49.279 DEBUG: Count lines in file:///home/alex/code/pythoncoverage/coverage.xml
+09:36:49.367 DEBUG: Count lines in file:///home/alex/code/pythoncoverage/test/nosetests.xml
+09:36:49.371 INFO: 2/2 source files have been analyzed
+09:36:49.371 INFO: Sensor XML Sensor [xml] (done) | time=281ms
+09:36:49.371 INFO: Sensor Python Sensor [python]
+09:36:50.721 INFO: Starting global symbols computation
+09:36:50.723 INFO: 15 source files to be analyzed
+09:36:50.724 DEBUG: '__init__.py' generated metadata with charset 'US-ASCII'
+09:36:50.751 DEBUG: 'module1/fileexcludemod1o.py' generated metadata with charset 'US-ASCII'
+09:36:50.771 DEBUG: 'module1/filetoexcl.py' generated metadata with charset 'US-ASCII'
+09:36:50.779 DEBUG: 'module1/main.py' generated metadata with charset 'US-ASCII'
+09:36:50.782 DEBUG: 'module1/newmain.py' generated metadata with charset 'US-ASCII'
+09:36:50.788 DEBUG: 'module1/submod/file.py' generated metadata with charset 'US-ASCII'
+09:36:50.793 DEBUG: Unable to construct project-level symbol table for file: module1/submod/file.py
+09:36:50.793 DEBUG: Parse error at line 3 column 10:
+
+    1: import sys
+    2: 
+  -->  def main(){
+    4:         return 1
+    5:         }
+    6: EOF
+
+09:36:50.800 DEBUG: 'module2/filetoexcl.py' generated metadata with charset 'US-ASCII'
+09:36:50.803 DEBUG: 'module2/main.py' generated metadata with charset 'US-ASCII'
+09:36:50.807 DEBUG: 'module2/newmain.py' generated metadata with charset 'US-ASCII'
+09:36:50.815 DEBUG: 'src/__init__.py' generated metadata with charset 'US-ASCII'
+09:36:50.825 DEBUG: 'src/main.py' generated metadata with charset 'US-ASCII'
+09:36:50.852 DEBUG: 'src/newfile.py' generated metadata with charset 'US-ASCII'
+09:36:50.855 DEBUG: 'src/second.py' generated metadata with charset 'US-ASCII'
+09:36:50.867 DEBUG: 'test/__init__.py' generated metadata with charset 'US-ASCII'
+09:36:50.877 DEBUG: 'test/tests.py' generated metadata with charset 'US-ASCII'
+09:36:50.896 INFO: 15/15 source files have been analyzed
+09:36:50.897 INFO: Starting rules execution
+09:36:50.897 INFO: 15 source files to be analyzed
+09:36:50.917 DEBUG: Not enough content in '__init__.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.271 DEBUG: Not enough content in 'module1/fileexcludemod1o.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.388 DEBUG: Not enough content in 'module1/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.404 DEBUG: Not enough content in 'module1/main.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.462 DEBUG: Not enough content in 'module1/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.475 DEBUG: Not enough content in 'module2/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.487 DEBUG: Not enough content in 'module2/main.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.491 DEBUG: Not enough content in 'module2/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.516 DEBUG: Not enough content in 'src/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.646 DEBUG: Not enough content in 'src/newfile.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.707 DEBUG: Not enough content in 'test/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+09:36:51.847 INFO: 15/15 source files have been analyzed
+09:36:51.847 INFO: Sensor Python Sensor [python] (done) | time=2476ms
+09:36:51.847 INFO: Sensor Cobertura Sensor for Python coverage [python]
+09:36:51.847 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+09:36:51.882 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+09:36:51.882 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=35ms
+09:36:51.882 INFO: Sensor PythonXUnitSensor [python]
+09:36:51.882 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+09:36:51.899 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+09:36:51.900 INFO: Sensor PythonXUnitSensor [python] (done) | time=18ms
+09:36:51.900 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+09:36:51.904 DEBUG: No reports found
+09:36:51.905 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=5ms
+09:36:51.905 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+09:36:51.914 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=9ms
+09:36:51.914 INFO: Sensor JavaSecuritySensor [security]
+09:36:51.914 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/java
+09:36:51.914 INFO: Read 0 type definitions
+09:36:51.917 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/java
+09:36:51.917 INFO: No UCFGs have been included for analysis.
+09:36:51.917 INFO: Sensor JavaSecuritySensor [security] (done) | time=3ms
+09:36:51.917 INFO: Sensor CSharpSecuritySensor [security]
+09:36:51.917 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/ucfg_cs2
+09:36:51.917 INFO: Read 0 type definitions
+09:36:51.918 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/ucfg_cs2
+09:36:51.918 INFO: No UCFGs have been included for analysis.
+09:36:51.918 INFO: Sensor CSharpSecuritySensor [security] (done) | time=1ms
+09:36:51.918 INFO: Sensor PhpSecuritySensor [security]
+09:36:51.918 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/php
+09:36:51.918 INFO: Read 0 type definitions
+09:36:51.918 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/php
+09:36:51.918 INFO: No UCFGs have been included for analysis.
+09:36:51.918 INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+09:36:51.918 INFO: Sensor PythonSecuritySensor [security]
+09:36:51.918 INFO: Reading type hierarchy from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/python
+09:36:51.949 INFO: Read 17 type definitions
+09:36:51.951 INFO: Reading UCFGs from: /home/alex/code/pythoncoverage/.scannerwork/ucfg2/python
+09:36:52.064 INFO: 09:36:52.064 Building Type propagation graph
+09:36:52.074 INFO: 09:36:52.074 Running Tarjan on 65 nodes
+09:36:52.077 INFO: 09:36:52.077 Tarjan found 65 components
+09:36:52.082 INFO: 09:36:52.082 Variable type analysis: done
+09:36:52.082 INFO: 09:36:52.082 Building Type propagation graph
+09:36:52.088 INFO: 09:36:52.088 Running Tarjan on 65 nodes
+09:36:52.089 INFO: 09:36:52.089 Tarjan found 65 components
+09:36:52.089 INFO: 09:36:52.089 Variable type analysis: done
+09:36:52.090 INFO: Analyzing 67 ucfgs to detect vulnerabilities.
+09:36:52.405 DEBUG: Resource file pythonsecurity/sources/S3649.json was not read
+09:36:52.411 DEBUG: loaded 9 sources for rule S3649
+09:36:52.430 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+09:36:52.436 DEBUG: loaded 18 sinks for rule S3649
+09:36:52.448 INFO: All rules entrypoints : 0 Retained UCFGs : 0
+09:36:52.449 INFO: rule: S3649, entrypoints: 0
+09:36:52.450 DEBUG: Running rule pythonsecurity:S3649
+09:36:52.459 DEBUG: Resource file pythonsecurity/sanitizers/S3649.json was not read
+09:36:52.459 DEBUG: loaded 21 sanitizers for rule S3649
+09:36:52.470 DEBUG: Resource file pythonsecurity/passthroughs/S3649.json was not read
+09:36:52.470 DEBUG: loaded 36 passthroughs for rule S3649
+09:36:52.474 INFO: Visited 0 ucfgs in 0 ms, 0 steps
+09:36:52.474 INFO: rule: S3649 done
+09:36:52.474 INFO: Sensor PythonSecuritySensor [security] (done) | time=556ms
+09:36:52.486 INFO: ------------- Run sensors on project
+09:36:52.489 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+09:36:52.489 DEBUG: Sensors : Zero Coverage Sensor
+09:36:52.489 INFO: Sensor Zero Coverage Sensor
+09:36:52.513 INFO: Sensor Zero Coverage Sensor (done) | time=24ms
+09:36:52.531 INFO: 12 files had no CPD blocks
+09:36:52.531 INFO: Calculating CPD for 3 files
+09:36:52.531 DEBUG: Detection of duplications for /home/alex/code/pythoncoverage/test/tests.py
+09:36:52.538 DEBUG: Detection of duplications for /home/alex/code/pythoncoverage/src/second.py
+09:36:52.539 DEBUG: Detection of duplications for /home/alex/code/pythoncoverage/src/main.py
+09:36:52.540 INFO: CPD calculation finished
+09:36:52.555 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:52.555000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:52.557 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.564 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.564 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.564 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.564 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.564 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.565 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:52.565000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:52.565 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.565 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.565 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.565 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.565 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.565 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.565 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.565000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654565000000 ns, racy<=2500000000 ns
+09:36:52.565 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.566 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-12-18 09:36:52.565000000, lastModified=2020-12-18 09:33:54.000000000, size=2362, fileKey=(dev=fe04,ino=1309017)
+09:36:52.566 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.566 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.567 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.567 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.567 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.567 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.568 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.565000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654565000000 ns, racy<=2500000000 ns
+09:36:52.568 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.568 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2020-12-18 09:36:52.568000000, lastModified=2020-08-21 12:09:57.000000000, size=46, fileKey=(dev=fe04,ino=1310316)
+09:36:52.571 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2020-12-18 09:36:52.571000000, lastModified=2020-12-18 09:35:58.000000000, size=28, fileKey=(dev=fe04,ino=1309376)
+09:36:52.571 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master-copy, create new FileSnapshot: lastRead=2020-12-18 09:36:52.571000000, lastModified=2020-12-18 09:35:58.000000000, size=41, fileKey=(dev=fe04,ino=1309320)
+09:36:52.711 INFO: SCM writing changed lines
+09:36:52.714 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:52.712000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:52.715 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.715 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.715 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.715 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.715 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.715 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.718 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, size=375, fileKey=(dev=fe04,ino=1310343)
+09:36:52.718 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.718 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.718 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.718 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.718 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.718 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.718 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654715000000 ns, racy<=2500000000 ns
+09:36:52.718 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.719 DEBUG: file=/home/alex/code/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2020-12-18 09:36:52.719000000, lastModified=2020-12-18 09:33:54.000000000, size=2362, fileKey=(dev=fe04,ino=1309017)
+09:36:52.719 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.719 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.724 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.724 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.724 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.724 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.724 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654715000000 ns, racy<=2500000000 ns
+09:36:52.724 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.724 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2020-12-18 09:36:52.724000000, lastModified=2020-08-21 12:09:57.000000000, size=46, fileKey=(dev=fe04,ino=1310316)
+09:36:52.724 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master, create new FileSnapshot: lastRead=2020-12-18 09:36:52.724000000, lastModified=2020-01-28 15:04:17.000000000, size=41, fileKey=(dev=fe04,ino=1309575)
+09:36:52.724 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.724 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.724 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.724 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.725 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654715000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.725 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.725 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.725 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654715000000 ns, racy<=2500000000 ns
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.725 DEBUG: file=null, size changed from -1 to 4096 bytes
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, create new FileSnapshot: lastRead=2020-12-18 09:36:52.725000000, lastModified=2020-01-28 15:03:17.000000000, size=4096, fileKey=(dev=fe04,ino=1309502)
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2020-12-18 09:36:52.725000000, lastModified=2020-01-28 15:03:17.000000000, delta=28060415725000000 ns, racy<=1255000000 ns
+09:36:52.725 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, is unmodified
+09:36:52.726 DEBUG: file=/home/alex/.config/jgit/config, isRacyClean=false, read=2020-12-18 09:36:41.465000000, lastModified=2020-10-07 14:31:30.000000000, delta=6206711465000000 ns, racy<=2500000000 ns
+09:36:52.726 DEBUG: file=/home/alex/.config/jgit/config, is unmodified
+09:36:52.726 DEBUG: file=/etc/gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.482000000, lastModified=1970-01-01 01:00:00.000000000, delta=1608280601482000000 ns, racy<=2500000000 ns
+09:36:52.726 DEBUG: file=/etc/gitconfig, is unmodified
+09:36:52.726 DEBUG: file=/home/alex/.gitconfig, isRacyClean=false, read=2020-12-18 09:36:41.486000000, lastModified=2020-09-22 10:04:39.000000000, delta=7518722486000000 ns, racy<=2500000000 ns
+09:36:52.726 DEBUG: file=/home/alex/.gitconfig, is unmodified
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, isRacyClean=false, read=2020-12-18 09:36:52.715000000, lastModified=2020-12-17 17:52:38.000000000, delta=56654715000000 ns, racy<=2500000000 ns
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/config, is unmodified
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2020-12-18 09:36:52.724000000, lastModified=2020-08-21 12:09:57.000000000, delta=10276015724000000 ns, racy<=1255000000 ns
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/packed-refs, is unmodified
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2020-12-18 09:36:52.726000000, lastModified=2020-12-18 09:35:58.000000000, size=28, fileKey=(dev=fe04,ino=1309376)
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/refs/heads/master-copy, create new FileSnapshot: lastRead=2020-12-18 09:36:52.726000000, lastModified=2020-12-18 09:35:58.000000000, size=41, fileKey=(dev=fe04,ino=1309320)
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2020-12-18 09:36:52.725000000, lastModified=2020-01-28 15:03:17.000000000, delta=28060415725000000 ns, racy<=1255000000 ns
+09:36:52.726 DEBUG: file=/home/alex/code/pythoncoverage/.git/objects/pack, is unmodified
+09:36:52.726 DEBUG: Merge base sha1: 4ed77d184208a0c4fdad3813a1d6a60e9a49d398
+09:36:52.727 DEBUG: SCM reported changed lines for 0 files in the branch
+09:36:52.727 INFO: SCM writing changed lines (done) | time=16ms
+09:36:52.728 INFO: Analysis report generated in 187ms, dir size=150 KB
+09:36:52.760 INFO: Analysis report compressed in 31ms, zip size=29 KB
+09:36:52.760 INFO: Analysis report generated in /home/alex/code/pythoncoverage/.scannerwork/scanner-report
+09:36:52.760 DEBUG: Upload report
+09:36:52.934 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=python&characteristic=branch%3Dshort&characteristic=branchType%3DSHORT | time=173ms
+09:36:52.936 INFO: Analysis report uploaded in 176ms
+09:36:52.937 INFO: ANALYSIS SUCCESSFUL, you can browse http://sonar:9000/dashboard?id=python&branch=short&resolved=false
+09:36:52.937 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+09:36:52.937 INFO: More about the report processing at http://sonar:9000/api/ce/task?id=AXZ0_p-u_3VoUFqBkUTM
+09:36:52.937 DEBUG: Report metadata written to /home/alex/code/pythoncoverage/.scannerwork/report-task.txt
+09:36:52.946 DEBUG: Post-jobs : 
+09:36:52.956 INFO: Analysis total time: 48.557 s
+09:36:52.958 INFO: ------------------------------------------------------------------------
+09:36:52.958 INFO: EXECUTION SUCCESS
+09:36:52.958 INFO: ------------------------------------------------------------------------
+09:36:52.958 INFO: Total time: 50.983s
+09:36:53.414 INFO: Final Memory: 44M/105M
+09:36:53.414 INFO: ------------------------------------------------------------------------
