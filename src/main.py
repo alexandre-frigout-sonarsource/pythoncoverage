@@ -56,6 +56,7 @@ def tocoverinnewcode(t):
     else:
         print("<4")
 
+changedline = 1
 
 def mytest():
     print("1")
