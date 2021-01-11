@@ -1,5 +1,6 @@
 import os, sys
 
+JADE=4.5
 
 ALTER=3
 ALEX=9
