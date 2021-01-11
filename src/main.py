@@ -2,6 +2,7 @@ import os, sys
 
 
 ALTER=3
+ALEX=9
 
 def getarguments(*args):
     lists = [item for item in args]
