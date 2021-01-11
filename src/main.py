@@ -1,5 +1,8 @@
 import os, sys
 
+
+ALTER=3
+
 def getarguments(*args):
     lists = [item for item in args]
     return lists
