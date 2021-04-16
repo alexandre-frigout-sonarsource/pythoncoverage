@@ -65,3 +65,5 @@ changedline = 1
 
 def mytest():
     print("1")
+
+changed=2
