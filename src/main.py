@@ -67,3 +67,6 @@ def mytest():
     print("1")
 
 changed=2
+
+def MyFunctionTest():
+    return 2
