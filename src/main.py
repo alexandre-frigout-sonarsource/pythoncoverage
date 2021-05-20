@@ -65,3 +65,6 @@ changedline = 1
 
 def mytest():
     print("1")
+
+def f24413():
+    return 24413
