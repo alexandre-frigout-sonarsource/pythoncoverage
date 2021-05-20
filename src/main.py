@@ -48,3 +48,6 @@ def SCMtest():
 
 def iMySCMtest():
     return True
+
+def pr2021():
+    return 2021
