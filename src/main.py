@@ -65,3 +65,7 @@ changedline = 1
 
 def mytest():
     print("1")
+
+
+def ncloc():
+    print("more lines")
