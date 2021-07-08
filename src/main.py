@@ -72,3 +72,6 @@ def ncloc():
 
 def testnocommit():
     return 1
+
+def TESTFUNC():
+    print("iiiii")
