@@ -1,0 +1,1010 @@
+17:37:25.781 INFO: Scanner configuration file: /Users/alexandrefrigout/Documents/tools/sonar-scanner-3.2.0.1227-macosx/conf/sonar-scanner.properties
+17:37:25.789 INFO: Project root configuration file: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/sonar-project.properties
+17:37:25.822 INFO: SonarQube Scanner 3.2.0.1227
+17:37:25.822 INFO: Java 1.8.0_161 Oracle Corporation (64-bit)
+17:37:25.822 INFO: Mac OS X 10.15.7 x86_64
+17:37:26.048 DEBUG: keyStore is : 
+17:37:26.048 DEBUG: keyStore type is : jks
+17:37:26.048 DEBUG: keyStore provider is : 
+17:37:26.048 DEBUG: init keystore
+17:37:26.049 DEBUG: init keymanager of type SunX509
+17:37:26.207 DEBUG: Create: /Users/alexandrefrigout/.sonar/cache
+17:37:26.208 INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+17:37:26.209 DEBUG: Create: /Users/alexandrefrigout/.sonar/cache/_tmp
+17:37:26.211 DEBUG: Extract sonar-scanner-api-batch in temp...
+17:37:26.225 DEBUG: Get bootstrap index...
+17:37:26.226 DEBUG: Download: http://localhost:9000/batch/index
+17:37:26.327 DEBUG: Get bootstrap completed
+17:37:26.344 DEBUG: Create isolated classloader...
+17:37:26.357 DEBUG: Start temp cleaning...
+17:37:26.366 DEBUG: Temp cleaning done
+17:37:26.366 DEBUG: Execution getVersion
+17:37:26.378 INFO: SonarQube server 8.8.0
+17:37:26.379 INFO: Default locale: "en_CH", source code encoding: "UTF-8" (analysis is platform dependent)
+17:37:26.380 DEBUG: Work directory: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+17:37:26.380 DEBUG: Execution execute
+17:37:26.694 DEBUG: Enterprise 8.8.0.42792
+17:37:27.010 INFO: Load global settings
+17:37:27.536 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=524ms
+17:37:27.579 INFO: Load global settings (done) | time=569ms
+17:37:27.585 INFO: Server id: 4B68270F-AXbS16HpnFERPlPtg_aJ
+17:37:27.594 INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+17:37:27.599 INFO: Load/download plugins
+17:37:27.599 INFO: Load plugins index
+17:37:28.040 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=439ms
+17:37:28.091 INFO: Load plugins index (done) | time=492ms
+17:37:28.342 INFO: Load/download plugins (done) | time=743ms
+17:37:28.539 DEBUG: Plugins:
+17:37:28.539 DEBUG:   * CSS Code Quality and Security 1.4.0.1899 (cssfamily)
+17:37:28.539 DEBUG:   * PMD 3.2.1 (pmd)
+17:37:28.539 DEBUG:   * PL/SQL Code Quality and Security 3.6.0.3724 (plsql)
+17:37:28.540 DEBUG:   * Scala Code Quality and Security 1.8.2.1946 (sonarscala)
+17:37:28.540 DEBUG:   * C# Code Quality and Security 8.19.0.28253 (csharp)
+17:37:28.540 DEBUG:   * Vulnerability Analysis 8.8.0.10287 (security)
+17:37:28.540 DEBUG:   * Java Code Quality and Security 6.14.0.25463 (java)
+17:37:28.540 DEBUG:   * HTML Code Quality and Security 3.3.0.2534 (web)
+17:37:28.541 DEBUG:   * Flex Code Quality and Security 2.6.0.2294 (flex)
+17:37:28.541 DEBUG:   * XML Code Quality and Security 2.1.0.2861 (xml)
+17:37:28.541 DEBUG:   * VB.NET Code Quality and Security 8.19.0.28253 (vbnet)
+17:37:28.541 DEBUG:   * Swift Code Quality and Security 4.3.0.4687 (swift)
+17:37:28.541 DEBUG:   * CFamily Code Quality and Security 6.18.0.29274 (cpp)
+17:37:28.541 DEBUG:   * Python Code Quality and Security 3.4.0.7980 (python)
+17:37:28.542 DEBUG:   * Go Code Quality and Security 1.8.2.1946 (go)
+17:37:28.542 DEBUG:   * JaCoCo 1.1.0.898 (jacoco)
+17:37:28.542 DEBUG:   * Kotlin Code Quality and Security 1.8.2.1946 (kotlin)
+17:37:28.542 DEBUG:   * RPG Code Quality 2.5.0.2338 (rpg)
+17:37:28.542 DEBUG:   * PL/I Code Quality and Security 1.11.0.2617 (pli)
+17:37:28.542 DEBUG:   * T-SQL Code Quality and Security 1.5.0.3958 (tsql)
+17:37:28.542 DEBUG:   * VB6 Code Quality and Security 2.7.0.2497 (vb)
+17:37:28.543 DEBUG:   * Apex Code Quality and Security 1.8.2.1946 (sonarapex)
+17:37:28.543 DEBUG:   * JavaScript/TypeScript Code Quality and Security 7.3.0.15071 (javascript)
+17:37:28.543 DEBUG:   * Ruby Code Quality and Security 1.8.2.1946 (ruby)
+17:37:28.543 DEBUG:   * Vulnerability Rules for C# 8.8.0.10287 (securitycsharpfrontend)
+17:37:28.543 DEBUG:   * Vulnerability Rules for Java 8.8.0.10287 (securityjavafrontend)
+17:37:28.543 DEBUG:   * License for SonarLint 8.8.0.42792 (license)
+17:37:28.544 DEBUG:   * Vulnerability Rules for JS 8.8.0.10287 (securityjsfrontend)
+17:37:28.544 DEBUG:   * COBOL Code Quality 4.6.1.4781 (cobol)
+17:37:28.544 DEBUG:   * Vulnerability Rules for Python 8.8.0.10287 (securitypythonfrontend)
+17:37:28.544 DEBUG:   * PHP Code Quality and Security 3.16.0.7320 (php)
+17:37:28.544 DEBUG:   * ABAP Code Quality and Security 3.9.0.2739 (abap)
+17:37:28.544 DEBUG:   * Vulnerability Rules for PHP 8.8.0.10287 (securityphpfrontend)
+17:37:28.598 INFO: Loaded core extensions: developer-scanner
+17:37:28.617 DEBUG: Installed core extension: developer-scanner
+17:37:29.137 INFO: JavaScript/TypeScript frontend is enabled
+17:37:29.411 INFO: Process project properties
+17:37:29.430 INFO: Process project properties (done) | time=18ms
+17:37:29.430 INFO: Execute project builders
+17:37:29.430 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+17:37:29.431 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+17:37:29.433 INFO: Execute project builders (done) | time=3ms
+17:37:29.437 INFO: Project key: python
+17:37:29.437 INFO: Base dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage
+17:37:29.437 INFO: Working dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+17:37:29.437 DEBUG: Project global encoding: UTF-8, default locale: en_CH
+17:37:29.444 DEBUG: Creating module hierarchy
+17:37:29.444 DEBUG:   Init module 'python'
+17:37:29.445 DEBUG:     Base dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage
+17:37:29.445 DEBUG:     Working dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+17:37:29.445 DEBUG:     Module global encoding: UTF-8, default locale: en_CH
+17:37:30.027 INFO: Load project settings for component key: 'python'
+17:37:30.539 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=python | time=511ms
+17:37:30.541 INFO: Load project settings for component key: 'python' (done) | time=514ms
+17:37:30.553 INFO: Load project branches
+17:37:30.977 DEBUG: GET 200 http://localhost:9000/api/project_branches/list?project=python | time=424ms
+17:37:30.986 INFO: Load project branches (done) | time=433ms
+17:37:30.987 INFO: Load project pull requests
+17:37:31.479 DEBUG: GET 200 http://localhost:9000/api/project_pull_requests/list?project=python | time=491ms
+17:37:31.483 INFO: Load project pull requests (done) | time=496ms
+17:37:31.483 INFO: Load branch configuration
+17:37:31.486 INFO: Load branch configuration (done) | time=3ms
+17:37:31.526 DEBUG: Available languages:
+17:37:31.526 DEBUG:   * CSS => "css"
+17:37:31.527 DEBUG:   * PL/SQL => "plsql"
+17:37:31.527 DEBUG:   * Scala => "scala"
+17:37:31.527 DEBUG:   * C# => "cs"
+17:37:31.527 DEBUG:   * Java => "java"
+17:37:31.527 DEBUG:   * HTML => "web"
+17:37:31.527 DEBUG:   * JSP => "jsp"
+17:37:31.527 DEBUG:   * Flex => "flex"
+17:37:31.527 DEBUG:   * XML => "xml"
+17:37:31.527 DEBUG:   * VB.NET => "vbnet"
+17:37:31.527 DEBUG:   * Swift => "swift"
+17:37:31.527 DEBUG:   * C => "c"
+17:37:31.527 DEBUG:   * C++ => "cpp"
+17:37:31.527 DEBUG:   * Objective-C => "objc"
+17:37:31.528 DEBUG:   * Python => "py"
+17:37:31.528 DEBUG:   * Go => "go"
+17:37:31.528 DEBUG:   * Kotlin => "kotlin"
+17:37:31.528 DEBUG:   * RPG => "rpg"
+17:37:31.528 DEBUG:   * PL/I => "pli"
+17:37:31.528 DEBUG:   * T-SQL => "tsql"
+17:37:31.528 DEBUG:   * Vb => "vb"
+17:37:31.528 DEBUG:   * Apex => "apex"
+17:37:31.528 DEBUG:   * JavaScript => "js"
+17:37:31.528 DEBUG:   * TypeScript => "ts"
+17:37:31.528 DEBUG:   * Ruby => "ruby"
+17:37:31.528 DEBUG:   * COBOL => "cobol"
+17:37:31.528 DEBUG:   * PHP => "php"
+17:37:31.529 DEBUG:   * ABAP => "abap"
+17:37:31.548 INFO: Load quality profiles
+17:37:32.030 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?project=python | time=481ms
+17:37:32.058 INFO: Load quality profiles (done) | time=510ms
+17:37:32.064 INFO: Load active rules
+17:37:32.793 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FYanFERPlPthEEq&ps=500&p=1 | time=727ms
+17:37:33.406 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FcCnFERPlPthEGG&ps=500&p=1 | time=507ms
+17:37:33.858 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FddnFERPlPthEGm&ps=500&p=1 | time=444ms
+17:37:34.603 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FepnFERPlPthEKu&ps=500&p=1 | time=745ms
+17:37:35.297 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FmBnFERPlPthEaQ&ps=500&p=1 | time=636ms
+17:37:35.799 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2FownFERPlPthEd6&ps=500&p=1 | time=470ms
+17:37:36.363 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2Fr4nFERPlPthEjA&ps=500&p=1 | time=556ms
+17:37:36.809 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXcf-YKVkTmpZJwmbyLR&ps=500&p=1 | time=425ms
+17:37:37.263 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2F30nFERPlPthE6v&ps=500&p=1 | time=453ms
+17:37:37.893 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2F5bnFERPlPthE8z&ps=500&p=1 | time=624ms
+17:37:38.387 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2F65nFERPlPthE9s&ps=500&p=1 | time=487ms
+17:37:38.931 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2F8RnFERPlPthFA5&ps=500&p=1 | time=539ms
+17:37:39.522 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2F-tnFERPlPthFEj&ps=500&p=1 | time=581ms
+17:37:40.299 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GCLnFERPlPthFQ6&ps=500&p=1 | time=751ms
+17:37:41.034 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GIKnFERPlPthFdB&ps=500&p=1 | time=702ms
+17:37:41.618 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GOVnFERPlPthFkP&ps=500&p=1 | time=569ms
+17:37:42.321 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GNMnFERPlPthFi1&ps=500&p=1 | time=699ms
+17:37:42.960 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GL3nFERPlPthFhP&ps=500&p=1 | time=637ms
+17:37:43.581 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GQ2nFERPlPthFn9&ps=500&p=1 | time=619ms
+17:37:44.292 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GPknFERPlPthFmj&ps=500&p=1 | time=708ms
+17:37:44.970 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GR0nFERPlPthFpH&ps=500&p=1 | time=672ms
+17:37:45.855 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GTHnFERPlPthFqo&ps=500&p=1 | time=883ms
+17:37:46.949 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GWhnFERPlPthFzS&ps=500&p=1 | time=1092ms
+17:37:48.080 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GZlnFERPlPthF6O&ps=500&p=1 | time=1077ms
+17:37:49.016 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GbonFERPlPthF_7&ps=500&p=1 | time=930ms
+17:37:50.367 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GgXnFERPlPthGHF&ps=500&p=1 | time=1333ms
+17:37:51.622 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2GognFERPlPthGdH&ps=500&p=1 | time=1229ms
+17:37:52.641 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt,deprecatedKeys&activation=true&qprofile=AXbS2Gi-nFERPlPthGL5&ps=500&p=1 | time=1005ms
+17:37:52.805 INFO: Load active rules (done) | time=20740ms
+17:37:53.237 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+17:37:53.238 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+17:37:53.239 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+17:37:53.239 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+17:37:53.239 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+17:37:53.240 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+17:37:53.241 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+17:37:53.241 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+17:37:53.241 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+17:37:53.241 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+17:37:53.241 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+17:37:53.242 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+17:37:53.243 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+17:37:53.243 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+17:37:53.243 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+17:37:53.244 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+17:37:53.247 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+17:37:53.247 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.rpg,**/*.rpgle
+17:37:53.249 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+17:37:53.250 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+17:37:53.250 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+17:37:53.251 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+17:37:53.251 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.mjs
+17:37:53.251 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx,**/*.vue
+17:37:53.252 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+17:37:53.253 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : 
+17:37:53.258 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+17:37:53.258 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+17:37:53.264 DEBUG: Will ignore generated code
+17:37:53.265 DEBUG: Will ignore generated code
+17:37:53.286 INFO: Indexing files...
+17:37:53.289 INFO: Project configuration:
+17:37:53.290 INFO:   Excluded sources: global
+17:37:53.337 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-05-27 17:37:53.327000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+17:37:53.355 DEBUG: file=null, size changed from -1 to 1042 bytes
+17:37:53.355 DEBUG: loading config FileBasedConfig[/Users/alexandrefrigout/.config/jgit/config]
+17:37:53.356 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, create new FileSnapshot: lastRead=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, size=1042, fileKey=(dev=1000004,ino=12956520291)
+17:37:53.364 DEBUG: readpipe [bash, --login, -c, which git],/Users/alexandrefrigout
+17:37:53.431 DEBUG: readpipe may return '/usr/bin/git'
+17:37:53.431 DEBUG: remaining output:
+
+17:37:53.433 DEBUG: readpipe [xcode-select, -p],/Users/alexandrefrigout
+17:37:53.449 DEBUG: readpipe may return '/Library/Developer/CommandLineTools'
+17:37:53.449 DEBUG: remaining output:
+
+17:37:53.454 DEBUG: readpipe [/usr/bin/git, --version],/usr/bin
+17:37:53.624 DEBUG: readpipe may return 'git version 2.24.3 (Apple Git-128)'
+17:37:53.625 DEBUG: remaining output:
+
+17:37:53.626 DEBUG: readpipe [/usr/bin/git, config, --system, --edit],/usr/bin
+17:37:53.690 DEBUG: readpipe may return '/private/etc/gitconfig'
+17:37:53.690 DEBUG: remaining output:
+
+17:37:53.694 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.695 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.695 DEBUG: file=null, size changed from -1 to 0 bytes
+17:37:53.695 DEBUG: loading config FileBasedConfig[/private/etc/gitconfig]
+17:37:53.696 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.696 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.697 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.697 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.697 DEBUG: file=null, size changed from -1 to 131 bytes
+17:37:53.697 DEBUG: loading config FileBasedConfig[/Users/alexandrefrigout/.gitconfig]
+17:37:53.697 DEBUG: file=/Users/alexandrefrigout/.gitconfig, create new FileSnapshot: lastRead=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, size=131, fileKey=(dev=1000004,ino=12902912610)
+17:37:53.698 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+17:37:53.702 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.702 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.702 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.702 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.703 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.703 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.703 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, delta=609602698000000 ns, racy<=2500000000 ns
+17:37:53.703 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:37:53.795 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.795 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.795 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.796 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.796 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.796 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.798 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-05-27 17:37:53.769000000, lastModified=2021-05-20 16:26:57.000000000, size=2698, fileKey=(dev=1000004,ino=12957380316)
+17:37:53.836 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.836 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.836 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.836 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.837 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.837 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.838 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, delta=609602698000000 ns, racy<=2500000000 ns
+17:37:53.838 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:37:53.843 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.844 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.844 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.844 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.845 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.845 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.845 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, delta=609602698000000 ns, racy<=2500000000 ns
+17:37:53.854 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:37:53.887 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.887 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.888 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.888 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.889 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.889 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.889 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, delta=609602698000000 ns, racy<=2500000000 ns
+17:37:53.889 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:37:53.906 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:37:53.906 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:37:53.906 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:37:53.906 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:37:53.907 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:37:53.907 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:37:53.907 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:37:53.698000000, lastModified=2021-05-20 16:17:51.000000000, delta=609602698000000 ns, racy<=2500000000 ns
+17:37:53.908 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:37:53.964 DEBUG: 32 non excluded files in this Git repository
+17:37:54.012 DEBUG: 'test/nosetests.xml' indexed with language 'xml'
+17:37:54.020 DEBUG: 'test/__init__.py' indexed with language 'py'
+17:37:54.022 DEBUG: 'test/bck.txt' indexed with no language
+17:37:54.026 DEBUG: 'test/tests.py' indexed with language 'py'
+17:37:54.028 DEBUG: 'logs-short-master-analyser.txt' indexed with no language
+17:37:54.032 DEBUG: 'module2/file.txt' indexed with no language
+17:37:54.033 DEBUG: 'module2/newmain.py' indexed with language 'py'
+17:37:54.038 DEBUG: 'module2/filetoexcl.py' indexed with language 'py'
+17:37:54.043 DEBUG: 'module2/main.py' indexed with language 'py'
+17:37:54.050 DEBUG: '__init__.py' indexed with language 'py'
+17:37:54.056 DEBUG: 'README.md' indexed with no language
+17:37:54.057 DEBUG: 'master.log' indexed with no language
+17:37:54.058 DEBUG: 'sonar-project.properties' indexed with no language
+17:37:54.059 DEBUG: 'coverage.xml' indexed with language 'xml'
+17:37:54.060 DEBUG: 'module1/file.txt' indexed with no language
+17:37:54.062 DEBUG: 'module1/submod/file.py' indexed with language 'py'
+17:37:54.064 DEBUG: 'module1/newmain.py' indexed with language 'py'
+17:37:54.065 DEBUG: 'module1/filetoexcl.py' indexed with language 'py'
+17:37:54.100 DEBUG: 'module1/main.py' indexed with language 'py'
+17:37:54.105 DEBUG: 'module1/fileexcludemod1o.py' indexed with language 'py'
+17:37:54.109 DEBUG: 'analysis.lo' indexed with no language
+17:37:54.110 DEBUG: 'logs-short.txt' indexed with no language
+17:37:54.117 DEBUG: 'src/main.pyc' indexed with no language
+17:37:54.124 DEBUG: 'src/newfile.py' indexed with language 'py'
+17:37:54.127 DEBUG: 'src/test.sql' indexed with language 'plsql'
+17:37:54.172 INFO: Load project repositories
+17:37:54.893 DEBUG: GET 200 http://localhost:9000/batch/project.protobuf?key=python | time=719ms
+17:37:54.965 INFO: Load project repositories (done) | time=793ms
+17:37:54.965 DEBUG: 'src/code.js' generated metadata with charset 'UTF-8'
+17:37:54.970 DEBUG: 'src/code.js' indexed with language 'js'
+17:37:54.971 DEBUG: 'src/second.py' indexed with language 'py'
+17:37:54.972 DEBUG: 'src/__init__.py' indexed with language 'py'
+17:37:54.974 DEBUG: 'src/__init__.pyc' indexed with no language
+17:37:54.977 DEBUG: 'src/main.py' indexed with language 'py'
+17:37:54.978 DEBUG: 'src/newfile.pyc' indexed with no language
+17:37:54.983 INFO: 31 files indexed
+17:37:54.984 INFO: 0 files ignored because of inclusion/exclusion patterns
+17:37:54.984 INFO: 0 files ignored because of scm ignore settings
+17:37:54.989 INFO: Quality profile for js: Sonar way
+17:37:54.990 INFO: Quality profile for plsql: Sonar way
+17:37:54.990 INFO: Quality profile for py: Sonar way
+17:37:54.991 INFO: Quality profile for xml: Sonar way
+17:37:54.993 INFO: ------------- Run sensors on module python
+17:37:55.831 INFO: JavaScript/TypeScript frontend is enabled
+17:37:55.929 INFO: Load metrics repository
+17:37:56.849 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=920ms
+17:37:56.869 INFO: Load metrics repository (done) | time=940ms
+17:38:01.800 DEBUG: Adding rules for repository 'jssecurity', language: JAVASCRIPT, [class A.A.A.A.A.A.C, class A.A.A.A.A.A.I, class A.A.A.A.A.A.K, class A.A.A.A.A.A.L, class A.A.A.A.A.A.M, class A.A.A.A.A.A.D, class A.A.A.A.A.A.G, class A.A.A.A.A.A.H, class A.A.A.A.A.A.J, class A.A.A.A.A.A.F, class A.A.A.A.A.A.B, class A.A.A.A.A.A.E, class A.A.A.A.A.A.A] from A.A.A.A.A.F
+17:38:01.825 DEBUG: Adding rules for repository 'tssecurity', language: TYPESCRIPT, [class A.A.A.A.A.A.C, class A.A.A.A.A.A.I, class A.A.A.A.A.A.K, class A.A.A.A.A.A.L, class A.A.A.A.A.A.M, class A.A.A.A.A.A.D, class A.A.A.A.A.A.G, class A.A.A.A.A.A.H, class A.A.A.A.A.A.J, class A.A.A.A.A.A.F, class A.A.A.A.A.A.B, class A.A.A.A.A.A.E, class A.A.A.A.A.A.A] from A.A.A.A.A.B
+17:38:02.790 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+17:38:02.790 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+17:38:02.791 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+17:38:02.792 DEBUG: 'CSS Metrics' skipped because there is no related file in current project
+17:38:02.794 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+17:38:02.794 DEBUG: 'PmdSensor' skipped because there is no related file in current project
+17:38:02.796 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+17:38:02.798 DEBUG: 'Scoverage sensor for Scala coverage' skipped because there is no related file in current project
+17:38:02.799 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+17:38:02.799 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+17:38:02.800 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+17:38:02.800 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+17:38:02.801 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+17:38:02.801 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+17:38:02.806 DEBUG: 'Removed properties sensor' skipped because there is no related file in current project
+17:38:02.806 DEBUG: 'JavaXmlSensor' skipped because one of the required properties is missing
+17:38:02.807 DEBUG: 'Flex' skipped because there is no related file in current project
+17:38:02.807 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+17:38:02.808 DEBUG: 'Swift Code Quality and Security' skipped because there is no related file in current project
+17:38:02.808 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+17:38:02.809 DEBUG: 'gcov' skipped because there is no related file in current project
+17:38:02.810 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+17:38:02.810 DEBUG: 'cppunit' skipped because there is no related file in current project
+17:38:02.811 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+17:38:02.811 DEBUG: 'bullseye' skipped because there is no related file in current project
+17:38:02.815 DEBUG: 'Import of Pylint issues' skipped because one of the required properties is missing
+17:38:02.815 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+17:38:02.815 DEBUG: 'Import of Flake8 issues' skipped because one of the required properties is missing
+17:38:02.815 DEBUG: 'Code Quality and Security for Go' skipped because there is no related file in current project
+17:38:02.816 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+17:38:02.816 DEBUG: 'Go Cover sensor for Go coverage' skipped because one of the required properties is missing
+17:38:02.817 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+17:38:02.817 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+17:38:02.818 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+17:38:02.818 DEBUG: 'Import of GolangCI-Lint issues' skipped because there is no related file in current project
+17:38:02.818 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+17:38:02.818 DEBUG: 'KotlinSurefireSensor' skipped because there is no related file in current project
+17:38:02.819 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+17:38:02.821 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+17:38:02.821 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+17:38:02.822 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+17:38:02.822 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+17:38:02.824 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+17:38:02.824 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+17:38:02.824 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+17:38:02.825 DEBUG: 'Import of PMD issues' skipped because there is no related file in current project
+17:38:02.825 DEBUG: 'TypeScript analysis' skipped because there is no related file in current project
+17:38:02.826 DEBUG: 'JavaScript/TypeScript Coverage' skipped because one of the required properties is missing
+17:38:02.827 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+17:38:02.827 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+17:38:02.827 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+17:38:02.828 DEBUG: 'Import of RuboCop issues' skipped because there is no related file in current project
+17:38:02.828 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+17:38:02.828 DEBUG: 'PHP sensor' skipped because there is no related file in current project
+17:38:02.829 DEBUG: 'Analyzer for "php.ini" files' skipped because there is no related file in current project
+17:38:02.829 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+17:38:02.841 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+17:38:02.841 DEBUG: 'CFamily' skipped because there is no related file in current project
+17:38:02.842 DEBUG: Sensors : CSS Rules -> PL/SQL Sensor -> C# Project Type Information -> C# Properties -> HTML -> XML Sensor -> VB.NET Project Type Information -> VB.NET Properties -> Python Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> JavaScript analysis -> ThymeLeaf template sensor -> Python HTML templates processing -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor -> PythonSecuritySensor -> JsSecuritySensor
+17:38:02.843 INFO: Sensor CSS Rules [cssfamily]
+17:38:02.845 INFO: No CSS, PHP, HTML or VueJS files are found in the project. CSS analysis is skipped.
+17:38:02.845 INFO: Sensor CSS Rules [cssfamily] (done) | time=2ms
+17:38:02.845 INFO: Sensor PL/SQL Sensor [plsql]
+17:38:03.002 INFO: 1 source files to be analyzed
+17:38:03.006 DEBUG: 'src/test.sql' generated metadata with charset 'UTF-8'
+17:38:03.493 DEBUG: Not enough content in 'src/test.sql' to have CPD blocks, it will not be part of the duplication detection
+17:38:03.515 INFO: 1/1 source files have been analyzed
+17:38:03.515 INFO: Sensor PL/SQL Sensor [plsql] (done) | time=670ms
+17:38:03.516 INFO: Sensor C# Project Type Information [csharp]
+17:38:03.519 INFO: Sensor C# Project Type Information [csharp] (done) | time=2ms
+17:38:03.519 INFO: Sensor C# Properties [csharp]
+17:38:03.519 DEBUG: Project 'python': Property missing: 'sonar.cs.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+17:38:03.520 DEBUG: Project 'python': No Roslyn issues reports have been found.
+17:38:03.520 INFO: Sensor C# Properties [csharp] (done) | time=1ms
+17:38:03.520 INFO: Sensor HTML [web]
+17:38:03.526 INFO: Sensor HTML [web] (done) | time=6ms
+17:38:03.527 INFO: Sensor XML Sensor [xml]
+17:38:03.540 INFO: 2 source files to be analyzed
+17:38:03.543 DEBUG: 'test/nosetests.xml' generated metadata with charset 'UTF-8'
+17:38:03.895 DEBUG: Count lines in file:///Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/test/nosetests.xml
+17:38:03.984 DEBUG: 'coverage.xml' generated metadata with charset 'UTF-8'
+17:38:04.022 DEBUG: Count lines in file:///Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/coverage.xml
+17:38:04.100 INFO: 2/2 source files have been analyzed
+17:38:04.101 INFO: Sensor XML Sensor [xml] (done) | time=573ms
+17:38:04.101 INFO: Sensor VB.NET Project Type Information [vbnet]
+17:38:04.103 INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=2ms
+17:38:04.103 INFO: Sensor VB.NET Properties [vbnet]
+17:38:04.104 DEBUG: Project 'python': Property missing: 'sonar.vbnet.analyzer.projectOutPaths'. No protobuf files will be loaded for this project.
+17:38:04.105 DEBUG: Project 'python': No Roslyn issues reports have been found.
+17:38:04.105 INFO: Sensor VB.NET Properties [vbnet] (done) | time=2ms
+17:38:04.105 INFO: Sensor Python Sensor [python]
+17:38:04.116 INFO: Starting global symbols computation
+17:38:04.117 INFO: 15 source files to be analyzed
+17:38:04.123 DEBUG: 'module2/filetoexcl.py' generated metadata with charset 'UTF-8'
+17:38:14.123 INFO: 0/15 files analyzed, current file: module2/filetoexcl.py
+17:38:16.056 DEBUG: 'module1/newmain.py' generated metadata with charset 'UTF-8'
+17:38:16.074 DEBUG: 'src/newfile.py' generated metadata with charset 'UTF-8'
+17:38:16.082 DEBUG: 'module1/submod/file.py' generated metadata with charset 'UTF-8'
+17:38:16.085 DEBUG: Unable to construct project-level symbol table for file: module1/submod/file.py
+17:38:16.085 DEBUG: Parse error at line 3 column 10:
+
+    1: import sys
+    2: 
+  -->  def main(){
+    4:         return 1
+    5:         }
+    6: EOF
+
+17:38:16.086 DEBUG: 'module2/newmain.py' generated metadata with charset 'UTF-8'
+17:38:16.098 DEBUG: '__init__.py' generated metadata with charset 'UTF-8'
+17:38:16.103 DEBUG: 'module1/filetoexcl.py' generated metadata with charset 'UTF-8'
+17:38:16.116 DEBUG: 'test/tests.py' generated metadata with charset 'UTF-8'
+17:38:17.351 DEBUG: 'test/__init__.py' generated metadata with charset 'UTF-8'
+17:38:17.377 DEBUG: 'src/__init__.py' generated metadata with charset 'UTF-8'
+17:38:17.408 DEBUG: 'module1/fileexcludemod1o.py' generated metadata with charset 'UTF-8'
+17:38:17.429 DEBUG: 'src/second.py' generated metadata with charset 'UTF-8'
+17:38:17.487 DEBUG: 'module2/main.py' generated metadata with charset 'UTF-8'
+17:38:17.518 DEBUG: 'src/main.py' generated metadata with charset 'UTF-8'
+17:38:17.610 DEBUG: 'module1/main.py' generated metadata with charset 'UTF-8'
+17:38:17.630 INFO: 15/15 source files have been analyzed
+17:38:17.631 DEBUG: Time to build the project level symbol table: 13517ms
+17:38:17.633 INFO: Starting rules execution
+17:38:17.633 INFO: 15 source files to be analyzed
+17:38:17.680 DEBUG: Not enough content in 'module2/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.123 DEBUG: Not enough content in 'module1/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.182 DEBUG: Not enough content in 'src/newfile.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.285 DEBUG: Not enough content in 'module2/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.332 DEBUG: Not enough content in '__init__.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.412 DEBUG: Not enough content in 'module1/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.764 DEBUG: Not enough content in 'test/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.783 DEBUG: Not enough content in 'src/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.812 DEBUG: Not enough content in 'module1/fileexcludemod1o.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:24.944 DEBUG: Not enough content in 'module2/main.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:25.099 DEBUG: Not enough content in 'module1/main.py' to have CPD blocks, it will not be part of the duplication detection
+17:38:25.119 INFO: Sensor Python Sensor [python] (done) | time=21014ms
+17:38:25.119 INFO: 15/15 source files have been analyzed
+17:38:25.119 INFO: Sensor Cobertura Sensor for Python coverage [python]
+17:38:25.120 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+17:38:25.294 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+17:38:25.294 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=175ms
+17:38:25.294 INFO: Sensor PythonXUnitSensor [python]
+17:38:25.294 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+17:38:25.393 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+17:38:25.393 INFO: Sensor PythonXUnitSensor [python] (done) | time=99ms
+17:38:25.394 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+17:38:25.399 INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+17:38:25.401 INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+17:38:25.401 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=7ms
+17:38:25.401 INFO: Sensor JavaScript analysis [javascript]
+17:38:25.404 DEBUG: Deploying bundle
+17:38:25.405 DEBUG: Deploying eslint-bridge into /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle
+17:38:33.258 DEBUG: Deploying bundle (done) | time=7851ms
+17:38:33.264 INFO: Deploying custom rules bundle jar:file:/Users/alexandrefrigout/.sonar/cache/58217f4b9448dc3527b59fd864356644/sonar-securityjsfrontend-plugin.jar!/js-vulnerabilities-rules-1.0.0.tgz to /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules906986592388917050
+17:38:33.631 DEBUG: Starting server
+17:38:33.658 DEBUG: Using default Node.js executable: '/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node'.
+17:38:33.658 DEBUG: Checking Node.js version
+17:38:33.661 DEBUG: Launching command /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node -v
+17:38:34.280 DEBUG: Using Node.js v15.13.0.
+17:38:34.280 DEBUG: Starting Node.js process to start eslint-bridge server at port 52496
+17:38:34.280 DEBUG: Launching command /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/node_modules/run-node/run-node /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/bin/server 52496 127.0.0.1 /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork true /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules906986592388917050/package
+17:38:37.394 DEBUG: Loaded rules ucfg from /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules906986592388917050/package
+17:38:37.395 DEBUG: starting eslint-bridge server at port 52496
+17:38:37.421 DEBUG: eslint-bridge server is running at port 52496
+17:38:37.482 DEBUG: Starting server (done) | time=3851ms
+17:38:37.503 DEBUG: Using generated tsconfig.json file /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/924837774620750373.tmp
+17:38:37.504 INFO: 1 source files to be analyzed
+17:38:37.536 DEBUG: initializing linter with ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,ucfg,hashing,for-loop-increment-sign,no-accessor-field-mismatch,cors,no-collection-size-mischeck,unverified-certificate,no-empty-collection,disabled-auto-escaping,updated-const-var,no-duplicate-imports,no-unthrown-error,no-globals-shadowing,null-dereference,unverified-hostname,no-extra-arguments,no-redundant-jump,no-redeclare,post-message,no-octal,no-hardcoded-ip,no-identical-functions,cookie-no-httponly,no-element-overwrite,no-throw-literal,weak-ssl,no-useless-increment,pseudo-random,no-same-line-conditional,conditional-indentation,session-regeneration,no-use-of-empty-return-value,no-associative-arrays,super-invocation,no-weak-keys,confidential-information-logging,no-try-promise,no-ip-forward,comma-or-logical-or-case,label-position,no-with,insecure-cookie,no-unused-collection,no-sequences,sql-queries,no-global-this,no-array-delete,dns-prefetching,no-alphabetical-sort,inconsistent-function-call,certificate-transparency,file-uploads,prefer-for-of,no-inverted-boolean-check,xml-parser-xxe,default-param-last,non-existent-operator,new-operator-misuse,todo-tag,fixme-tag,no-sparse-arrays,content-length,no-clear-text-protocols,no-mixed-content,no-invalid-await,no-equals-in-for-termination,frame-ancestors,no-infinite-loop,no-hardcoded-credentials,array-callback-without-return,prefer-default-last,no-mime-sniff,no-commented-code,no-gratuitous-expressions,no-empty-pattern,no-referrer-policy,sonar-no-fallthrough,no-primitive-wrappers,no-dupe-keys,file-name-differ-from-class,no-self-assign,no-new-symbol,no-dupe-args,strict-transport-security,no-small-switch,no-unsafe-finally,prefer-while,sonar-no-unused-vars,index-of-compare-to-positive-number,argument-type,publicly-writable-directories,in-operator-type-error,prefer-promise-shorthand,prefer-immediate-return,x-powered-by,no-unreachable,no-intrusive-permissions,disabled-resource-integrity,no-identical-expressions,file-permissions,code-eval,content-security-policy,no-useless-catch,future-reserved-words,no-labels,bitwise-operators,no-shadow,no-extra-semi,no-redundant-parentheses,hidden-files,no-unenclosed-multiline-block,no-unused-expressions,call-argument-line,no-empty,max-params,generator-without-yield,no-ignored-return,no-caller,no-duplicated-branches,csrf,no-one-iteration-loop,cognitive-complexity,misplaced-loop-counter,use-isnan,no-nested-template-literals,max-switch-cases,no-unsafe-negation,function-inside-loop,production-debug,no-multi-str,class-name,unused-import,prefer-single-boolean-return,no-unsafe-unzip,no-delete-var,encryption-secure-mode,updated-loop-counter,no-setter-return,no-weak-cipher,no-identical-conditions,different-types-comparison,no-all-duplicated-branches,no-case-label-in-switch,no-in-misuse,no-misleading-array-reverse,no-redundant-assignments,no-return-await,os-command,no-nested-conditional,insecure-jwt-token,no-dead-store,no-invariant-returns,no-implicit-global,no-empty-function
+17:38:39.904 DEBUG: Resolved 'child_process' as 'undefined'
+17:38:39.905 DEBUG: ... 'child_process' was imported in '/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js'
+17:38:40.154 DEBUG: Failed to parse /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js with TypeScript compiler: ';' expected.
+17:38:40.613 DEBUG: Failed to parse /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js with TypeScript compiler: Expression expected.
+17:38:40.615 DEBUG: Failed to parse /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js with TypeScript compiler: ';' expected.
+17:38:40.619 DEBUG: Failed to parse /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js with TypeScript compiler: ';' expected.
+17:38:40.733 DEBUG: Saving issue for rule sonar-no-unused-vars on line 12
+17:38:40.740 DEBUG: Saving issue for rule no-dead-store on line 12
+17:38:40.741 DEBUG: Saving issue for rule os-command on line 12
+17:38:40.741 DEBUG: Saving issue for rule post-message on line 15
+17:38:40.747 INFO: 1/1 source files have been analyzed
+17:38:40.747 INFO: Sensor JavaScript analysis [javascript] (done) | time=15346ms
+17:38:40.747 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+17:38:40.748 INFO: javasecurity:S5131 is not activated in quality profile: skipping execution of thymeleaf sensor.
+17:38:40.748 INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=1ms
+17:38:40.748 INFO: Sensor Python HTML templates processing [securitypythonfrontend]
+17:38:40.806 INFO: HTML files are not indexed : you may want to add them in the scanned files of this project to detect Python XSS vulnerabilities
+17:38:40.806 INFO: Sensor Python HTML templates processing [securitypythonfrontend] (done) | time=58ms
+17:38:40.806 INFO: Sensor JavaSecuritySensor [security]
+17:38:40.807 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+17:38:40.807 INFO: Read 0 type definitions
+17:38:40.813 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+17:38:40.815 INFO: No UCFGs have been included for analysis.
+17:38:40.815 INFO: Sensor JavaSecuritySensor [security] (done) | time=9ms
+17:38:40.815 INFO: Sensor CSharpSecuritySensor [security]
+17:38:40.815 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+17:38:40.815 INFO: Read 0 type definitions
+17:38:40.815 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+17:38:40.815 INFO: No UCFGs have been included for analysis.
+17:38:40.815 INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+17:38:40.816 INFO: Sensor PhpSecuritySensor [security]
+17:38:40.816 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+17:38:40.816 INFO: Read 0 type definitions
+17:38:40.816 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+17:38:40.816 INFO: No UCFGs have been included for analysis.
+17:38:40.816 INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+17:38:40.816 INFO: Sensor PythonSecuritySensor [security]
+17:38:40.816 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/python
+17:38:41.206 INFO: Read 311 type definitions
+17:38:41.217 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/python
+17:38:42.789 INFO: 17:38:42.787 Building Runtime Type propagation graph
+17:38:42.879 INFO: 17:38:42.879 Running Tarjan on 3616 nodes
+17:38:42.894 INFO: 17:38:42.894 Tarjan found 3616 components
+17:38:43.484 INFO: 17:38:43.482 Variable type analysis: done
+17:38:43.551 INFO: 17:38:43.551 Building Runtime Type propagation graph
+17:38:43.585 INFO: 17:38:43.585 Running Tarjan on 3607 nodes
+17:38:43.597 INFO: 17:38:43.597 Tarjan found 3607 components
+17:38:43.699 INFO: 17:38:43.699 Variable type analysis: done
+17:38:43.712 INFO: Analyzing 1691 ucfgs to detect vulnerabilities.
+17:38:44.262 DEBUG: Resource file pythonsecurity/sources/S5334.json was not read
+17:38:44.268 DEBUG: loaded 17 sources for rule S5334
+17:38:44.304 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.308 DEBUG: loaded 2 sinks for rule S5334
+17:38:44.329 DEBUG: Resource file pythonsecurity/sources/S5135.json was not read
+17:38:44.333 DEBUG: loaded 17 sources for rule S5135
+17:38:44.404 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.433 DEBUG: loaded 15 sinks for rule S5135
+17:38:44.539 DEBUG: Resource file pythonsecurity/sources/S3649.json was not read
+17:38:44.540 DEBUG: loaded 17 sources for rule S3649
+17:38:44.580 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.612 DEBUG: loaded 24 sinks for rule S3649
+17:38:44.650 DEBUG: Resource file pythonsecurity/sources/S5146.json was not read
+17:38:44.651 DEBUG: loaded 17 sources for rule S5146
+17:38:44.679 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.703 DEBUG: loaded 6 sinks for rule S5146
+17:38:44.718 DEBUG: Resource file pythonsecurity/sources/S2083.json was not read
+17:38:44.718 DEBUG: loaded 17 sources for rule S2083
+17:38:44.741 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.756 DEBUG: loaded 53 sinks for rule S2083
+17:38:44.780 DEBUG: Resource file pythonsecurity/sources/S2091.json was not read
+17:38:44.781 DEBUG: loaded 17 sources for rule S2091
+17:38:44.788 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.790 DEBUG: loaded 18 sinks for rule S2091
+17:38:44.800 DEBUG: Resource file pythonsecurity/sources/S2078.json was not read
+17:38:44.800 DEBUG: loaded 17 sources for rule S2078
+17:38:44.807 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.810 DEBUG: loaded 15 sinks for rule S2078
+17:38:44.819 DEBUG: Resource file pythonsecurity/sources/S5145.json was not read
+17:38:44.819 DEBUG: loaded 17 sources for rule S5145
+17:38:44.835 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.840 DEBUG: loaded 24 sinks for rule S5145
+17:38:44.848 DEBUG: Resource file pythonsecurity/sources/S5167.json was not read
+17:38:44.848 DEBUG: loaded 17 sources for rule S5167
+17:38:44.853 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.871 DEBUG: loaded 17 sinks for rule S5167
+17:38:44.903 DEBUG: Resource file pythonsecurity/sources/S5144.json was not read
+17:38:44.904 DEBUG: loaded 17 sources for rule S5144
+17:38:44.922 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.934 DEBUG: loaded 32 sinks for rule S5144
+17:38:44.951 DEBUG: Resource file pythonsecurity/sources/S2076.json was not read
+17:38:44.951 DEBUG: loaded 17 sources for rule S2076
+17:38:44.956 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.962 DEBUG: loaded 19 sinks for rule S2076
+17:38:44.969 DEBUG: Resource file pythonsecurity/sources/S5131.json was not read
+17:38:44.969 DEBUG: loaded 17 sources for rule S5131
+17:38:44.974 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.976 DEBUG: loaded 7 sinks for rule S5131
+17:38:44.982 DEBUG: Resource file pythonsecurity/sources/S2631.json was not read
+17:38:44.982 DEBUG: loaded 17 sources for rule S2631
+17:38:44.986 DEBUG: Resource file pythonsecurity/sinks/common.json was not read
+17:38:44.987 DEBUG: loaded 16 sinks for rule S2631
+17:38:44.998 INFO: All rules entrypoints : 0 Retained UCFGs : 0
+17:38:45.007 INFO: rule: S5334, entrypoints: 0
+17:38:45.007 INFO: rule: S5334 done
+17:38:45.007 INFO: rule: S5135, entrypoints: 0
+17:38:45.007 INFO: rule: S5135 done
+17:38:45.007 INFO: rule: S3649, entrypoints: 0
+17:38:45.013 INFO: rule: S3649 done
+17:38:45.013 INFO: rule: S5146, entrypoints: 0
+17:38:45.014 INFO: rule: S5146 done
+17:38:45.014 INFO: rule: S2083, entrypoints: 0
+17:38:45.014 INFO: rule: S2083 done
+17:38:45.014 INFO: rule: S2091, entrypoints: 0
+17:38:45.014 INFO: rule: S2091 done
+17:38:45.014 INFO: rule: S2078, entrypoints: 0
+17:38:45.014 INFO: rule: S2078 done
+17:38:45.014 INFO: rule: S5145, entrypoints: 0
+17:38:45.014 INFO: rule: S5145 done
+17:38:45.014 INFO: rule: S5167, entrypoints: 0
+17:38:45.015 INFO: rule: S5167 done
+17:38:45.015 INFO: rule: S5144, entrypoints: 0
+17:38:45.015 INFO: rule: S5144 done
+17:38:45.015 INFO: rule: S2076, entrypoints: 0
+17:38:45.015 INFO: rule: S2076 done
+17:38:45.015 INFO: rule: S5131, entrypoints: 0
+17:38:45.016 INFO: rule: S5131 done
+17:38:45.016 INFO: rule: S2631, entrypoints: 0
+17:38:45.016 INFO: rule: S2631 done
+17:38:45.018 INFO: Sensor PythonSecuritySensor [security] (done) | time=4201ms
+17:38:45.019 INFO: Sensor JsSecuritySensor [security]
+17:38:45.020 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/js
+17:38:45.032 INFO: Read 0 type definitions
+17:38:45.032 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/js
+17:38:45.057 INFO: 17:38:45.057 Building Runtime Type propagation graph
+17:38:45.060 INFO: 17:38:45.06 Running Tarjan on 27 nodes
+17:38:45.060 INFO: 17:38:45.06 Tarjan found 27 components
+17:38:45.060 INFO: 17:38:45.06 Variable type analysis: done
+17:38:45.061 INFO: 17:38:45.06 Building Runtime Type propagation graph
+17:38:45.062 INFO: 17:38:45.062 Running Tarjan on 27 nodes
+17:38:45.062 INFO: 17:38:45.062 Tarjan found 27 components
+17:38:45.063 INFO: 17:38:45.063 Variable type analysis: done
+17:38:45.063 INFO: Analyzing 5 ucfgs to detect vulnerabilities.
+17:38:45.066 DEBUG: loaded 2 sources for rule S6105
+17:38:45.067 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.069 DEBUG: loaded 1 sinks for rule S6105
+17:38:45.168 DEBUG: loaded 2 sources for rule S5696
+17:38:45.169 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.175 DEBUG: loaded 1 sinks for rule S5696
+17:38:45.183 DEBUG: loaded 2 sources for rule S5334
+17:38:45.184 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.196 DEBUG: loaded 1 sinks for rule S5334
+17:38:45.212 DEBUG: loaded 2 sources for rule S2083
+17:38:45.215 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.217 DEBUG: loaded 1 sinks for rule S2083
+17:38:45.220 DEBUG: loaded 2 sources for rule S5146
+17:38:45.220 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.221 DEBUG: loaded 1 sinks for rule S5146
+17:38:45.224 DEBUG: loaded 2 sources for rule S5147
+17:38:45.226 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.229 DEBUG: loaded 1 sinks for rule S5147
+17:38:45.236 DEBUG: loaded 2 sources for rule S5883
+17:38:45.237 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.239 DEBUG: loaded 1 sinks for rule S5883
+17:38:45.245 DEBUG: loaded 2 sources for rule S2076
+17:38:45.246 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.249 DEBUG: loaded 1 sinks for rule S2076
+17:38:45.251 DEBUG: Resource file jssecurity/sources/S5131.json was not read
+17:38:45.251 DEBUG: loaded 1 sources for rule S5131
+17:38:45.252 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.253 DEBUG: loaded 1 sinks for rule S5131
+17:38:45.256 DEBUG: loaded 2 sources for rule S2631
+17:38:45.256 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.257 DEBUG: loaded 1 sinks for rule S2631
+17:38:45.259 DEBUG: loaded 2 sources for rule S5144
+17:38:45.259 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.260 DEBUG: loaded 1 sinks for rule S5144
+17:38:45.262 DEBUG: loaded 2 sources for rule S3649
+17:38:45.263 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.263 DEBUG: loaded 1 sinks for rule S3649
+17:38:45.265 DEBUG: loaded 2 sources for rule S6096
+17:38:45.265 DEBUG: Resource file jssecurity/sinks/common.json was not read
+17:38:45.266 DEBUG: loaded 1 sinks for rule S6096
+17:38:45.278 INFO: rule: S6105, entrypoints: 2
+17:38:45.278 DEBUG: Running rule jssecurity:S6105
+17:38:45.278 INFO: Running symbolic analysis
+17:38:45.292 DEBUG: loaded 5 sanitizers for rule S6105
+17:38:45.293 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:45.293 DEBUG: Resource file jssecurity/passthroughs/S6105.json was not read
+17:38:45.293 DEBUG: loaded 0 passthroughs for rule S6105
+17:38:45.293 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:45.293 DEBUG: Resource file jssecurity/collectionHandlers/S6105.json was not read
+17:38:45.293 DEBUG: loaded 0 collectionHandlers for rule S6105
+17:38:45.293 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:45.293 DEBUG: Resource file jssecurity/encoders/S6105.json was not read
+17:38:45.293 DEBUG: loaded 0 encoders for rule S6105
+17:38:45.294 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:45.294 DEBUG: Resource file jssecurity/decoders/S6105.json was not read
+17:38:45.294 DEBUG: loaded 0 decoders for rule S6105
+17:38:46.168 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.168 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.174 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.179 INFO: rule: S6105 done
+17:38:46.179 INFO: rule: S5696, entrypoints: 2
+17:38:46.179 DEBUG: Running rule jssecurity:S5696
+17:38:46.179 INFO: Running symbolic analysis
+17:38:46.182 DEBUG: loaded 5 sanitizers for rule S5696
+17:38:46.182 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.182 DEBUG: Resource file jssecurity/passthroughs/S5696.json was not read
+17:38:46.182 DEBUG: loaded 0 passthroughs for rule S5696
+17:38:46.182 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.182 DEBUG: Resource file jssecurity/collectionHandlers/S5696.json was not read
+17:38:46.182 DEBUG: loaded 0 collectionHandlers for rule S5696
+17:38:46.183 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.183 DEBUG: Resource file jssecurity/encoders/S5696.json was not read
+17:38:46.183 DEBUG: loaded 0 encoders for rule S5696
+17:38:46.183 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.183 DEBUG: Resource file jssecurity/decoders/S5696.json was not read
+17:38:46.183 DEBUG: loaded 0 decoders for rule S5696
+17:38:46.248 DEBUG: Issue found : 
+         in /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js
+         at 4:4 - 4:21
+17:38:46.286 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.286 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.288 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.329 DEBUG: Failed to find InputFile for __unknown_file, check exclusions.
+17:38:46.336 INFO: rule: S5696 done
+17:38:46.336 INFO: rule: S5334, entrypoints: 2
+17:38:46.336 DEBUG: Running rule jssecurity:S5334
+17:38:46.336 INFO: Running symbolic analysis
+17:38:46.338 DEBUG: loaded 5 sanitizers for rule S5334
+17:38:46.338 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.338 DEBUG: Resource file jssecurity/passthroughs/S5334.json was not read
+17:38:46.338 DEBUG: loaded 0 passthroughs for rule S5334
+17:38:46.339 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.339 DEBUG: Resource file jssecurity/collectionHandlers/S5334.json was not read
+17:38:46.339 DEBUG: loaded 0 collectionHandlers for rule S5334
+17:38:46.339 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.339 DEBUG: Resource file jssecurity/encoders/S5334.json was not read
+17:38:46.339 DEBUG: loaded 0 encoders for rule S5334
+17:38:46.339 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.339 DEBUG: Resource file jssecurity/decoders/S5334.json was not read
+17:38:46.339 DEBUG: loaded 0 decoders for rule S5334
+17:38:46.355 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.355 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.357 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.362 INFO: rule: S5334 done
+17:38:46.363 INFO: rule: S2083, entrypoints: 2
+17:38:46.363 DEBUG: Running rule jssecurity:S2083
+17:38:46.363 INFO: Running symbolic analysis
+17:38:46.371 DEBUG: loaded 5 sanitizers for rule S2083
+17:38:46.371 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.371 DEBUG: Resource file jssecurity/passthroughs/S2083.json was not read
+17:38:46.371 DEBUG: loaded 0 passthroughs for rule S2083
+17:38:46.371 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.372 DEBUG: Resource file jssecurity/collectionHandlers/S2083.json was not read
+17:38:46.372 DEBUG: loaded 0 collectionHandlers for rule S2083
+17:38:46.372 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.372 DEBUG: Resource file jssecurity/encoders/S2083.json was not read
+17:38:46.372 DEBUG: loaded 0 encoders for rule S2083
+17:38:46.372 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.373 DEBUG: Resource file jssecurity/decoders/S2083.json was not read
+17:38:46.373 DEBUG: loaded 0 decoders for rule S2083
+17:38:46.388 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.405 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.417 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.419 INFO: rule: S2083 done
+17:38:46.419 INFO: rule: S5146, entrypoints: 2
+17:38:46.419 DEBUG: Running rule jssecurity:S5146
+17:38:46.419 INFO: Running symbolic analysis
+17:38:46.421 DEBUG: loaded 5 sanitizers for rule S5146
+17:38:46.422 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.422 DEBUG: Resource file jssecurity/passthroughs/S5146.json was not read
+17:38:46.423 DEBUG: loaded 0 passthroughs for rule S5146
+17:38:46.423 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.423 DEBUG: Resource file jssecurity/collectionHandlers/S5146.json was not read
+17:38:46.423 DEBUG: loaded 0 collectionHandlers for rule S5146
+17:38:46.436 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.436 DEBUG: Resource file jssecurity/encoders/S5146.json was not read
+17:38:46.436 DEBUG: loaded 0 encoders for rule S5146
+17:38:46.437 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.438 DEBUG: Resource file jssecurity/decoders/S5146.json was not read
+17:38:46.438 DEBUG: loaded 0 decoders for rule S5146
+17:38:46.452 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.452 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.453 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.455 INFO: rule: S5146 done
+17:38:46.455 INFO: rule: S5147, entrypoints: 2
+17:38:46.455 DEBUG: Running rule jssecurity:S5147
+17:38:46.455 INFO: Running symbolic analysis
+17:38:46.457 DEBUG: loaded 5 sanitizers for rule S5147
+17:38:46.457 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.458 DEBUG: Resource file jssecurity/passthroughs/S5147.json was not read
+17:38:46.458 DEBUG: loaded 0 passthroughs for rule S5147
+17:38:46.458 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.458 DEBUG: Resource file jssecurity/collectionHandlers/S5147.json was not read
+17:38:46.458 DEBUG: loaded 0 collectionHandlers for rule S5147
+17:38:46.459 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.459 DEBUG: Resource file jssecurity/encoders/S5147.json was not read
+17:38:46.459 DEBUG: loaded 0 encoders for rule S5147
+17:38:46.459 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.459 DEBUG: Resource file jssecurity/decoders/S5147.json was not read
+17:38:46.459 DEBUG: loaded 0 decoders for rule S5147
+17:38:46.476 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.478 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.479 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.481 INFO: rule: S5147 done
+17:38:46.481 INFO: rule: S5883, entrypoints: 2
+17:38:46.481 DEBUG: Running rule jssecurity:S5883
+17:38:46.481 INFO: Running symbolic analysis
+17:38:46.483 DEBUG: loaded 5 sanitizers for rule S5883
+17:38:46.483 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.483 DEBUG: Resource file jssecurity/passthroughs/S5883.json was not read
+17:38:46.484 DEBUG: loaded 0 passthroughs for rule S5883
+17:38:46.485 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.485 DEBUG: Resource file jssecurity/collectionHandlers/S5883.json was not read
+17:38:46.485 DEBUG: loaded 0 collectionHandlers for rule S5883
+17:38:46.485 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.485 DEBUG: Resource file jssecurity/encoders/S5883.json was not read
+17:38:46.485 DEBUG: loaded 0 encoders for rule S5883
+17:38:46.485 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.485 DEBUG: Resource file jssecurity/decoders/S5883.json was not read
+17:38:46.486 DEBUG: loaded 0 decoders for rule S5883
+17:38:46.496 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.496 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.498 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.502 INFO: rule: S5883 done
+17:38:46.502 INFO: rule: S2076, entrypoints: 2
+17:38:46.502 DEBUG: Running rule jssecurity:S2076
+17:38:46.502 INFO: Running symbolic analysis
+17:38:46.509 DEBUG: loaded 5 sanitizers for rule S2076
+17:38:46.509 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.510 DEBUG: Resource file jssecurity/passthroughs/S2076.json was not read
+17:38:46.510 DEBUG: loaded 0 passthroughs for rule S2076
+17:38:46.510 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.510 DEBUG: Resource file jssecurity/collectionHandlers/S2076.json was not read
+17:38:46.510 DEBUG: loaded 0 collectionHandlers for rule S2076
+17:38:46.511 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.511 DEBUG: Resource file jssecurity/encoders/S2076.json was not read
+17:38:46.511 DEBUG: loaded 0 encoders for rule S2076
+17:38:46.511 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.511 DEBUG: Resource file jssecurity/decoders/S2076.json was not read
+17:38:46.511 DEBUG: loaded 0 decoders for rule S2076
+17:38:46.521 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.521 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.523 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.531 INFO: rule: S2076 done
+17:38:46.531 INFO: rule: S5131, entrypoints: 2
+17:38:46.531 DEBUG: Running rule jssecurity:S5131
+17:38:46.531 INFO: Running symbolic analysis
+17:38:46.533 DEBUG: Resource file jssecurity/sanitizers/S5131.json was not read
+17:38:46.533 DEBUG: loaded 4 sanitizers for rule S5131
+17:38:46.533 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.533 DEBUG: Resource file jssecurity/passthroughs/S5131.json was not read
+17:38:46.533 DEBUG: loaded 0 passthroughs for rule S5131
+17:38:46.533 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.533 DEBUG: Resource file jssecurity/collectionHandlers/S5131.json was not read
+17:38:46.533 DEBUG: loaded 0 collectionHandlers for rule S5131
+17:38:46.535 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.535 DEBUG: Resource file jssecurity/encoders/S5131.json was not read
+17:38:46.535 DEBUG: loaded 0 encoders for rule S5131
+17:38:46.535 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.535 DEBUG: Resource file jssecurity/decoders/S5131.json was not read
+17:38:46.535 DEBUG: loaded 0 decoders for rule S5131
+17:38:46.545 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.545 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.547 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.548 INFO: rule: S5131 done
+17:38:46.548 INFO: rule: S2631, entrypoints: 2
+17:38:46.548 DEBUG: Running rule jssecurity:S2631
+17:38:46.548 INFO: Running symbolic analysis
+17:38:46.553 DEBUG: loaded 5 sanitizers for rule S2631
+17:38:46.553 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.553 DEBUG: Resource file jssecurity/passthroughs/S2631.json was not read
+17:38:46.554 DEBUG: loaded 0 passthroughs for rule S2631
+17:38:46.554 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.554 DEBUG: Resource file jssecurity/collectionHandlers/S2631.json was not read
+17:38:46.554 DEBUG: loaded 0 collectionHandlers for rule S2631
+17:38:46.554 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.554 DEBUG: Resource file jssecurity/encoders/S2631.json was not read
+17:38:46.554 DEBUG: loaded 0 encoders for rule S2631
+17:38:46.554 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.554 DEBUG: Resource file jssecurity/decoders/S2631.json was not read
+17:38:46.554 DEBUG: loaded 0 decoders for rule S2631
+17:38:46.580 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.580 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.582 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.585 INFO: rule: S2631 done
+17:38:46.585 INFO: rule: S5144, entrypoints: 2
+17:38:46.585 DEBUG: Running rule jssecurity:S5144
+17:38:46.585 INFO: Running symbolic analysis
+17:38:46.587 DEBUG: loaded 5 sanitizers for rule S5144
+17:38:46.587 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.587 DEBUG: Resource file jssecurity/passthroughs/S5144.json was not read
+17:38:46.587 DEBUG: loaded 0 passthroughs for rule S5144
+17:38:46.587 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.587 DEBUG: Resource file jssecurity/collectionHandlers/S5144.json was not read
+17:38:46.588 DEBUG: loaded 0 collectionHandlers for rule S5144
+17:38:46.588 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.588 DEBUG: Resource file jssecurity/encoders/S5144.json was not read
+17:38:46.588 DEBUG: loaded 0 encoders for rule S5144
+17:38:46.588 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.588 DEBUG: Resource file jssecurity/decoders/S5144.json was not read
+17:38:46.588 DEBUG: loaded 0 decoders for rule S5144
+17:38:46.602 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.602 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.604 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.606 INFO: rule: S5144 done
+17:38:46.606 INFO: rule: S3649, entrypoints: 2
+17:38:46.606 DEBUG: Running rule jssecurity:S3649
+17:38:46.607 INFO: Running symbolic analysis
+17:38:46.615 DEBUG: loaded 5 sanitizers for rule S3649
+17:38:46.615 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.615 DEBUG: Resource file jssecurity/passthroughs/S3649.json was not read
+17:38:46.616 DEBUG: loaded 0 passthroughs for rule S3649
+17:38:46.616 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.616 DEBUG: Resource file jssecurity/collectionHandlers/S3649.json was not read
+17:38:46.616 DEBUG: loaded 0 collectionHandlers for rule S3649
+17:38:46.616 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.616 DEBUG: Resource file jssecurity/encoders/S3649.json was not read
+17:38:46.617 DEBUG: loaded 0 encoders for rule S3649
+17:38:46.617 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.617 DEBUG: Resource file jssecurity/decoders/S3649.json was not read
+17:38:46.617 DEBUG: loaded 0 decoders for rule S3649
+17:38:46.638 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.638 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.639 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.641 INFO: rule: S3649 done
+17:38:46.641 INFO: rule: S6096, entrypoints: 2
+17:38:46.643 DEBUG: Running rule jssecurity:S6096
+17:38:46.643 INFO: Running symbolic analysis
+17:38:46.645 DEBUG: loaded 5 sanitizers for rule S6096
+17:38:46.646 DEBUG: Resource file jssecurity/passthroughs/common.json was not read
+17:38:46.646 DEBUG: Resource file jssecurity/passthroughs/S6096.json was not read
+17:38:46.646 DEBUG: loaded 0 passthroughs for rule S6096
+17:38:46.646 DEBUG: Resource file jssecurity/collectionHandlers/common.json was not read
+17:38:46.646 DEBUG: Resource file jssecurity/collectionHandlers/S6096.json was not read
+17:38:46.646 DEBUG: loaded 0 collectionHandlers for rule S6096
+17:38:46.646 DEBUG: Resource file jssecurity/encoders/common.json was not read
+17:38:46.646 DEBUG: Resource file jssecurity/encoders/S6096.json was not read
+17:38:46.646 DEBUG: loaded 0 encoders for rule S6096
+17:38:46.646 DEBUG: Resource file jssecurity/decoders/common.json was not read
+17:38:46.646 DEBUG: Resource file jssecurity/decoders/S6096.json was not read
+17:38:46.646 DEBUG: loaded 0 decoders for rule S6096
+17:38:46.656 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.656 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argredirect .
+17:38:46.658 DEBUG: Did not expect to visit symbol class com.sonar.security.analysis.D.B.L with argquery .
+17:38:46.661 INFO: rule: S6096 done
+17:38:46.661 INFO: Sensor JsSecuritySensor [security] (done) | time=1642ms
+17:38:46.684 INFO: ------------- Run sensors on project
+17:38:46.717 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+17:38:46.718 DEBUG: 'C#' skipped because there is no related file in current project
+17:38:46.718 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+17:38:46.718 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+17:38:46.719 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+17:38:46.719 DEBUG: 'VB.NET' skipped because there is no related file in current project
+17:38:46.719 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+17:38:46.719 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+17:38:46.719 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+17:38:46.720 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+17:38:46.720 DEBUG: Sensors : Zero Coverage Sensor
+17:38:46.720 INFO: Sensor Zero Coverage Sensor
+17:38:46.742 INFO: Sensor Zero Coverage Sensor (done) | time=21ms
+17:38:46.773 INFO: CPD Executor 12 files had no CPD blocks
+17:38:46.773 INFO: CPD Executor Calculating CPD for 4 files
+17:38:46.774 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/test/tests.py
+17:38:46.784 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/second.py
+17:38:46.785 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/main.py
+17:38:46.786 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js
+17:38:46.786 INFO: CPD Executor CPD calculation finished (done) | time=13ms
+17:38:46.799 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-05-27 17:38:46.799000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+17:38:46.801 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:38:46.801 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:38:46.801 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:38:46.801 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:38:46.801 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:38:46.801 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:38:46.802 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-05-27 17:38:46.801000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+17:38:46.802 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:38:46.802 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:38:46.802 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:38:46.802 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:38:46.802 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:38:46.802 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:38:46.803 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:38:46.801000000, lastModified=2021-05-20 16:17:51.000000000, delta=609655801000000 ns, racy<=2500000000 ns
+17:38:46.803 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:38:46.803 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-05-27 17:38:46.803000000, lastModified=2021-05-20 16:26:57.000000000, size=2698, fileKey=(dev=1000004,ino=12957380316)
+17:38:46.804 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-05-27 17:37:53.356000000, lastModified=2021-05-03 11:03:41.000000000, delta=2097252356000000 ns, racy<=2500000000 ns
+17:38:46.804 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+17:38:46.804 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.695000000, lastModified=1970-01-01 01:00:00.000000000, delta=1622129873695000000 ns, racy<=2500000000 ns
+17:38:46.804 DEBUG: file=/private/etc/gitconfig, is unmodified
+17:38:46.804 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-05-27 17:37:53.697000000, lastModified=2019-07-08 11:03:30.000000000, delta=59553263697000000 ns, racy<=2500000000 ns
+17:38:46.805 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+17:38:46.805 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-05-27 17:38:46.801000000, lastModified=2021-05-20 16:17:51.000000000, delta=609655801000000 ns, racy<=2500000000 ns
+17:38:46.805 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+17:38:46.805 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2021-05-27 17:38:46.805000000, lastModified=2021-05-20 08:48:40.000000000, size=46, fileKey=(dev=1000004,ino=12957296186)
+17:38:46.807 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2021-05-27 17:38:46.807000000, lastModified=2021-05-20 16:26:36.000000000, size=23, fileKey=(dev=1000004,ino=12957380303)
+17:38:46.812 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/master, create new FileSnapshot: lastRead=2021-05-27 17:38:46.811000000, lastModified=2021-05-20 16:26:57.000000000, size=41, fileKey=(dev=1000004,ino=12957380321)
+17:38:46.814 DEBUG: SCM revision ID 'ea0caf42bd4386791169a0a673aba884e6c8f195'
+17:38:46.814 INFO: Load New Code definition
+17:38:47.311 DEBUG: GET 200 http://localhost:9000/api/new_code_periods/show.protobuf?project=python&branch=master | time=497ms
+17:38:47.313 INFO: Load New Code definition (done) | time=499ms
+17:38:47.483 INFO: Analysis report generated in 691ms, dir size=178 KB
+17:38:47.585 INFO: Analysis report compressed in 102ms, zip size=47 KB
+17:38:47.586 INFO: Analysis report generated in /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/scanner-report
+17:38:47.586 DEBUG: Upload report
+17:38:48.135 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=python | time=548ms
+17:38:48.139 INFO: Analysis report uploaded in 553ms
+17:38:48.142 DEBUG: Report metadata written to /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/report-task.txt
+17:38:48.142 INFO: ANALYSIS SUCCESSFUL, you can browse https://alexandre.eu.ngrok.io/dashboard?id=python
+17:38:48.142 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+17:38:48.142 INFO: More about the report processing at https://alexandre.eu.ngrok.io/api/ce/task?id=AXmueme-4keONn7UmVSC
+17:38:48.145 DEBUG: Post-jobs : 
+17:38:48.154 DEBUG: eslint-bridge server will shutdown
+17:38:55.795 INFO: Analysis total time: 1:27.197 s
+17:38:55.809 INFO: ------------------------------------------------------------------------
+17:38:55.810 INFO: EXECUTION SUCCESS
+17:38:55.810 INFO: ------------------------------------------------------------------------
+17:38:55.810 INFO: Total time: 1:30.070s
+17:38:57.361 INFO: Final Memory: 155M/1290M
+17:38:57.361 INFO: ------------------------------------------------------------------------

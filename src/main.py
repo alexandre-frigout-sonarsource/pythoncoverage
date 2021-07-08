@@ -69,3 +69,6 @@ def mytest():
 
 def ncloc():
     print("more lines")
+
+def testnocommit():
+    return 1
