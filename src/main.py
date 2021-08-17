@@ -75,3 +75,6 @@ def testnocommit():
 
 def TESTFUNC():
     print("iiiii")
+
+def gitdiff():
+    print("diff")
