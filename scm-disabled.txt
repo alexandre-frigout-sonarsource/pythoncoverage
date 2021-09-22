@@ -1,0 +1,296 @@
+INFO: Scanner configuration file: /Users/alexandrefrigout/Documents/tools/sonar-scanner-3.2.0.1227-macosx/conf/sonar-scanner.properties
+INFO: Project root configuration file: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/sonar-project.properties
+INFO: SonarQube Scanner 3.2.0.1227
+INFO: Java 1.8.0_161 Oracle Corporation (64-bit)
+INFO: Mac OS X 10.15.7 x86_64
+INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+INFO: SonarQube server 8.9.0
+INFO: Default locale: "en_CH", source code encoding: "UTF-8" (analysis is platform dependent)
+INFO: Load global settings
+INFO: Load global settings (done) | time=441ms
+INFO: Server id: 2A6F5788-AXn0whEKTidASRNrwlNr
+INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+INFO: Load/download plugins
+INFO: Load plugins index
+INFO: Load plugins index (done) | time=386ms
+INFO: Load/download plugins (done) | time=590ms
+INFO: Loaded core extensions: developer-scanner
+INFO: JavaScript/TypeScript frontend is enabled
+INFO: Process project properties
+INFO: Process project properties (done) | time=9ms
+INFO: Execute project builders
+INFO: Execute project builders (done) | time=2ms
+INFO: Project key: python
+INFO: Base dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage
+INFO: Working dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+INFO: Load project settings for component key: 'python'
+INFO: Load project settings for component key: 'python' (done) | time=322ms
+INFO: Load project branches
+INFO: Load project branches (done) | time=617ms
+INFO: Load project pull requests
+INFO: Load project pull requests (done) | time=219ms
+INFO: Load branch configuration
+INFO: Found manual configuration of branch/PR analysis. Skipping automatic configuration.
+INFO: Load branch configuration (done) | time=4ms
+INFO: Load quality profiles
+INFO: Load quality profiles (done) | time=375ms
+INFO: Load active rules
+INFO: Load active rules (done) | time=9863ms
+INFO: Branch name: test
+INFO: Indexing files...
+INFO: Project configuration:
+INFO: Load project repositories
+INFO: Load project repositories (done) | time=246ms
+INFO: 35 files indexed
+INFO: Quality profile for js: Sonar way
+INFO: Quality profile for php: Sonar way
+INFO: Quality profile for plsql: Sonar way
+INFO: Quality profile for py: Sonar way
+INFO: Quality profile for xml: Sonar way
+INFO: ------------- Run sensors on module python
+INFO: JavaScript/TypeScript frontend is enabled
+INFO: Load metrics repository
+INFO: Load metrics repository (done) | time=215ms
+INFO: Sensor CSS Rules [cssfamily]
+INFO: 1 source file to be analyzed
+INFO: 1/1 source file has been analyzed
+INFO: Sensor CSS Rules [cssfamily] (done) | time=2649ms
+INFO: Sensor PL/SQL Sensor [plsql]
+INFO: 1 source files to be analyzed
+INFO: 1/1 source files have been analyzed
+INFO: Sensor PL/SQL Sensor [plsql] (done) | time=130ms
+INFO: Sensor C# Project Type Information [csharp]
+INFO: Sensor C# Project Type Information [csharp] (done) | time=1ms
+INFO: Sensor C# Properties [csharp]
+INFO: Sensor C# Properties [csharp] (done) | time=1ms
+INFO: Sensor JavaXmlSensor [java]
+INFO: 2 source files to be analyzed
+INFO: 2/2 source files have been analyzed
+INFO: Sensor JavaXmlSensor [java] (done) | time=506ms
+INFO: Sensor HTML [web]
+INFO: Sensor HTML [web] (done) | time=39ms
+INFO: Sensor XML Sensor [xml]
+INFO: 2 source files to be analyzed
+INFO: 2/2 source files have been analyzed
+INFO: Sensor XML Sensor [xml] (done) | time=192ms
+INFO: Sensor VB.NET Project Type Information [vbnet]
+INFO: Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+INFO: Sensor VB.NET Properties [vbnet]
+INFO: Sensor VB.NET Properties [vbnet] (done) | time=1ms
+INFO: Sensor Python Sensor [python]
+INFO: Starting global symbols computation
+INFO: 15 source files to be analyzed
+INFO: 15/15 source files have been analyzed
+INFO: Starting rules execution
+INFO: 15 source files to be analyzed
+INFO: 15/15 source files have been analyzed
+INFO: Sensor Python Sensor [python] (done) | time=5021ms
+INFO: Sensor Cobertura Sensor for Python coverage [python]
+INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=223ms
+INFO: Sensor PythonXUnitSensor [python]
+INFO: Sensor PythonXUnitSensor [python] (done) | time=157ms
+INFO: Sensor JaCoCo XML Report Importer [jacoco]
+INFO: 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+INFO: No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+INFO: Sensor JavaScript analysis [javascript]
+INFO: Deploying custom rules bundle jar:file:/Users/alexandrefrigout/.sonar/cache/1c0d0d6d358b2ff25a27998c60079e2e/sonar-securityjsfrontend-plugin.jar!/js-vulnerabilities-rules-1.0.0.tgz to /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/package/custom-rules5584650432239027802
+INFO: 1 source file to be analyzed
+INFO: 1/1 source file has been analyzed
+INFO: Sensor JavaScript analysis [javascript] (done) | time=6314ms
+INFO: Sensor TypeScript analysis [javascript]
+INFO: Found 0 tsconfig.json file(s): []
+INFO: 0 source files to be analyzed
+INFO: 0/0 source files have been analyzed
+INFO: Sensor TypeScript analysis [javascript] (done) | time=335ms
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend]
+INFO: Sensor ThymeLeaf template sensor [securityjavafrontend] (done) | time=0ms
+INFO: Sensor Python HTML templates processing [securitypythonfrontend]
+INFO: HTML files are not indexed : you may want to add them in the scanned files of this project to detect Python XSS vulnerabilities
+INFO: Sensor Python HTML templates processing [securitypythonfrontend] (done) | time=22ms
+INFO: Sensor PHP sensor [php]
+INFO: Starting PHP symbol indexer
+INFO: 1 source file to be analyzed
+INFO: 1/1 source file has been analyzed
+INFO: Starting PHP rules
+INFO: 1 source file to be analyzed
+INFO: 1/1 source file has been analyzed
+INFO: No PHPUnit test report provided (see 'sonar.php.tests.reportPath' property)
+INFO: No PHPUnit coverage reports provided (see 'sonar.php.coverage.reportPaths' property)
+INFO: Sensor PHP sensor [php] (done) | time=838ms
+INFO: Sensor Analyzer for "php.ini" files [php]
+INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=3ms
+INFO: Sensor JavaSecuritySensor [security]
+INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor JavaSecuritySensor [security] (done) | time=4ms
+INFO: Sensor CSharpSecuritySensor [security]
+INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+INFO: No UCFGs have been included for analysis.
+INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+INFO: Sensor PhpSecuritySensor [security]
+INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+INFO: Read 216 type definitions
+INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+INFO: 09:37:57.184 Running Tarjan on 1004 nodes
+INFO: 09:37:57.192 Tarjan found 1004 components
+INFO: 09:37:57.196 Variable type analysis: done
+INFO: 09:37:57.199 Building Runtime Type propagation graph
+INFO: 09:37:57.206 Running Tarjan on 1030 nodes
+INFO: 09:37:57.207 Tarjan found 1030 components
+INFO: 09:37:57.212 Variable type analysis: done
+INFO: 09:37:57.213 Building Runtime Type propagation graph
+INFO: 09:37:57.216 Running Tarjan on 1030 nodes
+INFO: 09:37:57.217 Tarjan found 1030 components
+INFO: 09:37:57.22 Variable type analysis: done
+INFO: Analyzing 510 ucfgs to detect vulnerabilities.
+INFO: All rules entrypoints : 0 Retained UCFGs : 0
+INFO: rule: S5146, entrypoints: 0
+INFO: rule: S5146 done
+INFO: rule: S5131, entrypoints: 0
+INFO: rule: S5131 done
+INFO: rule: S2091, entrypoints: 0
+INFO: rule: S2091 done
+INFO: rule: S2076, entrypoints: 0
+INFO: rule: S2076 done
+INFO: rule: S2631, entrypoints: 0
+INFO: rule: S2631 done
+INFO: rule: S2083, entrypoints: 0
+INFO: rule: S2083 done
+INFO: rule: S2078, entrypoints: 0
+INFO: rule: S2078 done
+INFO: rule: S3649, entrypoints: 0
+INFO: rule: S3649 done
+INFO: rule: S5135, entrypoints: 0
+INFO: rule: S5135 done
+INFO: rule: S5167, entrypoints: 0
+INFO: rule: S5167 done
+INFO: rule: S5144, entrypoints: 0
+INFO: rule: S5144 done
+INFO: rule: S5145, entrypoints: 0
+INFO: rule: S5145 done
+INFO: rule: S5335, entrypoints: 0
+INFO: rule: S5335 done
+INFO: rule: S5334, entrypoints: 0
+INFO: rule: S5334 done
+INFO: Sensor PhpSecuritySensor [security] (done) | time=538ms
+INFO: Sensor PythonSecuritySensor [security]
+INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/python
+INFO: Read 311 type definitions
+INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/python
+INFO: 09:37:57.661 Building Runtime Type propagation graph
+INFO: 09:37:57.674 Running Tarjan on 3616 nodes
+INFO: 09:37:57.678 Tarjan found 3616 components
+INFO: 09:37:57.689 Variable type analysis: done
+INFO: 09:37:57.689 Building Runtime Type propagation graph
+INFO: 09:37:57.698 Running Tarjan on 3607 nodes
+INFO: 09:37:57.701 Tarjan found 3607 components
+INFO: 09:37:57.71 Variable type analysis: done
+INFO: Analyzing 1694 ucfgs to detect vulnerabilities.
+INFO: All rules entrypoints : 0 Retained UCFGs : 0
+INFO: rule: S5334, entrypoints: 0
+INFO: rule: S5334 done
+INFO: rule: S5135, entrypoints: 0
+INFO: rule: S5135 done
+INFO: rule: S3649, entrypoints: 0
+INFO: rule: S3649 done
+INFO: rule: S5146, entrypoints: 0
+INFO: rule: S5146 done
+INFO: rule: S2083, entrypoints: 0
+INFO: rule: S2083 done
+INFO: rule: S2091, entrypoints: 0
+INFO: rule: S2091 done
+INFO: rule: S2078, entrypoints: 0
+INFO: rule: S2078 done
+INFO: rule: S5145, entrypoints: 0
+INFO: rule: S5145 done
+INFO: rule: S5167, entrypoints: 0
+INFO: rule: S5167 done
+INFO: rule: S5144, entrypoints: 0
+INFO: rule: S5144 done
+INFO: rule: S2076, entrypoints: 0
+INFO: rule: S2076 done
+INFO: rule: S5131, entrypoints: 0
+INFO: rule: S5131 done
+INFO: rule: S2631, entrypoints: 0
+INFO: rule: S2631 done
+INFO: Sensor PythonSecuritySensor [security] (done) | time=307ms
+INFO: Sensor JsSecuritySensor [security]
+INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/js
+INFO: Read 0 type definitions
+INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/js
+INFO: 09:37:57.774 Building Runtime Type propagation graph
+INFO: 09:37:57.774 Running Tarjan on 27 nodes
+INFO: 09:37:57.774 Tarjan found 27 components
+INFO: 09:37:57.775 Variable type analysis: done
+INFO: 09:37:57.775 Building Runtime Type propagation graph
+INFO: 09:37:57.775 Running Tarjan on 27 nodes
+INFO: 09:37:57.775 Tarjan found 27 components
+INFO: 09:37:57.775 Variable type analysis: done
+INFO: Analyzing 5 ucfgs to detect vulnerabilities.
+INFO: rule: S5131, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5131 done
+INFO: rule: S3649, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S3649 done
+INFO: rule: S5883, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5883 done
+INFO: rule: S2631, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S2631 done
+INFO: rule: S5696, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5696 done
+INFO: rule: S2083, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S2083 done
+INFO: rule: S5147, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5147 done
+INFO: rule: S5334, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5334 done
+INFO: rule: S2076, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S2076 done
+INFO: rule: S5146, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5146 done
+INFO: rule: S6096, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S6096 done
+INFO: rule: S5144, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S5144 done
+INFO: rule: S6105, entrypoints: 2
+INFO: Running symbolic analysis
+INFO: rule: S6105 done
+INFO: Sensor JsSecuritySensor [security] (done) | time=850ms
+INFO: ------------- Run sensors on project
+INFO: Sensor Zero Coverage Sensor
+INFO: Sensor Zero Coverage Sensor (done) | time=15ms
+INFO: SCM Publisher is disabled
+INFO: CPD Executor 12 files had no CPD blocks
+INFO: CPD Executor Calculating CPD for 5 files
+INFO: CPD Executor CPD calculation finished (done) | time=11ms
+INFO: Load New Code definition
+INFO: Load New Code definition (done) | time=219ms
+INFO: Analysis report generated in 310ms, dir size=210 KB
+INFO: Analysis report compressed in 69ms, zip size=51 KB
+INFO: Analysis report uploaded in 411ms
+INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=python&branch=test
+INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AXqKM6lAPju2jNuC920K
+INFO: Analysis total time: 45.863 s
+INFO: ------------------------------------------------------------------------
+INFO: EXECUTION SUCCESS
+INFO: ------------------------------------------------------------------------
+INFO: Total time: 47.874s
+INFO: Final Memory: 154M/1304M
+INFO: ------------------------------------------------------------------------

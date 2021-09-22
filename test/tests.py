@@ -1,6 +1,5 @@
 import unittest
 from src.main import getarguments, conditional, newcodecovNewtest, Newtest, Mynewtest, tocoverinnewcode
-from src.newfile import Sensor
 
 
 class TestArgumentsList(unittest.TestCase):
@@ -11,7 +10,6 @@ class TestArgumentsList(unittest.TestCase):
         self.mc = newcodecovNewtest(1)
         self.mn = Newtest(1)
         self.mnt = Mynewtest(1)
-        self.tempreature = Sensor(2)
         self.y = tocoverinnewcode(5)
 
     def test_type(self):
@@ -31,9 +29,6 @@ class TestArgumentsList(unittest.TestCase):
 
     def test_mnt(self):
         self.assertEqual(self.mnt, True)
-
-    def test_temp(self):
-        self.assertEqual(self.tempreature, "Not freezing")
 
     def test_y(self):
         self.assertEqual(self.y, ">4")

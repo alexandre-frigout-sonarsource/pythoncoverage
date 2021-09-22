@@ -1,0 +1,1124 @@
+15:23:51.548 INFO: Scanner configuration file: /Users/alexandrefrigout/Documents/tools/sonar-scanner-3.2.0.1227-macosx/conf/sonar-scanner.properties
+15:23:51.553 INFO: Project root configuration file: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/sonar-project.properties
+15:23:51.570 INFO: SonarQube Scanner 3.2.0.1227
+15:23:51.571 INFO: Java 1.8.0_161 Oracle Corporation (64-bit)
+15:23:51.571 INFO: Mac OS X 10.15.7 x86_64
+15:23:51.701 DEBUG: keyStore is : 
+15:23:51.701 DEBUG: keyStore type is : jks
+15:23:51.701 DEBUG: keyStore provider is : 
+15:23:51.701 DEBUG: init keystore
+15:23:51.701 DEBUG: init keymanager of type SunX509
+15:23:51.792 DEBUG: Create: /Users/alexandrefrigout/.sonar/cache
+15:23:51.793 INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+15:23:51.793 DEBUG: Create: /Users/alexandrefrigout/.sonar/cache/_tmp
+15:23:51.795 DEBUG: Extract sonar-scanner-api-batch in temp...
+15:23:51.803 DEBUG: Get bootstrap index...
+15:23:51.803 DEBUG: Download: http://localhost:9000/batch/index
+15:23:51.855 DEBUG: Get bootstrap completed
+15:23:51.861 DEBUG: Create isolated classloader...
+15:23:51.868 DEBUG: Start temp cleaning...
+15:23:51.874 DEBUG: Temp cleaning done
+15:23:51.874 DEBUG: Execution getVersion
+15:23:51.876 INFO: SonarQube server 7.9.6
+15:23:51.877 INFO: Default locale: "en_CH", source code encoding: "UTF-8" (analysis is platform dependent)
+15:23:51.877 DEBUG: Work directory: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+15:23:51.878 DEBUG: Execution execute
+15:23:52.085 DEBUG: Enterprise 7.9.6.41879
+15:23:52.197 INFO: Load global settings
+15:23:52.576 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf | time=378ms
+15:23:52.604 INFO: Load global settings (done) | time=407ms
+15:23:52.605 INFO: Server id: BF41A1F2-AXjpGMjfl41KPsWeJFzp
+15:23:52.621 INFO: User cache: /Users/alexandrefrigout/.sonar/cache
+15:23:52.624 INFO: Load/download plugins
+15:23:52.624 INFO: Load plugins index
+15:23:52.974 DEBUG: GET 200 http://localhost:9000/api/plugins/installed | time=350ms
+15:23:53.005 INFO: Load plugins index (done) | time=381ms
+15:23:53.159 INFO: Load/download plugins (done) | time=535ms
+15:23:53.315 DEBUG: Plugins:
+15:23:53.315 DEBUG:   * SonarCSS 1.1.1.1010 (cssfamily)
+15:23:53.315 DEBUG:   * Svn 1.9.0.1295 (scmsvn)
+15:23:53.315 DEBUG:   * SonarPLSQL 3.4.1.2576 (plsql)
+15:23:53.315 DEBUG:   * SonarScala 1.5.0.315 (sonarscala)
+15:23:53.316 DEBUG:   * SonarC# 7.15.0.8572 (csharp)
+15:23:53.316 DEBUG:   * Vulnerability Analysis 7.9.0.5105 (security)
+15:23:53.316 DEBUG:   * SonarJava 5.13.1.18282 (java)
+15:23:53.316 DEBUG:   * LDAP 2.2.0.608 (ldap)
+15:23:53.316 DEBUG:   * SonarHTML 3.1.0.1615 (web)
+15:23:53.316 DEBUG:   * SonarFlex 2.5.1.1831 (flex)
+15:23:53.316 DEBUG:   * SonarXML 2.0.1.2020 (xml)
+15:23:53.316 DEBUG:   * SonarTS 1.9.0.3766 (typescript)
+15:23:53.316 DEBUG:   * SonarVB 7.15.0.8572 (vbnet)
+15:23:53.316 DEBUG:   * SonarSwift 4.1.0.3087 (swift)
+15:23:53.316 DEBUG:   * SonarCFamily 6.3.0.11371 (cpp)
+15:23:53.317 DEBUG:   * SonarPython 1.14.1.3143 (python)
+15:23:53.317 DEBUG:   * GitHub Authentication for SonarQube 1.5.0.870 (authgithub)
+15:23:53.317 DEBUG:   * JaCoCo 1.0.2.475 (jacoco)
+15:23:53.317 DEBUG:   * SonarGo 1.1.1.2000 (go)
+15:23:53.317 DEBUG:   * SonarKotlin 1.5.0.315 (kotlin)
+15:23:53.317 DEBUG:   * SonarRPG 2.3.0.1187 (rpg)
+15:23:53.317 DEBUG:   * SonarPLI 1.10.0.1880 (pli)
+15:23:53.317 DEBUG:   * SonarTSQL 1.4.0.3334 (tsql)
+15:23:53.317 DEBUG:   * SonarVB6 2.6.0.1875 (vb)
+15:23:53.317 DEBUG:   * SonarApex 1.5.0.315 (sonarapex)
+15:23:53.317 DEBUG:   * SonarJS 5.2.1.7778 (javascript)
+15:23:53.318 DEBUG:   * SonarRuby 1.5.0.315 (ruby)
+15:23:53.318 DEBUG:   * Vulnerability Rules for C# 7.9.0.5105 (securitycsharpfrontend)
+15:23:53.318 DEBUG:   * Vulnerability Rules for Java 7.9.0.5105 (securityjavafrontend)
+15:23:53.318 DEBUG:   * License for SonarLint 7.9.6 (license)
+15:23:53.318 DEBUG:   * SonarCOBOL 4.4.0.3403 (cobol)
+15:23:53.318 DEBUG:   * Git 1.12.1.2064 (scmgit)
+15:23:53.318 DEBUG:   * SAML 2.0 Authentication for SonarQube 1.2.0.682 (authsaml)
+15:23:53.318 DEBUG:   * SonarPHP 3.2.0.4868 (php)
+15:23:53.318 DEBUG:   * SonarABAP 3.8.0.2034 (abap)
+15:23:53.318 DEBUG:   * Vulnerability Rules for PHP 7.9.0.5105 (securityphpfrontend)
+15:23:53.375 INFO: Loaded core extensions: developer-scanner
+15:23:53.391 DEBUG: Installed core extension: developer-scanner
+15:23:53.940 INFO: Process project properties
+15:23:53.949 DEBUG: Process project properties (done) | time=8ms
+15:23:53.949 INFO: Execute project builders
+15:23:53.949 DEBUG: Execute project builder: org.sonar.plugins.csharp.CSharpGlobalProtobufFileProcessor
+15:23:53.951 DEBUG: Execute project builder: org.sonar.plugins.vbnet.VbNetGlobalProtobufFileProcessor
+15:23:53.953 INFO: Execute project builders (done) | time=4ms
+15:23:53.957 INFO: Project key: python
+15:23:53.957 INFO: Base dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage
+15:23:53.957 INFO: Working dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+15:23:53.957 DEBUG: Project global encoding: UTF-8, default locale: en_CH
+15:23:53.960 DEBUG: Creating module hierarchy
+15:23:53.960 DEBUG:   Init module 'python'
+15:23:53.960 DEBUG:     Base dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage
+15:23:53.960 DEBUG:     Working dir: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork
+15:23:53.960 DEBUG:     Module global encoding: UTF-8, default locale: en_CH
+15:23:53.971 INFO: Load project settings for component key: 'python'
+15:23:54.335 DEBUG: GET 200 http://localhost:9000/api/settings/values.protobuf?component=python | time=364ms
+15:23:54.336 INFO: Load project settings for component key: 'python' (done) | time=365ms
+15:23:54.342 INFO: Load project branches
+15:23:54.694 DEBUG: GET 200 http://localhost:9000/api/project_branches/list?project=python | time=351ms
+15:23:54.700 INFO: Load project branches (done) | time=358ms
+15:23:54.701 INFO: Load project pull requests
+15:23:55.051 DEBUG: GET 200 http://localhost:9000/api/project_pull_requests/list?project=python | time=350ms
+15:23:55.054 INFO: Load project pull requests (done) | time=353ms
+15:23:55.054 INFO: Load branch configuration
+15:23:55.055 DEBUG: Found manual configuration of branch/PR analysis. Skipping automatic configuration.
+15:23:55.056 INFO: Load branch configuration (done) | time=2ms
+15:23:55.088 DEBUG: Available languages:
+15:23:55.088 DEBUG:   * CSS => "css"
+15:23:55.088 DEBUG:   * PL/SQL => "plsql"
+15:23:55.089 DEBUG:   * Scala => "scala"
+15:23:55.089 DEBUG:   * C# => "cs"
+15:23:55.089 DEBUG:   * Java => "java"
+15:23:55.089 DEBUG:   * HTML => "web"
+15:23:55.089 DEBUG:   * JSP => "jsp"
+15:23:55.089 DEBUG:   * Flex => "flex"
+15:23:55.089 DEBUG:   * XML => "xml"
+15:23:55.089 DEBUG:   * TypeScript => "ts"
+15:23:55.089 DEBUG:   * VB.NET => "vbnet"
+15:23:55.089 DEBUG:   * Swift => "swift"
+15:23:55.089 DEBUG:   * C => "c"
+15:23:55.089 DEBUG:   * C++ => "cpp"
+15:23:55.089 DEBUG:   * Objective-C => "objc"
+15:23:55.089 DEBUG:   * Python => "py"
+15:23:55.089 DEBUG:   * Go => "go"
+15:23:55.089 DEBUG:   * Kotlin => "kotlin"
+15:23:55.090 DEBUG:   * RPG => "rpg"
+15:23:55.090 DEBUG:   * PL/I => "pli"
+15:23:55.090 DEBUG:   * T-SQL => "tsql"
+15:23:55.090 DEBUG:   * Vb => "vb"
+15:23:55.090 DEBUG:   * Apex => "apex"
+15:23:55.090 DEBUG:   * JavaScript => "js"
+15:23:55.090 DEBUG:   * Ruby => "ruby"
+15:23:55.090 DEBUG:   * COBOL => "cobol"
+15:23:55.090 DEBUG:   * PHP => "php"
+15:23:55.090 DEBUG:   * ABAP => "abap"
+15:23:55.095 INFO: Load quality profiles
+15:23:55.530 DEBUG: GET 200 http://localhost:9000/api/qualityprofiles/search.protobuf?projectKey=python | time=434ms
+15:23:55.552 INFO: Load quality profiles (done) | time=457ms
+15:23:55.560 INFO: Load active rules
+15:23:55.975 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSKul41KPsWeJHMG&ps=500&p=1 | time=415ms
+15:23:56.482 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSMql41KPsWeJHM8&ps=500&p=1 | time=420ms
+15:23:56.839 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSOVl41KPsWeJHNb&ps=500&p=1 | time=352ms
+15:23:57.299 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSUSl41KPsWeJHVa&ps=500&p=1 | time=460ms
+15:23:57.732 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSWEl41KPsWeJHXq&ps=500&p=1 | time=422ms
+15:23:58.158 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPM0zeZ31Pb4t86fj&ps=500&p=1 | time=422ms
+15:23:58.633 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPM5DeZ31Pb4t86iG&ps=500&p=1 | time=472ms
+15:23:59.282 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSdRl41KPsWeJHmk&ps=500&p=1 | time=638ms
+15:23:59.716 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSf_l41KPsWeJHs1&ps=500&p=1 | time=407ms
+15:24:00.155 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSjwl41KPsWeJHuD&ps=500&p=1 | time=438ms
+15:24:00.585 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSh7l41KPsWeJHtN&ps=500&p=1 | time=428ms
+15:24:01.045 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSq0l41KPsWeJH1A&ps=500&p=1 | time=459ms
+15:24:01.484 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNFdeZ31Pb4t86li&ps=500&p=1 | time=435ms
+15:24:02.034 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNINeZ31Pb4t86qX&ps=500&p=1 | time=548ms
+15:24:02.531 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNLgeZ31Pb4t86wq&ps=500&p=1 | time=491ms
+15:24:02.948 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSOjl41KPsWeJHN6&ps=500&p=1 | time=413ms
+15:24:03.366 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSQLl41KPsWeJHO4&ps=500&p=1 | time=417ms
+15:24:03.787 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNQieZ31Pb4t86zm&ps=500&p=1 | time=420ms
+15:24:04.189 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNVxeZ31Pb4t8621&ps=500&p=1 | time=401ms
+15:24:04.617 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNT2eZ31Pb4t861t&ps=500&p=1 | time=428ms
+15:24:05.026 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNSDeZ31Pb4t860d&ps=500&p=1 | time=408ms
+15:24:05.439 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSXnl41KPsWeJHYz&ps=500&p=1 | time=412ms
+15:24:05.978 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSZ7l41KPsWeJHc8&ps=500&p=1 | time=538ms
+15:24:06.459 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNf3eZ31Pb4t864m&ps=500&p=1 | time=476ms
+15:24:06.930 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSlil41KPsWeJHwg&ps=500&p=1 | time=469ms
+15:24:07.372 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNoDeZ31Pb4t867T&ps=500&p=1 | time=440ms
+15:24:07.862 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXqAPNqZeZ31Pb4t86-u&ps=500&p=1 | time=489ms
+15:24:08.309 DEBUG: GET 200 http://localhost:9000/api/rules/search.protobuf?f=repo,name,severity,lang,internalKey,templateKey,params,actives,createdAt,updatedAt&activation=true&qprofile=AXjpGSsrl41KPsWeJH3b&ps=500&p=1 | time=445ms
+15:24:08.324 INFO: Load active rules (done) | time=12764ms
+15:24:08.342 INFO: Branch name: test, type: short living
+15:24:08.355 INFO: SCM collecting changed files in the branch
+15:24:08.374 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:08.372000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:08.378 DEBUG: file=null, size changed from -1 to 1042 bytes
+15:24:08.379 DEBUG: loading config FileBasedConfig[/Users/alexandrefrigout/.config/jgit/config]
+15:24:08.379 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, create new FileSnapshot: lastRead=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, size=1042, fileKey=(dev=1000004,ino=12956520291)
+15:24:08.380 DEBUG: readpipe [bash, --login, -c, which git],/Users/alexandrefrigout
+15:24:08.401 DEBUG: readpipe may return '/usr/bin/git'
+15:24:08.402 DEBUG: remaining output:
+
+15:24:08.402 DEBUG: readpipe [xcode-select, -p],/Users/alexandrefrigout
+15:24:08.415 DEBUG: readpipe may return '/Library/Developer/CommandLineTools'
+15:24:08.415 DEBUG: remaining output:
+
+15:24:08.416 DEBUG: readpipe [/usr/bin/git, --version],/usr/bin
+15:24:08.439 DEBUG: readpipe may return 'git version 2.24.3 (Apple Git-128)'
+15:24:08.440 DEBUG: remaining output:
+
+15:24:08.440 DEBUG: readpipe [/usr/bin/git, config, --system, --edit],/usr/bin
+15:24:08.454 DEBUG: readpipe may return '/private/etc/gitconfig'
+15:24:08.454 DEBUG: remaining output:
+
+15:24:08.455 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.455 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.456 DEBUG: file=null, size changed from -1 to 0 bytes
+15:24:08.456 DEBUG: loading config FileBasedConfig[/private/etc/gitconfig]
+15:24:08.456 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.456 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.456 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.456 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.457 DEBUG: file=null, size changed from -1 to 131 bytes
+15:24:08.457 DEBUG: loading config FileBasedConfig[/Users/alexandrefrigout/.gitconfig]
+15:24:08.457 DEBUG: file=/Users/alexandrefrigout/.gitconfig, create new FileSnapshot: lastRead=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, size=131, fileKey=(dev=1000004,ino=12902912610)
+15:24:08.457 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:08.459 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.459 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.459 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.459 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.459 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.460 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.460 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.460 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.485 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.486 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.486 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.486 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.486 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.486 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.487 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:08.479000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:08.487 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.487 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.488 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.488 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.488 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.488 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.488 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.488 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.488 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2021-07-08 15:24:08.488000000, lastModified=2021-05-20 08:48:40.000000000, size=46, fileKey=(dev=1000004,ino=12957296186)
+15:24:08.490 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/master, create new FileSnapshot: lastRead=2021-07-08 15:24:08.489000000, lastModified=2021-07-08 15:20:52.000000000, size=41, fileKey=(dev=1000004,ino=12959097884)
+15:24:08.491 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.491 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.492 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.492 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.492 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.492 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.492 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.492 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.521 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.521 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.521 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.521 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.521 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.521 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.522 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.522 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.522 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2021-07-08 15:24:08.488000000, lastModified=2021-05-20 08:48:40.000000000, delta=4257328488000000 ns, racy<=1251250000 ns
+15:24:08.522 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, is unmodified
+15:24:08.522 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2021-07-08 15:24:08.522000000, lastModified=2021-07-08 15:22:46.000000000, size=21, fileKey=(dev=1000004,ino=12959105945)
+15:24:08.523 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, create new FileSnapshot: lastRead=2021-07-08 15:24:08.523000000, lastModified=2021-07-08 15:23:27.000000000, size=41, fileKey=(dev=1000004,ino=12959106071)
+15:24:08.524 DEBUG: file=null, size changed from -1 to 64 bytes
+15:24:08.525 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, create new FileSnapshot: lastRead=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, size=64, fileKey=(dev=1000004,ino=12953692768)
+15:24:08.525 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.525 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.533 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.533 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.533 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.533 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.534 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.534 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.535 DEBUG: Merge base sha1: b712a3df5f908d3613efa1c90ce7c0fcdcd6369b
+15:24:08.536 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.537 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.540 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.541 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.541 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.541 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.541 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.541 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.541 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.541 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2021-07-08 15:24:08.488000000, lastModified=2021-05-20 08:48:40.000000000, delta=4257328488000000 ns, racy<=1251250000 ns
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, is unmodified
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, isRacyClean=false, read=2021-07-08 15:24:08.522000000, lastModified=2021-07-08 15:22:46.000000000, delta=82522000000 ns, racy<=1251250000 ns
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, is unmodified
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, isRacyClean=false, read=2021-07-08 15:24:08.523000000, lastModified=2021-07-08 15:23:27.000000000, delta=41523000000 ns, racy<=1251250000 ns
+15:24:08.542 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, is unmodified
+15:24:08.543 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.543 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.549 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.549 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.549 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.554 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.554 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.555 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.555 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.555 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.555 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.555 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.555 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.561 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.561 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.562 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:08.524000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530451524000000 ns, racy<=1251250000 ns
+15:24:08.562 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:08.569 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.569 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.569 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.569 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.570 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.570 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.570 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377457000000 ns, racy<=2500000000 ns
+15:24:08.570 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.579 INFO: SCM collecting changed files in the branch (done) | time=225ms
+15:24:08.579 DEBUG: SCM reported 1 file changed in the branch
+15:24:08.610 DEBUG: Declared extensions of language CSS were converted to sonar.lang.patterns.css : **/*.css,**/*.less,**/*.scss
+15:24:08.610 DEBUG: Declared extensions of language PL/SQL were converted to sonar.lang.patterns.plsql : **/*.sql,**/*.pks,**/*.pkb
+15:24:08.610 DEBUG: Declared extensions of language Scala were converted to sonar.lang.patterns.scala : **/*.scala
+15:24:08.610 DEBUG: Declared extensions of language C# were converted to sonar.lang.patterns.cs : **/*.cs
+15:24:08.611 DEBUG: Declared extensions of language Java were converted to sonar.lang.patterns.java : **/*.java,**/*.jav
+15:24:08.611 DEBUG: Declared extensions of language HTML were converted to sonar.lang.patterns.web : **/*.html,**/*.xhtml,**/*.cshtml,**/*.vbhtml,**/*.aspx,**/*.ascx,**/*.rhtml,**/*.erb,**/*.shtm,**/*.shtml
+15:24:08.611 DEBUG: Declared extensions of language JSP were converted to sonar.lang.patterns.jsp : **/*.jsp,**/*.jspf,**/*.jspx
+15:24:08.611 DEBUG: Declared extensions of language Flex were converted to sonar.lang.patterns.flex : **/*.as
+15:24:08.611 DEBUG: Declared extensions of language XML were converted to sonar.lang.patterns.xml : **/*.xml,**/*.xsd,**/*.xsl
+15:24:08.611 DEBUG: Declared extensions of language TypeScript were converted to sonar.lang.patterns.ts : **/*.ts,**/*.tsx
+15:24:08.611 DEBUG: Declared extensions of language VB.NET were converted to sonar.lang.patterns.vbnet : **/*.vb
+15:24:08.611 DEBUG: Declared extensions of language Swift were converted to sonar.lang.patterns.swift : **/*.swift
+15:24:08.612 DEBUG: Declared extensions of language C were converted to sonar.lang.patterns.c : **/*.c,**/*.h
+15:24:08.612 DEBUG: Declared extensions of language C++ were converted to sonar.lang.patterns.cpp : **/*.cc,**/*.cpp,**/*.cxx,**/*.c++,**/*.hh,**/*.hpp,**/*.hxx,**/*.h++,**/*.ipp
+15:24:08.612 DEBUG: Declared extensions of language Objective-C were converted to sonar.lang.patterns.objc : **/*.m
+15:24:08.612 DEBUG: Declared extensions of language Python were converted to sonar.lang.patterns.py : **/*.py
+15:24:08.612 DEBUG: Declared extensions of language Go were converted to sonar.lang.patterns.go : **/*.go
+15:24:08.612 DEBUG: Declared extensions of language Kotlin were converted to sonar.lang.patterns.kotlin : **/*.kt
+15:24:08.612 DEBUG: Declared extensions of language RPG were converted to sonar.lang.patterns.rpg : **/*.rpg,**/*.rpgle,**/*.rpg,**/*.rpgle
+15:24:08.612 DEBUG: Declared extensions of language PL/I were converted to sonar.lang.patterns.pli : **/*.pli
+15:24:08.613 DEBUG: Declared extensions of language T-SQL were converted to sonar.lang.patterns.tsql : **/*.tsql
+15:24:08.613 DEBUG: Declared extensions of language Vb were converted to sonar.lang.patterns.vb : **/*.vb,**/*.bas,**/*.frm,**/*.ctl,**/*.vb,**/*.bas,**/*.frm,**/*.ctl
+15:24:08.613 DEBUG: Declared extensions of language Apex were converted to sonar.lang.patterns.apex : **/*.cls,**/*.trigger
+15:24:08.613 DEBUG: Declared extensions of language JavaScript were converted to sonar.lang.patterns.js : **/*.js,**/*.jsx,**/*.vue
+15:24:08.613 DEBUG: Declared extensions of language Ruby were converted to sonar.lang.patterns.ruby : **/*.rb
+15:24:08.613 DEBUG: Declared extensions of language COBOL were converted to sonar.lang.patterns.cobol : 
+15:24:08.613 DEBUG: Declared extensions of language PHP were converted to sonar.lang.patterns.php : **/*.php,**/*.php3,**/*.php4,**/*.php5,**/*.phtml,**/*.inc
+15:24:08.613 DEBUG: Declared extensions of language ABAP were converted to sonar.lang.patterns.abap : **/*.abap,**/*.ab4,**/*.flow,**/*.asprog
+15:24:08.615 DEBUG: Will ignore generated code
+15:24:08.617 DEBUG: Will ignore generated code
+15:24:08.619 INFO: Indexing files...
+15:24:08.619 INFO: Project configuration:
+15:24:08.620 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:08.619000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:08.620 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.620 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.620 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.620 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.621 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.621 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.621 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:08.621 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.621 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.622 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.622 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.622 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.622 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.622 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377621000000 ns, racy<=2500000000 ns
+15:24:08.622 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.622 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:08.622000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:08.625 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.625 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.625 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.625 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.625 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.626 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.626 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377621000000 ns, racy<=2500000000 ns
+15:24:08.626 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.628 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.628 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377621000000 ns, racy<=2500000000 ns
+15:24:08.628 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.632 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.632 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.632 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.632 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.633 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.633 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.633 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377621000000 ns, racy<=2500000000 ns
+15:24:08.633 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.634 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:08.634 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:08.635 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:08.635 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:08.635 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:08.635 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:08.635 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:08.621000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230377621000000 ns, racy<=2500000000 ns
+15:24:08.635 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:08.641 DEBUG: 37 non excluded files in this Git repository
+15:24:08.653 DEBUG: 'test/nosetests.xml' indexed with language 'xml'
+15:24:08.654 DEBUG: 'test/__init__.py' indexed with language 'py'
+15:24:08.655 DEBUG: 'test/bck.txt' indexed with language 'null'
+15:24:08.656 DEBUG: 'test/tests.py' indexed with language 'py'
+15:24:08.657 DEBUG: 'logs-short-master-analyser.txt' indexed with language 'null'
+15:24:08.658 DEBUG: 'branch.log' indexed with language 'null'
+15:24:08.658 DEBUG: 'module2/file.txt' indexed with language 'null'
+15:24:08.659 DEBUG: 'module2/newmain.py' indexed with language 'py'
+15:24:08.660 DEBUG: 'module2/filetoexcl.py' indexed with language 'py'
+15:24:08.660 DEBUG: 'module2/main.py' indexed with language 'py'
+15:24:08.661 DEBUG: '__init__.py' indexed with language 'py'
+15:24:08.662 DEBUG: 'README.md' indexed with language 'null'
+15:24:08.662 DEBUG: 'master.log' indexed with language 'null'
+15:24:08.663 DEBUG: 'sonar-project.properties' indexed with language 'null'
+15:24:08.664 DEBUG: 'coverage.xml' indexed with language 'xml'
+15:24:08.665 DEBUG: 'module1/file.txt' indexed with language 'null'
+15:24:08.666 DEBUG: 'module1/submod/file.py' indexed with language 'py'
+15:24:08.666 DEBUG: 'module1/newmain.py' indexed with language 'py'
+15:24:08.667 DEBUG: 'module1/filetoexcl.py' indexed with language 'py'
+15:24:08.668 DEBUG: 'module1/main.py' indexed with language 'py'
+15:24:08.669 DEBUG: 'module1/fileexcludemod1o.py' indexed with language 'py'
+15:24:08.669 DEBUG: 'analysis.lo' indexed with language 'null'
+15:24:08.670 DEBUG: 'logs-short.txt' indexed with language 'null'
+15:24:08.671 DEBUG: 'src/main.pyc' indexed with language 'null'
+15:24:08.671 DEBUG: 'src/CheckRecipient.php.zip' indexed with language 'null'
+15:24:08.672 DEBUG: 'src/newfile.py' indexed with language 'py'
+15:24:08.673 DEBUG: 'src/test.sql' indexed with language 'plsql'
+15:24:08.688 DEBUG: 'src/code.js' generated metadata with charset 'UTF-8'
+15:24:08.689 DEBUG: 'src/code.js' indexed with language 'js'
+15:24:08.689 DEBUG: 'src/second.py' indexed with language 'py'
+15:24:08.690 DEBUG: 'src/__init__.py' indexed with language 'py'
+15:24:08.695 DEBUG: 'src/CheckRecipient.php' generated metadata with charset 'UTF-8'
+15:24:08.701 DEBUG: 'src/CheckRecipient.php' indexed with language 'php'
+15:24:08.701 DEBUG: 'src/__init__.pyc' indexed with language 'null'
+15:24:08.702 DEBUG: 'src/main.py' indexed with language 'py'
+15:24:08.702 DEBUG: 'src/newfile.pyc' indexed with language 'null'
+15:24:08.703 INFO: 34 files indexed
+15:24:08.703 INFO: 0 files ignored because of scm ignore settings
+15:24:08.704 INFO: Quality profile for js: Sonar way
+15:24:08.704 INFO: Quality profile for php: Sonar way
+15:24:08.704 INFO: Quality profile for plsql: Sonar way
+15:24:08.704 INFO: Quality profile for py: Sonar way
+15:24:08.704 INFO: Quality profile for xml: Sonar way
+15:24:08.704 INFO: ------------- Run sensors on module python
+15:24:08.937 INFO: Load metrics repository
+15:24:09.338 DEBUG: GET 200 http://localhost:9000/api/metrics/search?f=name,description,direction,qualitative,custom&ps=500&p=1 | time=401ms
+15:24:09.356 INFO: Load metrics repository (done) | time=419ms
+15:24:13.012 DEBUG: 'JavaSquidSensor' skipped because there is no related file in current project
+15:24:13.013 DEBUG: 'CobolSquidSensor' skipped because there is no related file in current project
+15:24:13.014 DEBUG: 'Import external issues report' skipped because one of the required properties is missing
+15:24:13.014 DEBUG: 'SonarCSS Metrics' skipped because there is no related file in current project
+15:24:13.014 DEBUG: 'SonarCSS Rules' skipped because there is no related file in current project
+15:24:13.015 DEBUG: 'Import of stylelint issues' skipped because there is no related file in current project
+15:24:13.015 DEBUG: 'Scala Sensor' skipped because there is no related file in current project
+15:24:13.015 DEBUG: 'Scoverage sensor for Scala coverage' skipped because one of the required properties is missing
+15:24:13.016 DEBUG: 'Import of Scalastyle issues' skipped because there is no related file in current project
+15:24:13.016 DEBUG: 'Import of Scapegoat issues' skipped because there is no related file in current project
+15:24:13.016 DEBUG: 'C# Properties' skipped because there is no related file in current project
+15:24:13.017 DEBUG: 'Import of Checkstyle issues' skipped because there is no related file in current project
+15:24:13.017 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+15:24:13.018 DEBUG: 'Import of SpotBugs issues' skipped because there is no related file in current project
+15:24:13.018 DEBUG: 'SurefireSensor' skipped because there is no related file in current project
+15:24:13.018 DEBUG: 'JaCoCoSensor' skipped because there is no related file in current project
+15:24:13.019 DEBUG: 'Flex' skipped because there is no related file in current project
+15:24:13.019 DEBUG: 'Flex Cobertura' skipped because there is no related file in current project
+15:24:13.020 DEBUG: 'SonarTS' skipped because there is no related file in current project
+15:24:13.020 DEBUG: 'SonarTS Coverage' skipped because there is no related file in current project
+15:24:13.020 DEBUG: 'Import of TSLint issues' skipped because one of the required properties is missing
+15:24:13.020 DEBUG: 'VB.NET Properties' skipped because there is no related file in current project
+15:24:13.021 DEBUG: 'SonarSwift' skipped because there is no related file in current project
+15:24:13.021 DEBUG: 'Import of SwiftLint issues' skipped because there is no related file in current project
+15:24:13.022 DEBUG: 'gcov' skipped because there is no related file in current project
+15:24:13.022 DEBUG: 'llvm-cov' skipped because there is no related file in current project
+15:24:13.023 DEBUG: 'cppunit' skipped because there is no related file in current project
+15:24:13.023 DEBUG: 'VisualStudioCoverage' skipped because there is no related file in current project
+15:24:13.023 DEBUG: 'bullseye' skipped because there is no related file in current project
+15:24:13.024 DEBUG: 'PylintSensor' skipped because there is no related rule activated in the quality profile
+15:24:13.024 DEBUG: 'PylintImportSensor' skipped because there is no related rule activated in the quality profile
+15:24:13.025 DEBUG: 'Import of Bandit issues' skipped because one of the required properties is missing
+15:24:13.025 DEBUG: 'SonarGo' skipped because there is no related file in current project
+15:24:13.025 DEBUG: 'Go Unit Test Report' skipped because there is no related file in current project
+15:24:13.025 DEBUG: 'Import of go vet issues' skipped because there is no related file in current project
+15:24:13.025 DEBUG: 'Import of Golint issues' skipped because there is no related file in current project
+15:24:13.026 DEBUG: 'Import of GoMetaLinter issues' skipped because there is no related file in current project
+15:24:13.026 DEBUG: 'Kotlin Sensor' skipped because there is no related file in current project
+15:24:13.026 DEBUG: 'Import of detekt issues' skipped because there is no related file in current project
+15:24:13.027 DEBUG: 'Import of Android Lint issues' skipped because one of the required properties is missing
+15:24:13.027 DEBUG: 'RPG sensor' skipped because there is no related file in current project
+15:24:13.027 DEBUG: 'PliSquidSensor' skipped because there is no related file in current project
+15:24:13.028 DEBUG: 'T-SQL Sensor' skipped because there is no related file in current project
+15:24:13.028 DEBUG: 'VbSquidSensor' skipped because there is no related file in current project
+15:24:13.028 DEBUG: 'Apex Sensor' skipped because there is no related file in current project
+15:24:13.028 DEBUG: 'Test coverage Sensor for Apex' skipped because there is no related file in current project
+15:24:13.029 DEBUG: 'Import of PMD issues' skipped because one of the required properties is missing
+15:24:13.029 DEBUG: 'SonarJS Coverage' skipped because one of the required properties is missing
+15:24:13.029 DEBUG: 'Import of ESLint issues' skipped because one of the required properties is missing
+15:24:13.030 DEBUG: 'Ruby Sensor' skipped because there is no related file in current project
+15:24:13.030 DEBUG: 'Import of RuboCop issues' skipped because one of the required properties is missing
+15:24:13.030 DEBUG: 'SimpleCov Sensor for Ruby coverage' skipped because there is no related file in current project
+15:24:13.030 DEBUG: 'AbapSquidSensor' skipped because there is no related file in current project
+15:24:13.034 DEBUG: 'Generic Coverage Report' skipped because one of the required properties is missing
+15:24:13.034 DEBUG: 'Generic Test Executions Report' skipped because one of the required properties is missing
+15:24:13.034 DEBUG: 'C#' skipped because there is no related file in current project
+15:24:13.034 DEBUG: 'C# Tests Coverage Report Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: '[Deprecated] C# Integration Tests Coverage Report Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: 'C# Unit Test Results Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: 'VB.NET' skipped because there is no related file in current project
+15:24:13.035 DEBUG: 'VB.NET Tests Coverage Report Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: '[Deprecated] VB.NET Integration Tests Coverage Report Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: 'VB.NET Unit Test Results Import' skipped because there is no related file in current project
+15:24:13.035 DEBUG: 'CFamily' skipped because there is no related file in current project
+15:24:13.036 DEBUG: Sensors : PL/SQL Sensor -> JavaXmlSensor -> HTML -> XML Sensor -> Python Squid Sensor -> Cobertura Sensor for Python coverage -> PythonXUnitSensor -> JaCoCo XML Report Importer -> SonarJS -> ESLint-based SonarJS -> PHP sensor -> Analyzer for "php.ini" files -> JavaSecuritySensor -> CSharpSecuritySensor -> PhpSecuritySensor
+15:24:13.036 INFO: Sensor PL/SQL Sensor [plsql]
+15:24:13.092 INFO: 1 source files to be analyzed
+15:24:13.096 DEBUG: 'src/test.sql' generated metadata with charset 'UTF-8'
+15:24:13.136 DEBUG: Not enough content in 'src/test.sql' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.143 INFO: 1/1 source files have been analyzed
+15:24:13.143 INFO: Sensor PL/SQL Sensor [plsql] (done) | time=107ms
+15:24:13.143 INFO: Sensor JavaXmlSensor [java]
+15:24:13.146 INFO: 2 source files to be analyzed
+15:24:13.150 DEBUG: 'coverage.xml' generated metadata with charset 'UTF-8'
+15:24:13.332 DEBUG: 'test/nosetests.xml' generated metadata with charset 'UTF-8'
+15:24:13.339 INFO: Sensor JavaXmlSensor [java] (done) | time=196ms
+15:24:13.339 INFO: 2/2 source files have been analyzed
+15:24:13.339 INFO: Sensor HTML [web]
+15:24:13.375 INFO: Sensor HTML [web] (done) | time=36ms
+15:24:13.375 INFO: Sensor XML Sensor [xml]
+15:24:13.377 INFO: 2 source files to be analyzed
+15:24:13.498 DEBUG: Count lines in file:///Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/coverage.xml
+15:24:13.532 DEBUG: Count lines in file:///Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/test/nosetests.xml
+15:24:13.534 INFO: Sensor XML Sensor [xml] (done) | time=159ms
+15:24:13.535 INFO: 2/2 source files have been analyzed
+15:24:13.535 INFO: Sensor Python Squid Sensor [python]
+15:24:13.539 DEBUG: '__init__.py' generated metadata with charset 'UTF-8'
+15:24:13.555 DEBUG: Not enough content in '__init__.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.559 DEBUG: 'module1/fileexcludemod1o.py' generated metadata with charset 'UTF-8'
+15:24:13.567 DEBUG: Not enough content in 'module1/fileexcludemod1o.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.580 DEBUG: 'module1/filetoexcl.py' generated metadata with charset 'UTF-8'
+15:24:13.583 DEBUG: Not enough content in 'module1/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.586 DEBUG: 'module1/main.py' generated metadata with charset 'UTF-8'
+15:24:13.589 DEBUG: Not enough content in 'module1/main.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.597 DEBUG: 'module1/newmain.py' generated metadata with charset 'UTF-8'
+15:24:13.600 DEBUG: Not enough content in 'module1/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.603 DEBUG: 'module1/submod/file.py' generated metadata with charset 'UTF-8'
+15:24:13.608 DEBUG: 'module2/filetoexcl.py' generated metadata with charset 'UTF-8'
+15:24:13.609 DEBUG: Not enough content in 'module2/filetoexcl.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.614 DEBUG: 'module2/main.py' generated metadata with charset 'UTF-8'
+15:24:13.616 DEBUG: Not enough content in 'module2/main.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.620 DEBUG: 'module2/newmain.py' generated metadata with charset 'UTF-8'
+15:24:13.621 DEBUG: Not enough content in 'module2/newmain.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.624 DEBUG: 'src/__init__.py' generated metadata with charset 'UTF-8'
+15:24:13.625 DEBUG: Not enough content in 'src/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.628 DEBUG: 'src/main.py' generated metadata with charset 'UTF-8'
+15:24:13.685 DEBUG: 'src/newfile.py' generated metadata with charset 'UTF-8'
+15:24:13.687 DEBUG: Not enough content in 'src/newfile.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.691 DEBUG: 'src/second.py' generated metadata with charset 'UTF-8'
+15:24:13.699 DEBUG: 'test/__init__.py' generated metadata with charset 'UTF-8'
+15:24:13.699 DEBUG: Not enough content in 'test/__init__.py' to have CPD blocks, it will not be part of the duplication detection
+15:24:13.701 DEBUG: 'test/tests.py' generated metadata with charset 'UTF-8'
+15:24:13.720 INFO: Sensor Python Squid Sensor [python] (done) | time=185ms
+15:24:13.721 INFO: Sensor Cobertura Sensor for Python coverage [python]
+15:24:13.721 DEBUG: Using pattern 'coverage-reports/*coverage-*.xml' to find reports
+15:24:13.756 DEBUG: No report was found for sonar.python.coverage.reportPaths using default pattern coverage-reports/*coverage-*.xml
+15:24:13.756 INFO: Sensor Cobertura Sensor for Python coverage [python] (done) | time=36ms
+15:24:13.756 INFO: Sensor PythonXUnitSensor [python]
+15:24:13.757 DEBUG: Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+15:24:13.775 DEBUG: No report was found for sonar.python.xunit.reportPath using default pattern xunit-reports/xunit-result-*.xml
+15:24:13.775 INFO: Sensor PythonXUnitSensor [python] (done) | time=19ms
+15:24:13.775 INFO: Sensor JaCoCo XML Report Importer [jacoco]
+15:24:13.778 DEBUG: No reports found
+15:24:13.778 INFO: Sensor JaCoCo XML Report Importer [jacoco] (done) | time=3ms
+15:24:13.778 INFO: Sensor SonarJS [javascript]
+15:24:13.788 INFO: 1 source files to be analyzed
+15:24:13.966 INFO: Sensor SonarJS [javascript] (done) | time=188ms
+15:24:13.966 INFO: 1/1 source files have been analyzed
+15:24:13.966 INFO: Sensor ESLint-based SonarJS [javascript]
+15:24:13.966 DEBUG: Deploying eslint-bridge into /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle
+15:24:15.809 DEBUG: Deployment done in 1843ms
+15:24:15.812 DEBUG: Using default Node.js executable: 'node'.
+15:24:15.812 DEBUG: Checking Node.js version
+15:24:15.819 DEBUG: Launching command [/bin/sh, -c, node -v]
+15:24:15.886 DEBUG: Using Node.js v15.13.0.
+15:24:15.886 DEBUG: Starting Node.js process to start eslint-bridge server at port 62413
+15:24:15.886 DEBUG: Launching command [/bin/sh, -c, node /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/.sonartmp/eslint-bridge-bundle/node_modules/eslint-bridge/bin/server 62413]
+15:24:16.359 DEBUG: starting eslint-bridge server at port 62413
+15:24:16.376 DEBUG: eslint-bridge server is running at port 62413
+15:24:16.394 DEBUG: Server is started
+15:24:16.395 INFO: 1 source files to be analyzed
+15:24:16.641 INFO: Sensor ESLint-based SonarJS [javascript] (done) | time=2675ms
+15:24:16.642 INFO: 1/1 source files have been analyzed
+15:24:16.642 INFO: Sensor PHP sensor [php]
+15:24:16.902 INFO: 1 source files to be analyzed
+15:24:17.114 INFO: 1/1 source files have been analyzed
+15:24:17.116 INFO: No PHPUnit test report provided (see 'sonar.php.tests.reportPath' property)
+15:24:17.120 INFO: No PHPUnit coverage reports provided (see 'sonar.php.coverage.reportPaths' property)
+15:24:17.120 INFO: Sensor PHP sensor [php] (done) | time=478ms
+15:24:17.120 INFO: Sensor Analyzer for "php.ini" files [php]
+15:24:17.122 INFO: Sensor Analyzer for "php.ini" files [php] (done) | time=2ms
+15:24:17.123 INFO: Sensor JavaSecuritySensor [security]
+15:24:17.123 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+15:24:17.123 INFO: Read 0 type definitions
+15:24:17.126 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/java
+15:24:17.126 INFO: No UCFGs have been included for analysis.
+15:24:17.127 INFO: Sensor JavaSecuritySensor [security] (done) | time=4ms
+15:24:17.127 INFO: Sensor CSharpSecuritySensor [security]
+15:24:17.127 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+15:24:17.127 INFO: Read 0 type definitions
+15:24:17.127 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/ucfg_cs2
+15:24:17.127 INFO: No UCFGs have been included for analysis.
+15:24:17.127 INFO: Sensor CSharpSecuritySensor [security] (done) | time=0ms
+15:24:17.127 INFO: Sensor PhpSecuritySensor [security]
+15:24:17.127 INFO: Reading type hierarchy from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+15:24:17.127 INFO: Read 0 type definitions
+15:24:17.127 INFO: Reading UCFGs from: /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/ucfg2/php
+15:24:17.127 INFO: No UCFGs have been included for analysis.
+15:24:17.127 INFO: Sensor PhpSecuritySensor [security] (done) | time=0ms
+15:24:17.130 INFO: ------------- Run sensors on project
+15:24:17.134 DEBUG: 'Java CPD Block Indexer' skipped because there is no related file in current project
+15:24:17.134 DEBUG: Sensors : Zero Coverage Sensor
+15:24:17.135 INFO: Sensor Zero Coverage Sensor
+15:24:17.150 INFO: Sensor Zero Coverage Sensor (done) | time=15ms
+15:24:17.152 INFO: SCM provider for this project is: git
+15:24:17.153 INFO: 1 files to be analyzed
+15:24:17.155 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.154000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.155 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.155 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.155 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.155 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.155 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.156 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.156 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.156 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.157 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:17.157000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:17.161 DEBUG: Blame file src/main.py
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.166 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.166 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.166 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.167 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.167 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.167 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.167 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2021-07-08 15:24:17.168000000, lastModified=2021-05-20 08:48:40.000000000, size=46, fileKey=(dev=1000004,ino=12957296186)
+15:24:17.168 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2021-07-08 15:24:17.168000000, lastModified=2021-07-08 15:22:46.000000000, size=21, fileKey=(dev=1000004,ino=12959105945)
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, create new FileSnapshot: lastRead=2021-07-08 15:24:17.169000000, lastModified=2021-07-08 15:23:27.000000000, size=41, fileKey=(dev=1000004,ino=12959106071)
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.169 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.169 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.169 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2021-07-08 15:24:17.168000000, lastModified=2021-05-20 08:48:40.000000000, delta=4257337168000000 ns, racy<=1251250000 ns
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, is unmodified
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, isRacyClean=false, read=2021-07-08 15:24:17.168000000, lastModified=2021-07-08 15:22:46.000000000, delta=91168000000 ns, racy<=1251250000 ns
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, is unmodified
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, isRacyClean=false, read=2021-07-08 15:24:17.169000000, lastModified=2021-07-08 15:23:27.000000000, delta=50169000000 ns, racy<=1251250000 ns
+15:24:17.170 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, is unmodified
+15:24:17.175 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:17.174000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:17.177 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:17.177000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:17.177 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.177 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.178 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.178 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.178 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.179 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.179 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.179 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.179 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.179 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.179 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.179 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.180 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.181 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.181 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.181 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.181 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.181 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.181 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.181 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.182 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.183 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.183 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.183 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.183 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.183 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.183 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.184 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.188 DEBUG: file=null, size changed from -1 to 64 bytes
+15:24:17.188 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, create new FileSnapshot: lastRead=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, size=64, fileKey=(dev=1000004,ino=12953692768)
+15:24:17.188 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.188 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.189 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.189 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.189 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.189 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.190 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.190 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.191 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.191 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.191 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.192 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.192 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.192 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.206 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.207 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.207 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.207 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.207 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.207 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.208 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.208 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.208 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.208 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.209 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.209 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.209 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.210 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.210 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.210 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.210 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.210 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.210 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.211 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.211 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.211 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.211 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.212 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.212 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.212 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.212 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.212 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.213 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.213 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.213 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.214 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.214 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.214 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.214 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.214 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.215 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.215 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.216 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.216 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.216 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.217 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.217 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.217 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.218 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.218 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.218 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.218 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.219 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.219 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.220 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.220 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.221 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.221 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.221 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.221 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.222 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.222 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.223 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.224 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.224 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.224 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.225 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.225 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.225 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.225 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.226 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.227 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.227 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.227 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.228 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.228 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.228 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.229 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.230 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.230 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.230 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.230 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.231 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.231 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.232 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.233 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.233 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.233 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.234 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.234 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.234 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.235 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.236 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.188000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460188000000 ns, racy<=1251250000 ns
+15:24:17.236 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.236 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.236 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.237 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.237 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.156000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386156000000 ns, racy<=2500000000 ns
+15:24:17.237 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.245 INFO: 1/1 files analyzed
+15:24:17.250 INFO: 12 files had no CPD blocks
+15:24:17.250 INFO: Calculating CPD for 5 files
+15:24:17.250 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/test/tests.py
+15:24:17.260 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/second.py
+15:24:17.261 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/CheckRecipient.php
+15:24:17.262 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/main.py
+15:24:17.262 DEBUG: Detection of duplications for /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/src/code.js
+15:24:17.262 INFO: CPD calculation finished
+15:24:17.272 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.272000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.273 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.273 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.273 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.273 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.273 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.273 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.273 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.273000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.274 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.274 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.273000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386273000000 ns, racy<=2500000000 ns
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:17.274000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.274 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.275 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.275 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.273000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386273000000 ns, racy<=2500000000 ns
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2021-07-08 15:24:17.275000000, lastModified=2021-05-20 08:48:40.000000000, size=46, fileKey=(dev=1000004,ino=12957296186)
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2021-07-08 15:24:17.275000000, lastModified=2021-07-08 15:22:46.000000000, size=21, fileKey=(dev=1000004,ino=12959105945)
+15:24:17.275 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, create new FileSnapshot: lastRead=2021-07-08 15:24:17.275000000, lastModified=2021-07-08 15:23:27.000000000, size=41, fileKey=(dev=1000004,ino=12959106071)
+15:24:17.347 INFO: SCM writing changed lines
+15:24:17.348 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.348000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.348 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.348 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.349 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.349 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, create new FileSnapshot: lastRead=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, size=412, fileKey=(dev=1000004,ino=12957376820)
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.349 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.349 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.349 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/index, create new FileSnapshot: lastRead=2021-07-08 15:24:17.350000000, lastModified=2021-07-08 15:23:27.000000000, size=3043, fileKey=(dev=1000004,ino=12959106059)
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.350 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.350 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, create new FileSnapshot: lastRead=2021-07-08 15:24:17.350000000, lastModified=2021-05-20 08:48:40.000000000, size=46, fileKey=(dev=1000004,ino=12957296186)
+15:24:17.350 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/master, create new FileSnapshot: lastRead=2021-07-08 15:24:17.350000000, lastModified=2021-07-08 15:20:52.000000000, size=41, fileKey=(dev=1000004,ino=12959097884)
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.351 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.351 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.351 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.352 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.352 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, isRacyClean=false, read=2021-07-08 15:24:17.350000000, lastModified=2021-05-20 08:48:40.000000000, delta=4257337350000000 ns, racy<=1251250000 ns
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/packed-refs, is unmodified
+15:24:17.352 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/HEAD, create new FileSnapshot: lastRead=2021-07-08 15:24:17.352000000, lastModified=2021-07-08 15:22:46.000000000, size=21, fileKey=(dev=1000004,ino=12959105945)
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/refs/heads/test, create new FileSnapshot: lastRead=2021-07-08 15:24:17.352000000, lastModified=2021-07-08 15:23:27.000000000, size=41, fileKey=(dev=1000004,ino=12959106071)
+15:24:17.353 DEBUG: file=null, size changed from -1 to 64 bytes
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, create new FileSnapshot: lastRead=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, size=64, fileKey=(dev=1000004,ino=12953692768)
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.353 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.354 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.354 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.354 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.354 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.354 DEBUG: Merge base sha1: b712a3df5f908d3613efa1c90ce7c0fcdcd6369b
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.355 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.355 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.355 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.356 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.356 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.356 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.356 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.357 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.357 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.357 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.357 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.358 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.358 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.359 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.359 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.359 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.365 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, isRacyClean=false, read=2021-07-08 15:24:08.379000000, lastModified=2021-05-03 11:03:41.000000000, delta=5718027379000000 ns, racy<=2500000000 ns
+15:24:17.365 DEBUG: file=/Users/alexandrefrigout/.config/jgit/config, is unmodified
+15:24:17.365 DEBUG: file=/private/etc/gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.456000000, lastModified=1970-01-01 01:00:00.000000000, delta=1625750648456000000 ns, racy<=2500000000 ns
+15:24:17.365 DEBUG: file=/private/etc/gitconfig, is unmodified
+15:24:17.365 DEBUG: file=/Users/alexandrefrigout/.gitconfig, isRacyClean=false, read=2021-07-08 15:24:08.457000000, lastModified=2019-07-08 11:03:30.000000000, delta=63174038457000000 ns, racy<=2500000000 ns
+15:24:17.365 DEBUG: file=/Users/alexandrefrigout/.gitconfig, is unmodified
+15:24:17.366 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, isRacyClean=false, read=2021-07-08 15:24:17.349000000, lastModified=2021-05-20 16:17:51.000000000, delta=4230386349000000 ns, racy<=2500000000 ns
+15:24:17.366 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/config, is unmodified
+15:24:17.367 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.367 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.368 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.368 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.368 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, isRacyClean=false, read=2021-07-08 15:24:17.353000000, lastModified=2020-01-28 15:03:17.000000000, delta=45530460353000000 ns, racy<=1251250000 ns
+15:24:17.368 DEBUG: file=/Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.git/objects/pack, is unmodified
+15:24:17.378 DEBUG: SCM reported changed lines for 1 file in the branch
+15:24:17.378 INFO: SCM writing changed lines (done) | time=31ms
+15:24:17.380 INFO: Analysis report generated in 115ms, dir size=147 KB
+15:24:17.420 INFO: Analysis report compressed in 40ms, zip size=32 KB
+15:24:17.420 INFO: Analysis report generated in /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/scanner-report
+15:24:17.420 DEBUG: Upload report
+15:24:17.807 DEBUG: POST 200 http://localhost:9000/api/ce/submit?projectKey=python&characteristic=branch%3Dtest&characteristic=branchType%3DSHORT | time=386ms
+15:24:17.809 INFO: Analysis report uploaded in 389ms
+15:24:17.810 INFO: ANALYSIS SUCCESSFUL, you can browse http://localhost:9000/dashboard?id=python&branch=test&resolved=false
+15:24:17.810 INFO: Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+15:24:17.810 INFO: More about the report processing at http://localhost:9000/api/ce/task?id=AXqGSlsIqiSUGL0Ds9Rb
+15:24:17.810 DEBUG: Report metadata written to /Users/alexandrefrigout/Documents/SonarCode/pythoncoverage/.scannerwork/report-task.txt
+15:24:17.813 DEBUG: Post-jobs : 
+15:24:18.957 INFO: Analysis total time: 25.582 s
+15:24:18.962 INFO: ------------------------------------------------------------------------
+15:24:18.962 INFO: EXECUTION SUCCESS
+15:24:18.962 INFO: ------------------------------------------------------------------------
+15:24:18.962 INFO: Total time: 27.436s
+15:24:19.226 INFO: Final Memory: 65M/788M
+15:24:19.227 INFO: ------------------------------------------------------------------------
